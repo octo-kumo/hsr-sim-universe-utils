@@ -1,0 +1,14 @@
+{
+    "name": "hsr-sim-universe-utils",
+    "version": "1.0.0",
+    "description": "Tools for HSR SU",
+    "type": "module",
+    "scripts": {
+        "start": "node src/main.js"
+    },
+    "author": "octo-kumo",
+    "license": "MIT",
+    "dependencies": {
+        "map-obj": "^5.0.2"
+    }
+}
