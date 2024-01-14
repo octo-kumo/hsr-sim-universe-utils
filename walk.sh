@@ -12,6 +12,4 @@ walk_dir () {
     done
 }
 
-DOWNLOADING_DIR=/Users/richard/Downloads
-
-walk_dir "$DOWNLOADING_DIR"
+walk_dir "."
