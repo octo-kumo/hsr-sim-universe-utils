@@ -18,9 +18,13 @@ jobs:
           path: |
             **/.git
           key: submodules-${{ runner.os }}-${{ hashFiles('**/.git') }}
-      - name: Git Submodule Update
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+          submodules: 'recursive'
+      - name: Check Tree
         run: |
-          git pull --recurse-submodules
           git submodule update --remote --recursive
           chmod +x ./walk.sh
           ./walk.sh
