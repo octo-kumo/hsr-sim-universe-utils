@@ -18,16 +18,10 @@ jobs:
           path: |
             **/.git
           key: submodules-${{ runner.os }}-${{ hashFiles('**/.git') }}
-      - uses: actions/checkout@v4
-        with:
-          ref: ${{ github.head_ref }}
-          fetch-depth: 0
-          submodules: 'recursive'
       - name: Check Tree
         run: |
+          git submodule init --remote --recursive
           git submodule update --remote --recursive
-          chmod +x ./walk.sh
-          ./walk.sh
 
       - name: Install Node.js
         uses: actions/setup-node@v3
