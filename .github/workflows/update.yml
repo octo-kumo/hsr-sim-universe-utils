@@ -20,6 +20,7 @@ jobs:
           key: submodules-${{ runner.os }}-${{ hashFiles('StarRailData') }}
       - name: Git Submodule Update
         run: |
+          git pull --recurse-submodules
           git submodule update --remote --recursive
 
       - name: Install Node.js
