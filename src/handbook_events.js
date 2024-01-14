@@ -1,32 +1,21 @@
-import { readFileSync, writeFileSync } from 'fs';
+import { writeFileSync } from 'fs';
 import mapObject from 'map-obj';
 import { join } from 'path';
-import { _hsr_root } from './config.js';
+import { aeons } from './aeons.js';
+import { _hsr_root, json } from './config.js';
+import { dia_events } from './dialogue_events.js';
+import { sentence } from './sentence.js';
+import { text } from './text.js';
 
-const p = P => JSON.parse(readFileSync(P).toString());
-const text = p(join(_hsr_root, 'TextMap', 'TextMapCHS.json'));
 
-const sentence = mapObject(p(join(_hsr_root, 'ExcelOutput', 'TalkSentenceConfig.json')), (key, value) => [key, {
-  id: value.TalkSentenceID,
-  name: text[value.TextmapTalkSentenceName.Hash],
-  text: text[value.TalkSentenceText.Hash],
-}]);
 // console.log(sentence);
-const type = mapObject(p(join(_hsr_root, 'ExcelOutput', 'RogueHandBookEventType.json')), (key, o) => [key, {
+const eventTypes = mapObject(json(join(_hsr_root, 'ExcelOutput', 'RogueHandBookEventType.json')), (key, o) => [key, {
   id: o.RogueHandBookEventType,
   title: text[o.RogueEventTypeTitle.Hash],
 }]);
 
-const data = p(join(_hsr_root, 'ExcelOutput', 'RogueHandBookEvent.json'));
-const rewards = p(join(_hsr_root, 'ExcelOutput', 'RewardData.json'));
-const dia_events = mapObject(p(join(_hsr_root, 'ExcelOutput', 'DialogueEvent.json')), (key, o) => [key, {
-  effect: [o.RogueEffectType, ...o.RogueEffectParamList],
-  aeon: o.AeonOption,
-  cost: o.CostType && [o.CostType, ...o.CostParamList],
-  ...o,
-}]);
-
-const not_supported = new Set();
+const data = json(join(_hsr_root, 'ExcelOutput', 'RogueHandBookEvent.json'));
+const rewards = json(join(_hsr_root, 'ExcelOutput', 'RewardData.json'));
 
 function dialogue(dialogue) {
   dialogue = dialogue.OnStartSequece.map(sequence => {
@@ -36,47 +25,69 @@ function dialogue(dialogue) {
         switch (task['$type']) {
           case 'RPG.GameCore.WaitCustomString': // CustomString.value: string
             meta.on = task.CustomString.Value;
+            return undefined;
+          case 'RPG.GameCore.WaitDialogueEvent':
+          // meta.onEvent = task.DialogueEventList ?? 'NO EVENT LIST';
+          // return undefined;
+          case 'RPG.GameCore.WaitPerformanceEnd':
+          // meta.onEnd = 'WaitPerformanceEnd';
+          // return undefined;
+          case 'RPG.GameCore.WaitRogueSimpleTalkFinish':
+          // meta.onFinish = 'WaitRogueSimpleTalkFinish';
+          // return undefined;
           case 'RPG.GameCore.SetAllRogueDoorState': // TaskEnabled: boolean
           case 'RPG.GameCore.SetRogueRoomFinish': // TaskEnabled: boolean
           case 'RPG.GameCore.FinishLevelGraph': // MakeOwnerEntityDie: boolean
           case 'RPG.GameCore.SwitchUIMenuBGM': // ShouldStop: boolean | StateName: string
           case 'RPG.GameCore.ShowRogueTalkUI':
           case 'RPG.GameCore.ShowRogueTalkBg': //TalkBgID
-          case 'RPG.GameCore.WaitRogueSimpleTalkFinish':
           case 'RPG.GameCore.AdvNpcFaceToPlayer':
-          case 'RPG.GameCore.WaitPerformanceEnd':
             return undefined;
-            return undefined;
-          case 'RPG.GameCore.WaitDialogueEvent':
-            return task.DialogueEventList ?? 'NO EVENT LIST';
           case 'RPG.GameCore.PlayAndWaitRogueSimpleTalk':
           case 'RPG.GameCore.PlayRogueSimpleTalk':
-            return task.SimpleTalkList.map(i => sentence[String(i.TalkSentenceID)].text).join('\n');
+            return task.SimpleTalkList.map(i => sentence[i.TalkSentenceID].text);
           case 'RPG.GameCore.PlayOptionTalk':
           case 'RPG.GameCore.PlayRogueOptionTalk':
             return task.OptionList.map(i => ({
-              choice: i.OptionTextmapID && text[i.OptionTextmapID.Hash],
-              text: i.TalkSentenceID && sentence[String(i.TalkSentenceID)].text,
+              text: (i.TalkSentenceID && sentence[i.TalkSentenceID].text) ?? (i.OptionTextmapID && text[i.OptionTextmapID.Hash]),
               triggers: i.TriggerCustomString,
               ...dia_events[i.DialogueEventID],
-            }));
+            })).reduce((acc, value) => {
+              let c = { ...value };
+              if (c.title && c.desc) {
+                delete c.effect;
+                delete c.title;
+              }
+              acc[(value.aeon ? `「${Object.values(aeons).find(a => a.pathEN.replace(/\s/g, '') === value.aeon).path}」 ` : '') + value.text] = c;
+              delete c.aeon;
+              delete c.text;
+              return acc;
+            }, {});
         }
         return null;
-      }).filter(a => !!a),
+      }).filter(Boolean),
     };
+    if (Object.keys(meta).length === 0) return t;
     return Object.assign(t, meta);
   }).filter(a => a.lines.length > 0);
-  dialogue.forEach(d=>{
-    d.lines.forEach(line=>{
-      if(line instanceof Array){
-        line.forEach(l=>{
-          if(l.triggers){
-            l.triggers =
-          }
-        })
-      }
-    })
-  })
+  if (dialogue.filter(d => !d.on).length !== 1) throw 'There is a non single prompt count!';
+  dialogue = {
+    prompt: dialogue.find(d => !d.on),
+    triggers: Object.fromEntries(dialogue.filter(d => d.on).map(({ on, ...rest }) => [
+      on, rest,
+    ])),
+  };
+  // dialogue.prompt.forEach(d => {
+  //   d.lines.forEach(line => {
+  //     if (line instanceof Object) {
+  //       Object.values(line).forEach(l => {
+  //         if (l.triggers) {
+  //           l.triggers = dialogue.triggers[l.triggers];
+  //         }
+  //       });
+  //     }
+  //   });
+  // });
   return dialogue;
 }
 
@@ -86,11 +97,9 @@ export function parseHandbookEvents() {
     title: text[d.EventTitle.Hash],
     type: text[d.EventType.Hash],
     reward: rewards[d.EventReward],
-    in: d.EventTypeList.map(i => type[i].title),
-    dialogue: dialogue(p(join(_hsr_root, d.DialoguePath))),
+    in: d.EventTypeList.map(i => eventTypes[i].title),
+    dialogue: dialogue(json(join(_hsr_root, d.DialoguePath))),
   }));
 
-  writeFileSync('out.json', JSON.stringify(events, null, 4));
-
-  console.log(not_supported);
+  writeFileSync('out/handbook_events.json', JSON.stringify(events, null, 4));
 }
