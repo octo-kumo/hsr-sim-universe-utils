@@ -9,6 +9,7 @@
     "author": "octo-kumo",
     "license": "MIT",
     "dependencies": {
+        "json-stringify-pretty-compact": "^4.0.0",
         "map-obj": "^5.0.2"
     }
 }

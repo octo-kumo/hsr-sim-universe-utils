@@ -1,3 +1,4 @@
+import { writeFileSync } from 'fs';
 import mapObject from 'map-obj';
 import { join } from 'path';
 import { _hsr_root, json } from './config.js';
@@ -8,3 +9,5 @@ export const sentence = mapObject(json(join(_hsr_root, 'ExcelOutput', 'TalkSente
   name: text[value.TextmapTalkSentenceName.Hash],
   text: text[value.TalkSentenceText.Hash],
 }]);
+
+writeFileSync('out/sentence.json', JSON.stringify(sentence, null, 4));

@@ -1,4 +1,5 @@
 import { writeFileSync } from 'fs';
+import stringify from 'json-stringify-pretty-compact';
 import mapObject from 'map-obj';
 import { join } from 'path';
 import { aeons } from './aeons.js';
@@ -18,6 +19,7 @@ const data = json(join(_hsr_root, 'ExcelOutput', 'RogueHandBookEvent.json'));
 const rewards = json(join(_hsr_root, 'ExcelOutput', 'RewardData.json'));
 
 function dialogue(dialogue) {
+  const events = [];
   dialogue = dialogue.OnStartSequece.map(sequence => {
     const meta = {};
     const t = {
@@ -26,9 +28,17 @@ function dialogue(dialogue) {
           case 'RPG.GameCore.WaitCustomString': // CustomString.value: string
             meta.on = task.CustomString.Value;
             return undefined;
+          case 'RPG.GameCore.TriggerCustomString':
+            meta.triggers = task.CustomString.Value;
+            return undefined;
           case 'RPG.GameCore.WaitDialogueEvent':
-          // meta.onEvent = task.DialogueEventList ?? 'NO EVENT LIST';
-          // return undefined;
+            events.push({
+              // ...task,
+              ...Object.fromEntries(task.DialogueEventList.filter(o => o.DialogueEventID).map(o => [o.SuccessCustomString ?? 'FAIL:' + o.FailureCustomString, {
+                ...dia_events[o.DialogueEventID],
+              }])),
+            });
+            return undefined;
           case 'RPG.GameCore.WaitPerformanceEnd':
           // meta.onEnd = 'WaitPerformanceEnd';
           // return undefined;
@@ -54,13 +64,11 @@ function dialogue(dialogue) {
               ...dia_events[i.DialogueEventID],
             })).reduce((acc, value) => {
               let c = { ...value };
-              if (c.title && c.desc) {
-                delete c.effect;
-                delete c.title;
-              }
-              acc[(value.aeon ? `「${Object.values(aeons).find(a => a.pathEN.replace(/\s/g, '') === value.aeon).path}」 ` : '') + value.text] = c;
               delete c.aeon;
               delete c.text;
+              delete c.title;
+              delete c.display;
+              acc[(value.aeon ? `「${Object.values(aeons).find(a => a.pathEN.replace(/\s/g, '') === value.aeon).path}」 ` : '') + value.text] = c;
               return acc;
             }, {});
         }
@@ -71,12 +79,26 @@ function dialogue(dialogue) {
     return Object.assign(t, meta);
   }).filter(a => a.lines.length > 0);
   if (dialogue.filter(d => !d.on).length !== 1) throw 'There is a non single prompt count!';
+  let names = events.map(e => Object.keys(e)).flat();
+  if (names.length !== new Set(names).size) throw 'Duplicate event id! ' + names;
   dialogue = {
     prompt: dialogue.find(d => !d.on),
+    events: Object.fromEntries(events.map(e => Object.entries(e)).flat()),
     triggers: Object.fromEntries(dialogue.filter(d => d.on).map(({ on, ...rest }) => [
       on, rest,
     ])),
   };
+  Object.keys(dialogue.events).forEach(key => {
+    if (key.includes('ALL_TALK_END')) return;
+    if (!dialogue.triggers[key]) throw 'Event exists, but not trigger! ' + key;
+    const noneExist = Object.keys(dialogue.events[key]).every(p => !Object.keys(dialogue.triggers[key]).includes(p));
+    if (!noneExist) throw 'Property overlap between event and dialogue!' + key;
+    dialogue.triggers[key] = { ...dialogue.triggers[key], ...dialogue.events[key] };
+    delete dialogue.events[key];
+  });
+  if (Object.keys(dialogue.prompt).length === 1) dialogue.prompt = dialogue.prompt.lines;
+  if (Object.keys(dialogue.events).length === 0) delete dialogue.events;
+  if (Object.keys(dialogue.triggers).length === 0) delete dialogue.triggers;
   // dialogue.prompt.forEach(d => {
   //   d.lines.forEach(line => {
   //     if (line instanceof Object) {
@@ -101,5 +123,5 @@ export function parseHandbookEvents() {
     dialogue: dialogue(json(join(_hsr_root, d.DialoguePath))),
   }));
 
-  writeFileSync('out/handbook_events.json', JSON.stringify(events, null, 4));
+  writeFileSync('out/handbook_events.json', stringify(events));
 }
