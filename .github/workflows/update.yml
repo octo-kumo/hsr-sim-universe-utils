@@ -16,8 +16,8 @@ jobs:
         uses: actions/cache@v3
         with:
           path: |
-            StarRailData
-          key: submodules-${{ runner.os }}-${{ hashFiles('StarRailData') }}
+            **/.git
+          key: submodules-${{ runner.os }}-${{ hashFiles('**/.git') }}
       - name: Git Submodule Update
         run: |
           git pull --recurse-submodules
