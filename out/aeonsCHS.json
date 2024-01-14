@@ -1,0 +1,100 @@
+{
+    "1": {
+        "id": 1,
+        "name": "克里珀",
+        "nameEN": "Qlipoth",
+        "path": "存护",
+        "pathEN": "Preservation"
+    },
+    "2": {
+        "id": 2,
+        "name": "浮黎",
+        "nameEN": "Fuli",
+        "path": "记忆",
+        "pathEN": "Remembrance"
+    },
+    "3": {
+        "id": 3,
+        "name": "Ⅸ",
+        "nameEN": "IX",
+        "path": "虚无",
+        "pathEN": "Nihility"
+    },
+    "4": {
+        "id": 4,
+        "name": "药师",
+        "nameEN": "Yaoshi",
+        "path": "丰饶",
+        "pathEN": "Abundance"
+    },
+    "5": {
+        "id": 5,
+        "name": "岚",
+        "nameEN": "Lan",
+        "path": "巡猎",
+        "pathEN": "The Hunt"
+    },
+    "6": {
+        "id": 6,
+        "name": "纳努克",
+        "nameEN": "Nanook",
+        "path": "毁灭",
+        "pathEN": "Destruction"
+    },
+    "7": {
+        "id": 7,
+        "name": "阿哈",
+        "nameEN": "Aha",
+        "path": "欢愉",
+        "pathEN": "Elation"
+    },
+    "8": {
+        "id": 8,
+        "name": "塔伊兹育罗斯",
+        "nameEN": "Tayzzyronth",
+        "path": "繁育",
+        "pathEN": "Propagation"
+    },
+    "9": {
+        "id": 9,
+        "name": "博识尊",
+        "nameEN": "Nous",
+        "path": "智识",
+        "pathEN": "Erudition"
+    },
+    "10": {
+        "id": 10,
+        "name": "希佩",
+        "nameEN": "Xipe",
+        "path": "同谐",
+        "pathEN": "The Harmony"
+    },
+    "11": {
+        "id": 11,
+        "name": "太一",
+        "nameEN": "Ena",
+        "path": "秩序",
+        "pathEN": "The Order"
+    },
+    "12": {
+        "id": 12,
+        "name": "奥博洛斯",
+        "nameEN": "Oroboros",
+        "path": "贪饕",
+        "pathEN": "The Voracity"
+    },
+    "13": {
+        "id": 13,
+        "name": "互",
+        "nameEN": "HooH",
+        "path": "均衡",
+        "pathEN": "The Equilibrium"
+    },
+    "14": {
+        "id": 14,
+        "name": "迷思",
+        "nameEN": "Mythus",
+        "path": "神秘",
+        "pathEN": "The Enigmata"
+    }
+}

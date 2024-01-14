@@ -1,0 +1,100 @@
+{
+    "1": {
+        "id": 1,
+        "name": "Qlipoth",
+        "nameEN": "Qlipoth",
+        "path": "Preservation",
+        "pathEN": "Preservation"
+    },
+    "2": {
+        "id": 2,
+        "name": "Fuli",
+        "nameEN": "Fuli",
+        "path": "Remembrance",
+        "pathEN": "Remembrance"
+    },
+    "3": {
+        "id": 3,
+        "name": "IX",
+        "nameEN": "IX",
+        "path": "Nihility",
+        "pathEN": "Nihility"
+    },
+    "4": {
+        "id": 4,
+        "name": "Yaoshi",
+        "nameEN": "Yaoshi",
+        "path": "Abundance",
+        "pathEN": "Abundance"
+    },
+    "5": {
+        "id": 5,
+        "name": "Lan",
+        "nameEN": "Lan",
+        "path": "The Hunt",
+        "pathEN": "The Hunt"
+    },
+    "6": {
+        "id": 6,
+        "name": "Nanook",
+        "nameEN": "Nanook",
+        "path": "Destruction",
+        "pathEN": "Destruction"
+    },
+    "7": {
+        "id": 7,
+        "name": "Aha",
+        "nameEN": "Aha",
+        "path": "Elation",
+        "pathEN": "Elation"
+    },
+    "8": {
+        "id": 8,
+        "name": "Tayzzyronth",
+        "nameEN": "Tayzzyronth",
+        "path": "Propagation",
+        "pathEN": "Propagation"
+    },
+    "9": {
+        "id": 9,
+        "name": "Nous",
+        "nameEN": "Nous",
+        "path": "Erudition",
+        "pathEN": "Erudition"
+    },
+    "10": {
+        "id": 10,
+        "name": "Xipe",
+        "nameEN": "Xipe",
+        "path": "The Harmony",
+        "pathEN": "The Harmony"
+    },
+    "11": {
+        "id": 11,
+        "name": "Ena",
+        "nameEN": "Ena",
+        "path": "The Order",
+        "pathEN": "The Order"
+    },
+    "12": {
+        "id": 12,
+        "name": "Oroboros",
+        "nameEN": "Oroboros",
+        "path": "The Voracity",
+        "pathEN": "The Voracity"
+    },
+    "13": {
+        "id": 13,
+        "name": "HooH",
+        "nameEN": "HooH",
+        "path": "The Equilibrium",
+        "pathEN": "The Equilibrium"
+    },
+    "14": {
+        "id": 14,
+        "name": "Mythus",
+        "nameEN": "Mythus",
+        "path": "The Enigmata",
+        "pathEN": "The Enigmata"
+    }
+}

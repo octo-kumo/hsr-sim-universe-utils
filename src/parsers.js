@@ -1,35 +1,54 @@
+import { lang } from './config.js';
 import { items } from './items.js';
 
-const translation = {
-  'EnhanceRogueBuff': '升级祝福',
-  'GetRogueMiracle': '获得奇物',
-  'GetRogueBuff': '获得祝福',
-  'GetAllRogueBuffInGroup': '获得组内全部祝福',
-  'RemoveRogueMiracle': '失去奇物',
-  'RemoveRogueBuff': '失去祝福',
-  'RepairRogueMiracle': '修复奇物',
-  'DestroyRogueMiracle': '摧毀奇物',
-  'ReplaceRogueBuff': '变换祝福',
+const translations = {
+  translationCHS: {
+    'EnhanceRogueBuff': '升级祝福',
+    'GetRogueMiracle': '获得奇物',
+    'GetRogueBuff': '获得祝福',
+    'GetAllRogueBuffInGroup': '获得组内全部祝福',
+    'RemoveRogueMiracle': '失去奇物',
+    'RemoveRogueBuff': '失去祝福',
+    'RepairRogueMiracle': '修复奇物',
+    'DestroyRogueMiracle': '摧毀奇物',
+    'ReplaceRogueBuff': '变换祝福',
 
-  'TriggerBattle': '触发战斗',
-  'TriggerDialogueEventList': '触发所有事件',
-  'TriggerDialogueEventListByCondition': '触发条件事件',
-  'TriggerRandomEventList': '触发随机事件',
+    'TriggerBattle': '触发战斗',
+    'TriggerDialogueEventList': '触发所有事件',
+    'TriggerDialogueEventListByCondition': '触发条件事件',
+    'TriggerRandomEventList': '触发随机事件',
 
-  'TriggerRogueMiracleRepair': '自选修复奇物',
-  'TriggerRogueMiracleSelect': '自选获得奇物',
-  'TriggerRogueBuffDrop': '自选丢弃祝福',
-  'TriggerRogueBuffSelect': '自选获得祝福',
-  'TriggerRogueBuffReforge': '自选交换祝福',
-  'TriggerRogueMiracleTrade': '自选交换奇物',
+    'TriggerRogueMiracleRepair': '自选修复奇物',
+    'TriggerRogueMiracleSelect': '自选获得奇物',
+    'TriggerRogueBuffDrop': '自选丢弃祝福',
+    'TriggerRogueBuffSelect': '自选获得祝福',
+    'TriggerRogueBuffReforge': '自选交换祝福',
+    'TriggerRogueMiracleTrade': '自选交换奇物',
 
-  'ChangeRogueNpcWeight': '更改NPC变量',
-  'ChangeLineupData': '更改数据',
-  'ChangeRogueMiracleToRogueCoin': '奇物交换碎片',
+    'ChangeRogueNpcWeight': '更改NPC变量',
+    'ChangeLineupData': '更改数据',
+    'ChangeRogueMiracleToRogueCoin': '奇物交换碎片',
 
-  'ReviveAvatar': '复活角色',
-  'RepeatableGamble': '可重复赌博',
+    'ReviveAvatar': '复活角色',
+    'RepeatableGamble': '可重复赌博',
+
+    'GetChessRogueCheatDice': '作弊机会',
+    'GetChessRogueRerollDice': '重投机会',
+    'ChangeChessRogueActionPoint': '倒计时',
+    'ChangeNousValue': '认知',
+    'Coin': '宇宙碎片',
+  },
+  translationEN: {
+    'GetChessRogueCheatDice': 'Cheat',
+    'GetChessRogueRerollDice': 'Reroll',
+    'ChangeChessRogueActionPoint': 'Countdown',
+    'ChangeNousValue': 'Cognition',
+    'Coin': 'Frag',
+  },
 };
+
+
+const translation = translations['translation' + lang];
 
 export function parseEffect(dia_events, type, params = []) {
   if (!type) return type;
@@ -49,12 +68,12 @@ export function parseEffect(dia_events, type, params = []) {
     case 'GetItemByPercent':
       return `+${params[1]}% ${items[params[0]].name}`;
     case 'GetChessRogueCheatDice':
-      return `+${params[0]} 作弊机会`;
+      return `+${params[0]} ${translation[type]}`;
     case 'GetChessRogueRerollDice':
-      return `+${params[0]} 重投机会`;
+      return `+${params[0]} ${translation[type]}`;
     case 'GetCoinByLoseCoin':
       if (params.length !== 4) throw 'GetCoinByLoseCoin param length not 4';
-      return `+${params[2]}%(-${params[0]}% 宇宙碎片) 宇宙碎片`;
+      return `+${params[2]}%(-${params[0]}% ${translation.coin}) ${translation.coin}`;
     // case 'ChangeItemRatio':
     //   return '';
     // case 'TriggerRogueBuffSelect':
@@ -62,9 +81,9 @@ export function parseEffect(dia_events, type, params = []) {
     //   const g = buff_groups[params[0]];
     // case 'GetRogueMiracle':
     case 'ChangeChessRogueActionPoint':
-      return `${params[0] < 0 ? '' : '+'}${params[0]} 倒计时`;
+      return `${params[0] < 0 ? '' : '+'}${params[0]} ${translation[type]}`;
     case 'ChangeNousValue':
-      return `${params[0] < 0 ? '' : '+'}${params[0]} 认知`;
+      return `${params[0] < 0 ? '' : '+'}${params[0]} ${translation[type]}`;
 
 
     case 'CostHpCurrentPercent':

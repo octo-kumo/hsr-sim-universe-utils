@@ -1,7 +1,7 @@
 import { writeFileSync } from 'fs';
 import mapObject from 'map-obj';
 import { join } from 'path';
-import { _hsr_root, json } from './config.js';
+import { _hsr_root, json, lang } from './config.js';
 import { formatString } from './formatter.js';
 import { parseEffect } from './parsers.js';
 import { text } from './text.js';
@@ -33,4 +33,4 @@ Object.values(dia_events).forEach(e => {
   delete e.o;
 });
 
-writeFileSync('out/dia_events.json', JSON.stringify(dia_events, null, 4));
+writeFileSync(`out/dia_events${lang}.json`, JSON.stringify(dia_events, null, 4));

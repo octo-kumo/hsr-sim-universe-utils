@@ -2,7 +2,7 @@ import { writeFileSync } from 'fs';
 import mapObject from 'map-obj';
 import { join } from 'path';
 import { aeons } from './aeons.js';
-import { _hsr_root, json } from './config.js';
+import { _hsr_root, json, lang } from './config.js';
 import { formatString } from './formatter.js';
 import { text } from './text.js';
 
@@ -44,7 +44,7 @@ export const buffs = mapObject(rogue_buff, (key, o) => {
   buff.levels = buff.levels.map(l => l.desc);
   return [key, buff];
 });
-writeFileSync('out/buffs.json', JSON.stringify(buffs, null, 4));
+writeFileSync(`out/buffs${lang}.json`, JSON.stringify(buffs, null, 4));
 Object.values(buff_groups).forEach(a => a.forEach((B, i) => {
   const F = Object.values(buffs).find(b => b.tags.includes(B));
   a[i] = F ? F.name + '%' + (F.tags.indexOf(B) + 1) : B;
@@ -55,4 +55,4 @@ Object.values(buff_groups).forEach(a => a.forEach((B, i) => {
 //   }
 // }));
 // Object.entries(buff_groups).forEach(([k, a]) => buff_groups[k] = a.flat(Infinity));
-writeFileSync('out/buff_groups.json', JSON.stringify(buff_groups, null, 4));
+writeFileSync(`out/buff_groups${lang}.json`, JSON.stringify(buff_groups, null, 4));

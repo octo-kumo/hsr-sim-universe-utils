@@ -3,7 +3,7 @@ import stringify from 'json-stringify-pretty-compact';
 import mapObject from 'map-obj';
 import { join } from 'path';
 import { aeons } from './aeons.js';
-import { _hsr_root, json } from './config.js';
+import { _hsr_root, json, lang } from './config.js';
 import { dia_events } from './dialogue_events.js';
 import { sentence } from './sentence.js';
 import { text } from './text.js';
@@ -130,4 +130,4 @@ export const handbook_events = mapObject(data, (k, d) => [k, {
   in: d.EventTypeList.map(i => eventTypes[i].title),
   dialogue: dialogue(json(join(_hsr_root, d.DialoguePath))),
 }]);
-writeFileSync('out/handbook_events.json', stringify(handbook_events));
+writeFileSync(`out/handbook_events${lang}.json`, stringify(handbook_events));

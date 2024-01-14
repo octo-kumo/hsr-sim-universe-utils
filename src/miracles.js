@@ -1,7 +1,7 @@
 import { writeFileSync } from 'fs';
 import mapObject from 'map-obj';
 import { join } from 'path';
-import { _hsr_root, json } from './config.js';
+import { _hsr_root, json, lang } from './config.js';
 import { dia_events } from './dialogue_events.js';
 import { formatString } from './formatter.js';
 import { parseEffect } from './parsers.js';
@@ -52,5 +52,5 @@ diff.forEach(d => {
   if (!miracle_effect[d]?.type) diff.delete(d);
 });
 console.log(diff);
-writeFileSync('out/miracles.json', JSON.stringify(miracles, null, 4));
-writeFileSync('out/miracles_effect_extra.json', JSON.stringify(Object.fromEntries(Array.from(diff).map(d => [d, miracle_effect[d]])), null, 4));
+writeFileSync(`out/miracles${lang}.json`, JSON.stringify(miracles, null, 4));
+writeFileSync(`out/miracles_effect_extra${lang}.json`, JSON.stringify(Object.fromEntries(Array.from(diff).map(d => [d, miracle_effect[d]])), null, 4));

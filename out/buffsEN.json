@@ -1,0 +1,4091 @@
+{
+    "600000": {
+        "levels": [
+            "No effect.",
+            "No effect.",
+            "No effect.",
+            "No effect.",
+            "No effect.",
+            "No effect.",
+            "No effect.",
+            "No effect.",
+            "No effect.",
+            "No effect."
+        ],
+        "name": "Default Buff",
+        "rarity": 1,
+        "type": {
+            "title": "All Blessings{SPACE}",
+            "subtitle": "All"
+        },
+        "tags": [
+            1000001,
+            1000002,
+            1000003,
+            1000004,
+            1000005,
+            1000006,
+            1000007,
+            1000008,
+            1000009,
+            1000010
+        ]
+    },
+    "612020": {
+        "path": "Preservation",
+        "levels": [
+            "Spend 100 points of Energy to use this ability and resonate with the Path of Preservation, dealing Physical DMG to all enemies based on the total Shield between all allies."
+        ],
+        "name": "Path Resonance: Preservation",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1202001
+        ]
+    },
+    "612021": {
+        "path": "Preservation",
+        "levels": [
+            "The attacks of Path Resonance: Preservation become CRIT Hits. For every Shielded character on the team, the CRIT DMG increases by 15%."
+        ],
+        "name": "Resonance Formation: Zero-Dimensional Reinforcement",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1202101
+        ]
+    },
+    "612022": {
+        "path": "Preservation",
+        "levels": [
+            "When Path Resonance is used, all allies gain a Shield that can absorb DMG equal to 1% of their respective Max HP, for 2 turns, and Amber is applied to all allies at the same time."
+        ],
+        "name": "Resonance Formation: Eutectic Reaction",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1202201
+        ]
+    },
+    "612023": {
+        "path": "Preservation",
+        "levels": [
+            "When entering battle, Path Resonance regenerates 40% Energy. When an ally gains a Shield, Path Resonance additionally regenerates 3% Energy."
+        ],
+        "name": "Resonance Formation: Isomorphous Reaction",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1202301
+        ]
+    },
+    "612024": {
+        "path": "Preservation",
+        "levels": [
+            "There is a 150% base chance for Path Resonance: Preservation to inflict Bleed on the attacked target for 2 turn(s). Bleeding enemies will take Physical DoT equal to 12% of their Max HP at the start of each turn. This DMG cannot exceed 250% of the total amount of Shield effect currently active on all allies."
+        ],
+        "name": "Resonance Interplay: Spiked Armor",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1202401
+        ]
+    },
+    "612025": {
+        "path": "Preservation",
+        "levels": [
+            "When attacking Frozen enemy targets with Path Resonance: Preservation, the DMG dealt increases by 80% and the Freeze status on the enemy targets is removed. Dissociation will not be removed by this effect."
+        ],
+        "name": "Resonance Interplay: Cold Snap",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1202501
+        ]
+    },
+    "612026": {
+        "path": "Preservation",
+        "levels": [
+            "When using Path Resonance, extends Shield duration by 2 turn(s) on characters whose HP is below 50% of their Max HP. For every character on which this takes effect, this current Path Resonance deals 20% more DMG."
+        ],
+        "name": "Resonance Interplay: Reverse Quenching",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1202601
+        ]
+    },
+    "612027": {
+        "path": "Preservation",
+        "levels": [
+            "Using the Ultimate increases the next Path Resonance's Physical RES PEN by 8%, stacking up to 8 time(s)."
+        ],
+        "name": "Resonance Interplay: Displaced Ascent",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1202701
+        ]
+    },
+    "612030": {
+        "levels": [
+            "After a character launches an attack, deals Quake DMG equal to 100% of the character's current Shield to the hit enemies.",
+            "After a character launches an attack, deals Quake DMG equal to 100% of the character's current Shield effect plus 20% of the total Shield effect of the character's allies to the hit enemies."
+        ],
+        "name": "Divine Construct: Resonance Transfer",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1203001,
+            1203002
+        ]
+    },
+    "612031": {
+        "levels": [
+            "After a character is hit, deals Quake DMG to the attacker, equal to 340% of the character's current Shield effect. This DMG cannot defeat the enemy.",
+            "After a character is attacked, deals Quake DMG to the attacker, equal to 420% of the character's Shield effect just before the attack. This DMG cannot defeat the enemy."
+        ],
+        "name": "Divine Construct: Metastatic Field",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1203101,
+            1203102
+        ]
+    },
+    "612032": {
+        "levels": [
+            "At the start of the battle, characters gain a special Shield that can absorb DMG equal to 1% of their Max HP. Whenever another Shield is gained, this special Shield will also strengthen in equal value. For every 2 turn(s), this will be removed, and then this special Shield can be regained.",
+            "At the start of the battle, characters gain a special Shield that can absorb DMG equal to 10% of their Max HP. Whenever another Shield is gained, this special Shield will also strengthen by 130%. For every 2 turn(s), this will be removed, and then this special Shield can be regained."
+        ],
+        "name": "Divine Construct: Macrosegregation",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1203201,
+            1203202
+        ]
+    },
+    "612040": {
+        "levels": [
+            "Characters deal 10% increased Quake DMG to their target enemy, and enemies adjacent to it also take Quake DMG equal to 25% of DMG dealt to the target enemy.",
+            "Characters deal 15% increased Quake DMG to their target, and other targets also take Quake DMG equal to 30% of DMG dealt to the target enemy."
+        ],
+        "name": "Interstellar Construct: Shear Structure",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1204001,
+            1204002
+        ]
+    },
+    "612041": {
+        "levels": [
+            "When a character deals Quake DMG to an enemy target, there is a 65% base chance to cause the target to Bleed.",
+            "When a character deals Quake DMG to an enemy target, there is a 100% base chance to cause the target to Bleed."
+        ],
+        "name": "Interstellar Construct: Burst Lattice",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1204101,
+            1204102
+        ]
+    },
+    "612042": {
+        "levels": [
+            "Deals increased Quake DMG to enemies. The amount of DMG increased is equal to 80% of the character's current DEF.",
+            "Deals increased Quake DMG to enemies. The amount of DMG increased is equal to 120% of the character's current DEF."
+        ],
+        "name": "Interstellar Construct: Solid Solution",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1204201,
+            1204202
+        ]
+    },
+    "612043": {
+        "levels": [
+            "Shielded characters increase their ATK by 40% of the Shield effect on them, up to a maximum of 120% of their Base ATK.",
+            "Shielded characters increase their ATK by 60% of the Shield effect on them, up to a maximum of 160% of their Base ATK."
+        ],
+        "name": "Interstellar Construct: Safe Load",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1204301,
+            1204302
+        ]
+    },
+    "612044": {
+        "levels": [
+            "At the end of the turn, there is 80% fixed chance for characters to gain a Shield equal to 12% of their Max HP, lasting for 1 turn(s).",
+            "At the end of the turn, characters gain a special Shield that can absorb DMG equal to 15% of their Max HP, lasting for 1 turn(s)."
+        ],
+        "name": "Interstellar Construct: Sanctuary",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1204401,
+            1204402
+        ]
+    },
+    "612045": {
+        "levels": [
+            "Increase the max DMG that can be absorbed by Shields created by characters by 30%.",
+            "When characters' gain a Shield, increases the max DMG that can be absorbed by the Shield by 35%."
+        ],
+        "name": "Interstellar Construct: Quadrangular Pyramid",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1204501,
+            1204502
+        ]
+    },
+    "612046": {
+        "levels": [
+            "When a character provides Shields to allies, this character gains a Shield that can absorb DMG equal to 24% of the provided Shield for 2 turn(s).",
+            "When a character provides Shields to allies, this character gains a Shield that can absorb DMG equal to 36% of the provided Shield for 2 turn(s)."
+        ],
+        "name": "Interstellar Construct: Hypoeutectoid",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1204601,
+            1204602
+        ]
+    },
+    "612050": {
+        "levels": [
+            "Characters gain a 6% DEF increase for each Preservation Blessing, stacking up to a max of 6 time(s).",
+            "Characters gain a 8% DEF increase for each Preservation Blessing, stacking up to a max of 9 time(s)."
+        ],
+        "name": "Construct: Assemble",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1205001,
+            1205002
+        ]
+    },
+    "612051": {
+        "levels": [
+            "Upon entering battle, characters gain a Shield equal to 16% of their Max HP, lasting for 2 turn(s).",
+            "Upon entering battle, characters gain a Shield equal to 24% of their Max HP, lasting for 2 turn(s)."
+        ],
+        "name": "Construct: Sentinel",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1205101,
+            1205102
+        ]
+    },
+    "612052": {
+        "levels": [
+            "After a character is attacked, they gain a Shield that can absorb DMG equal to 18% of the HP lost during this attack, lasting for 1 turn(s).",
+            "After a character is attacked, they gain a Shield that can absorb DMG equal to 18% of the HP lost during this attack, lasting for 2 turn(s)."
+        ],
+        "name": "Construct: Patch",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1205201,
+            1205202
+        ]
+    },
+    "612053": {
+        "levels": [
+            "After a character inflicts Weakness Break on an enemy, characters gain a Shield that can absorb DMG equal to 14% of their Max HP, lasting for 2 turn(s).",
+            "After a character inflicts Weakness Break on an enemy, characters gain a Shield that can absorb DMG equal to 18% of their Max HP, lasting for 3 turn(s)."
+        ],
+        "name": "Construct: Compensation",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1205301,
+            1205302
+        ]
+    },
+    "612054": {
+        "levels": [
+            "Shielded characters take 16% less DMG.",
+            "Shielded characters take 24% less DMG."
+        ],
+        "name": "Construct: Firmness",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1205401,
+            1205402
+        ]
+    },
+    "612055": {
+        "levels": [
+            "When a character gains a Shield, there is a 20% fixed chance to dispel 1 debuff that is currently placed on the character.",
+            "When a character gains a Shield, there is a 30% fixed chance to dispel 1 debuff that is currently placed on the character."
+        ],
+        "name": "Construct: Rotation",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1205501,
+            1205502
+        ]
+    },
+    "612056": {
+        "levels": [
+            "Increases the CRIT DMG of Shielded characters by 30%.",
+            "Increases the CRIT DMG of Shielded characters by 45%."
+        ],
+        "name": "Construct: Burst",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1205601,
+            1205602
+        ]
+    },
+    "612057": {
+        "levels": [
+            "Increases the CRIT Rate of Shielded characters by 16%.",
+            "Increases the CRIT Rate of Shielded characters by 24%."
+        ],
+        "name": "Construct: Concentration",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            1205701,
+            1205702
+        ]
+    },
+    "612120": {
+        "path": "Remembrance",
+        "levels": [
+            "Spend 100 points of Energy to use this ability and resonate with the Path of Remembrance, dealing Ice DMG to all enemies with a 120% base chance to Freeze all enemies for 1 turn(s)."
+        ],
+        "name": "Path Resonance: Remembrance",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1212001
+        ]
+    },
+    "612121": {
+        "path": "Remembrance",
+        "levels": [
+            "When Path Resonance is used, there is a 150% base chance to decrease enemies' chance to resist Frozen by 100% for 1 turn(s)."
+        ],
+        "name": "Resonance Formation: Total Recall",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1212101
+        ]
+    },
+    "612122": {
+        "path": "Remembrance",
+        "levels": [
+            "When using Path Resonance, there is a 150% base chance to apply Eonian River to all enemies for 1 turn."
+        ],
+        "name": "Resonance Formation: Rich Experience",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1212201
+        ]
+    },
+    "612123": {
+        "path": "Remembrance",
+        "levels": [
+            "Upon battle entrance, Path Resonance regenerates 40% Energy. When an enemy becomes Frozen, Path Resonance additionally regenerates 5% Energy."
+        ],
+        "name": "Resonance Formation: First Love Once More",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1212301
+        ]
+    },
+    "612124": {
+        "path": "Remembrance",
+        "levels": [
+            "When the Freeze effect caused by Path Resonance is dispelled or resisted by enemy targets, there is a 150% base chance of lowering the target's All-Type RES by 15% for 2 turn(s). For every 1% HP that each ally has lost, the target's All-Type RES is additionally lowered by 0.001[f2]%."
+        ],
+        "name": "Resonance Interplay: Faces Places",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1212401
+        ]
+    },
+    "612125": {
+        "path": "Remembrance",
+        "levels": [
+            "When the Freeze effect caused by Path Resonance is dispelled or resisted by enemy targets, there is a 150% base chance of decreasing the target's SPD by 15% for 2 turn(s)."
+        ],
+        "name": "Resonance Interplay: Landscape in the Mist",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1212501
+        ]
+    },
+    "612126": {
+        "path": "Remembrance",
+        "levels": [
+            "When the Freeze effect from the Path Resonance is dispelled or resisted, characters gain a Shield equal in strength to 40% of their Max HP for 2 turn(s). This effect can only be triggered once by each use of the Path Resonance."
+        ],
+        "name": "Resonance Interplay: Roar and Rustle",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1212601
+        ]
+    },
+    "612127": {
+        "path": "Remembrance",
+        "levels": [
+            "Basic ATKs against enemies Frozen by the Path Resonance have a 100% base chance to inflict Dissociation on them for 1 turn(s)."
+        ],
+        "name": "Resonance Interplay: Seemingly Mirrored",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1212701
+        ]
+    },
+    "612130": {
+        "levels": [
+            "When attacking Frozen enemies, there is a 100% base chance to inflict Dissociation for 1 turn(s).",
+            "When attacking Frozen enemies, there is a 100% base chance to apply Dissociation to the enemy for 1 turn(s). DMG dealt when Dissociation is removed +20%."
+        ],
+        "name": "Perfect Experience: Fuli",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1213001,
+            1213002
+        ]
+    },
+    "612131": {
+        "levels": [
+            "After a character inflicts Weakness Break on an enemy, there is a 100% base chance to apply Dissociation on the enemy for 1 turn(s).",
+            "After a character inflicts Weakness Break on an enemy, there is a 100% base chance to apply Dissociation on the enemy for 1 turn(s). This effect ignores enemies' chance to resist Frozen."
+        ],
+        "name": "Perfect Experience: Innocence",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1213101,
+            1213102
+        ]
+    },
+    "612132": {
+        "levels": [
+            "After an enemy is attacked 6 time(s), they have a 120% base chance to become Frozen for 1 turn(s).",
+            "After an enemy is attacked 5 time(s), they have a 150% base chance to become Frozen for 1 turn(s)."
+        ],
+        "name": "Perfect Experience: Reticence",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1213201,
+            1213202
+        ]
+    },
+    "612140": {
+        "levels": [
+            "Attacking an enemy with Dissociation will remove Dissociation, and deal DMG equal to 150% of the Dissociation removal DMG.",
+            "Attacking an enemy with Dissociation will remove Dissociation, and deal DMG equal to 200% of the Dissociation removal DMG."
+        ],
+        "name": "Ultimate Experience: Melancholia",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1214001,
+            1214002
+        ]
+    },
+    "612141": {
+        "levels": [
+            "Increases the DMG taken by enemies with Dissociation by 36%. This effect will remain for 1 turn after Dissociation is removed.",
+            "Increases the DMG taken by enemies with Dissociation by 54%. This effect will remain for 1 turn after Dissociation is removed."
+        ],
+        "name": "Ultimate Experience: Dizziness",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1214101,
+            1214102
+        ]
+    },
+    "612142": {
+        "levels": [
+            "After Dissociation is removed from an enemy, there is a 50% base chance to Freeze the enemy for 1 turn(s).",
+            "After Dissociation is removed from an enemy, there is a 75% base chance to Freeze the enemy for 1 turn(s)."
+        ],
+        "name": "Ultimate Experience: Insensitivity",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1214201,
+            1214202
+        ]
+    },
+    "612143": {
+        "levels": [
+            "After an enemy receives Ice DMG, enemies adjacent to it also receive DMG equal to 20% of the DMG taken by the target enemy.",
+            "After an enemy receives Ice DMG, all other enemies also receive DMG equal to 24% of the DMG taken by the target enemy."
+        ],
+        "name": "Ultimate Experience: Sentimentality",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1214301,
+            1214302
+        ]
+    },
+    "612144": {
+        "levels": [
+            "When a character deals DMG to an enemy, there's a 0.02[f1]% base chance to Freeze the hit enemy for 1 turn(s).",
+            "Enemies' chance to resist Frozen decreases by 20%. When a character deals DMG to an enemy, there is a 0.025[f1]% base chance to Freeze the hit enemy for 1 turn(s)."
+        ],
+        "name": "Ultimate Experience: Indelibility",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1214401,
+            1214402
+        ]
+    },
+    "612145": {
+        "levels": [
+            "After a character uses their Ultimate, there is a 70% base chance to apply Ice Weakness to a random enemy for 2 turn(s).",
+            "After a character uses their Ultimate, there is a 70% base chance to apply Ice Weakness to a random enemy who has no Ice Weakness for 2 turn(s)."
+        ],
+        "name": "Ultimate Experience: Shudder",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1214501,
+            1214502
+        ]
+    },
+    "612146": {
+        "levels": [
+            "Upon entering battle, there is a 150% base chance for all enemies to become Frozen for 1 turn(s).",
+            "Upon entering battle, there is a 150% base chance for all enemies to become Frozen and have their SPD reduced by 30%, lasting for 1 turn(s)."
+        ],
+        "name": "Ultimate Experience: Maverick",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1214601,
+            1214602
+        ]
+    },
+    "612150": {
+        "levels": [
+            "For every Blessing of Remembrance the team has, enemies' chance to resist Frozen decreases by 6%, stacking up to 6 time(s).",
+            "For every Blessing of Remembrance the team has, enemies' chance to resist Frozen decreases by 8%, stacking up to 9 time(s)."
+        ],
+        "name": "Experience: Unspeakable Shame",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1215001,
+            1215002
+        ]
+    },
+    "612151": {
+        "levels": [
+            "Characters' Effect Hit Rate increases by 16%.",
+            "Characters' Effect Hit Rate increases by 24%."
+        ],
+        "name": "Experience: The Torment of Alienation",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1215101,
+            1215102
+        ]
+    },
+    "612152": {
+        "levels": [
+            "When attacks reduce an enemy's HP to a point that is lower than 50% for the first time in this battle, there's a 70% base chance to Freeze the enemy for 1 turn(s).",
+            "When attacks reduce an enemy's HP to a point that is lower than 50% for the first time in this battle, there's a 100% base chance to Freeze the enemy for 1 turn(s)."
+        ],
+        "name": "Experience: Lost Memory",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1215201,
+            1215202
+        ]
+    },
+    "612153": {
+        "levels": [
+            "When a character uses their Skill or Ultimate to attack a Frozen enemy, DMG for this attack increases by 36%.",
+            "When a character uses their Skill or Ultimate to attack a Frozen enemy, DMG for this attack increases by 54%."
+        ],
+        "name": "Experience: Stone Cold Hatred",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1215301,
+            1215302
+        ]
+    },
+    "612154": {
+        "levels": [
+            "Right after an enemy is Frozen, the next 1 attack(s) launched against the said enemy will have 100% increased CRIT Rate. This effect is dispelled when the Frozen state is removed.",
+            "Right after an enemy is Frozen, the next 2 attack(s) launched against the said enemy will have 100% increased CRIT Rate. This effect is dispelled when the Frozen state is removed."
+        ],
+        "name": "Experience: Pain & Suffering",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1215401,
+            1215402
+        ]
+    },
+    "612155": {
+        "levels": [
+            "Increases the DMG taken by Frozen enemies by 16%.",
+            "Increases the DMG taken by Frozen enemies by 24%."
+        ],
+        "name": "Experience: Primordial Hardship",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1215501,
+            1215502
+        ]
+    },
+    "612156": {
+        "levels": [
+            "When a character Freezes an enemy, regenerates 8 Energy. This effect may only trigger once per action.",
+            "When a character Freezes an enemy, regenerates 12 Energy. This effect may only trigger once per action."
+        ],
+        "name": "Experience: Thrill of Escalation",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1215601,
+            1215602
+        ]
+    },
+    "612157": {
+        "levels": [
+            "When a character applies Freeze to an enemy, the character gains a Shield that can absorb DMG equal to 16% of their Max HP for 3 turn(s).",
+            "When a character applies Freeze to an enemy, the character gains a Shield that can absorb DMG equal to 24% of their Max HP for 3 turn(s)."
+        ],
+        "name": "Experience: Responsive Excitement",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            1215701,
+            1215702
+        ]
+    },
+    "612220": {
+        "path": "Nihility",
+        "levels": [
+            "Spend 100 points of Energy to use this ability and resonate with the Path of Nihility, with a 80% base chance to apply Burn, Shock, Bleed, and 2 stacks of Wind Shear on all enemies for 2 turn(s)."
+        ],
+        "name": "Path Resonance: Nihility",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1222001
+        ]
+    },
+    "612221": {
+        "path": "Nihility",
+        "levels": [
+            "When using Path Resonance, increases the base chance of applying statuses by 100% and the duration of statuses by 1 turn, and adds 1 stack to all stackable statuses."
+        ],
+        "name": "Resonance Formation: The Doubtful Fourfold Root",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1222101
+        ]
+    },
+    "612222": {
+        "path": "Nihility",
+        "levels": [
+            "The attacks of Path Resonance: Nihility have a 100% base chance to inflict 2 stacks of Confusion and 2 stacks of Devoid on all enemies for 2 turn(s)."
+        ],
+        "name": "Resonance Formation: Suffering and Sunshine",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1222201
+        ]
+    },
+    "612223": {
+        "path": "Nihility",
+        "levels": [
+            "When entering battle, Path Resonance regenerates 40% Energy. When an enemy receives DoT, Path Resonance additionally regenerates 2% Energy."
+        ],
+        "name": "Resonance Formation: Outsider",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1222301
+        ]
+    },
+    "612224": {
+        "path": "Nihility",
+        "levels": [
+            "After using a Path Resonance, for every type of debuff (out of Burn, Shock, Bleed, and Wind Shear) the enemy target is currently inflicted with, Advance Forward all allies' actions by 4%."
+        ],
+        "name": "Resonance Interplay: Off the Beaten Track",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1222401
+        ]
+    },
+    "612225": {
+        "path": "Nihility",
+        "levels": [
+            "A character's Basic ATK can cause all DoTs currently applied on the target via Path Resonance: Nihility to immediately deal DMG equivalent to 40% of these statuses' original DMG."
+        ],
+        "name": "Resonance Interplay: White Nights",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1222501
+        ]
+    },
+    "612226": {
+        "path": "Nihility",
+        "levels": [
+            "Path Resonance deals 30% more DMG to Frozen enemies. When enemy targets become Frozen, DoTs applied by the Path Resonance extend their duration by 1 turn(s)."
+        ],
+        "name": "Resonance Interplay: Reign of Keys",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1222601
+        ]
+    },
+    "612227": {
+        "path": "Nihility",
+        "levels": [
+            "For each unique Type of non-DoT DMG the enemy target has taken, Path Resonance deals 6% more DMG to it, lasting until the end of the turn."
+        ],
+        "name": "Resonance Interplay: Terror and Tremble",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1222701
+        ]
+    },
+    "612230": {
+        "levels": [
+            "Every time an enemy takes DMG from a DoT, applies 1 stack(s) of Suspicion.",
+            "Every time an enemy receives DoT, apply 1 stack(s) of Suspicion. Suspicion stacks will not be reduced."
+        ],
+        "name": "Funeral of Sensory Pursuivant",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1223001,
+            1223002
+        ]
+    },
+    "612231": {
+        "levels": [
+            "Every time an enemy is afflicted with a DoT, apply 3 stack(s) of Suspicion.",
+            "Every time an enemy is afflicted with a DoT, apply 3 stack(s) of Suspicion. Every time the DoT refreshes, apply 1 stack(s) of Suspicion."
+        ],
+        "name": "The Man in the Cover",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1223101,
+            1223102
+        ]
+    },
+    "612232": {
+        "levels": [
+            "At the beginning of an enemy's turn, trigger extra DoT 1 times, dealing DMG equal to 90% of the original DoT.",
+            "At the beginning of an enemy's turn, trigger extra DoT 1 times, dealing DMG equal to 135% of the original DoT."
+        ],
+        "name": "Why Hasn't Everything Already Disappeared?",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1223201,
+            1223202
+        ]
+    },
+    "612240": {
+        "levels": [
+            "When an enemy inflicted with Suspicion is defeated, inflicts the same number of stacks of Suspicion the defeated enemy has on 1 random enemy target(s).",
+            "When an enemy inflicted with Suspicion is defeated, inflicts the same number of stacks of Suspicion the defeated enemy has on 2 random enemy target(s)."
+        ],
+        "name": "Beginning and End",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1224001,
+            1224002
+        ]
+    },
+    "612241": {
+        "levels": [
+            "When an enemy has Suspicion on them, inflicts 1 extra stack(s) of Suspicion.",
+            "When an enemy is inflicted with Suspicion, the stacks it gains are doubled."
+        ],
+        "name": "Café Self-Deceit",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1224101,
+            1224102
+        ]
+    },
+    "612242": {
+        "levels": [
+            "For every stack of Suspicion the enemies have, reduces their ATK by 0.003[f1]%, up to a max of 30%.",
+            "For every stack of Suspicion the enemies have, reduces their ATK by 0.004[f1]%, up to a max of 30%, and reduces their Effect RES by 0.004[f1]%, up to a max of 30%."
+        ],
+        "name": "Call of the Wilderness",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1224201,
+            1224202
+        ]
+    },
+    "612243": {
+        "levels": [
+            "Increases Weakness Break efficiency by 30%.",
+            "Increases Weakness Break efficiency by 45%."
+        ],
+        "name": "Night Beyond Pyre",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1224301,
+            1224302
+        ]
+    },
+    "612244": {
+        "levels": [
+            "When a character inflicts Weakness Break on an enemy, the same type of Weakness Break effect is applied to enemies adjacent to it.",
+            "When a character inflicts Weakness Break on an enemy, the same type of Weakness Break effect is applied to all enemies."
+        ],
+        "name": "Hell is Other People",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1224401,
+            1224402
+        ]
+    },
+    "612245": {
+        "levels": [
+            "When hitting a Weakness Broken enemy, there is a 75% base chance to apply Burn, Shock, Bleed, or Wind Shear on the enemy for 2 turn(s).",
+            "When hitting a Weakness Broken enemy, there is a 75% base chance to inflict Burn, Shock, Bleed, or Wind Shear on the enemy for 2 turn(s), and dispels 1 debuff currently on the attacker."
+        ],
+        "name": "Twilight of Existence",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1224501,
+            1224502
+        ]
+    },
+    "612246": {
+        "levels": [
+            "If an enemy is attacked while under any DoT statuses, a random DoT will be triggered, dealing DMG equal to 100% of the DoT.",
+            "If an enemy is attacked while under any DoT statuses, a random DoT will be triggered, dealing DMG equal to 150% of the DoT."
+        ],
+        "name": "All Things are Possible",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1224601,
+            1224602
+        ]
+    },
+    "612250": {
+        "levels": [
+            "Gains a 6% DoT increase for each Nihility Blessing. This effect can stack up to a max of 6 time(s).",
+            "Gains a 8% DoT increase for each Nihility Blessing. This effect can stack up to a max of 9 time(s)."
+        ],
+        "name": "Ignosticism",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1225001,
+            1225002
+        ]
+    },
+    "612251": {
+        "levels": [
+            "Increases characters' Break Effect by 50%.",
+            "Increases characters' Break Effect by 75%."
+        ],
+        "name": "Questioning of Purpose",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1225101,
+            1225102
+        ]
+    },
+    "612252": {
+        "levels": [
+            "Reduces enemies' Effect RES by 12%.",
+            "Reduces enemies' Effect RES by 18%."
+        ],
+        "name": "Blind Vision",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1225201,
+            1225202
+        ]
+    },
+    "612253": {
+        "levels": [
+            "Increases DoT taken by enemies by 10%.",
+            "Increases DoT taken by enemies by 15%."
+        ],
+        "name": "Tragic Lecture",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1225301,
+            1225302
+        ]
+    },
+    "612254": {
+        "levels": [
+            "Extends the duration of Wind Shear, Bleed, Shock, and Burn on enemies by 1 turn(s).",
+            "Extends the duration of Wind Shear, Bleed, Shock, and Burn on enemies by 2 turn(s)."
+        ],
+        "name": "Sensory Labyrinth",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1225401,
+            1225402
+        ]
+    },
+    "612255": {
+        "levels": [
+            "Every time an enemy target is afflicted with a DoT status, the DMG taken by them increases by 3%. This effect can stack up to 4 time(s).",
+            "Every time an enemy target is afflicted with a DoT status, the DMG taken by them increases by 4%. This effect can stack up to 5 time(s)."
+        ],
+        "name": "Emotional Decluttering",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1225501,
+            1225502
+        ]
+    },
+    "612256": {
+        "levels": [
+            "Every time an enemy takes DMG from a DoT, all allies restore HP equal to 0.01[f1]% of their respective Max HP.",
+            "Every time an enemy takes DMG from a DoT, all allies restore HP equal to 0.015[f1]% of their respective Max HP."
+        ],
+        "name": "Offerings of Deception",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1225601,
+            1225602
+        ]
+    },
+    "612257": {
+        "levels": [
+            "Every time an enemy receives a DoT, 2[f1] Energy is regenerated for a random ally.",
+            "Every time an enemy receives a DoT, 3[f1] Energy is regenerated for a random ally."
+        ],
+        "name": "Before Sunrise",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            1225701,
+            1225702
+        ]
+    },
+    "612320": {
+        "path": "Abundance",
+        "levels": [
+            "Spend 100 points of Energy to use this ability and resonate with the Path of Abundance, restore HP for all allies by 50% of their respective Max HP, and increases their respective Max HP by 15% for 2 turn(s)."
+        ],
+        "name": "Path Resonance: Abundance",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1232001
+        ]
+    },
+    "612321": {
+        "path": "Abundance",
+        "levels": [
+            "When any ally receives lethal DMG, the Resonance of Path of Abundance prevents them from being knocked down and automatically consumes all Energy to release Path Resonance. This effect can trigger up to 1 time(s) per battle."
+        ],
+        "name": "Resonance Formation: Terminal Nirvana",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1232101
+        ]
+    },
+    "612322": {
+        "path": "Abundance",
+        "levels": [
+            "After releasing a Path Resonance, removes all characters' debuffs and applies 1 stack(s) of Subduing Evils for 1 turn(s)."
+        ],
+        "name": "Resonance Formation: Anicca",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1232201
+        ]
+    },
+    "612323": {
+        "path": "Abundance",
+        "levels": [
+            "After Path Resonance Energy is consumed for the first time in battle for the use of Path Resonance, the Path Resonance for Abundance will appear on the action order. The Outgoing Healing provided by this Resonance decreases by 30%. When this Resonance takes action, it will automatically release Path Resonance to heal allies."
+        ],
+        "name": "Resonance Formation: Anatta",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1232301
+        ]
+    },
+    "612324": {
+        "path": "Abundance",
+        "levels": [
+            "After a character has their HP restored via Path Resonance and if the healing amount exceeds the maximum HP, recover 1 Skill Point. This effect can only trigger 1 time per Path Resonance use. After triggering this effect, all DMG dealt by all allies is increased by 30% for 2 turns. This effect can stack up to 2 time(s)."
+        ],
+        "name": "Resonance Interplay: Mountain High",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1232401
+        ]
+    },
+    "612325": {
+        "path": "Abundance",
+        "levels": [
+            "After using Path Resonance, all allies' Weakness Break Efficiency increases by 15% and Break Effect increases by 50%. This effect lasts for 2 turn(s) and stacks up to 2 time(s)."
+        ],
+        "name": "Resonance Interplay: Nullifying Ardor",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1232501
+        ]
+    },
+    "612326": {
+        "path": "Abundance",
+        "levels": [
+            "For every 1% of healing from Path Resonance that exceeds a character's Max HP, the character's Ultimate deals 1% more DMG. This effect is stackable, up to a maximum of 100%, lasting for 2 turn(s)."
+        ],
+        "name": "Resonance Interplay: Fleeting Samadhi",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1232601
+        ]
+    },
+    "612327": {
+        "path": "Abundance",
+        "levels": [
+            "Healing from Path Resonance that exceeds a character's Max HP is stored and will be released as automatic healing when the character's HP falls below 35% of their Max HP. Up to 50% of the character's Max HP (when the Path Resonance is used) can be stored."
+        ],
+        "name": "Resonance Interplay: Destined Death",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1232701
+        ]
+    },
+    "612330": {
+        "levels": [
+            "Charges Dewdrop when a character's HP is restored. The Charge value is equal to 100% of the amount of healing received.",
+            "Charges Dewdrop when a character's HP is restored. The Charge value is equal to 100% of the amount of healing received, and increases the DMG of Dewdrop by 40%."
+        ],
+        "name": "Prosperity, Longevity",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1233001,
+            1233002
+        ]
+    },
+    "612331": {
+        "levels": [
+            "Charges Dewdrop at the beginning of a character's turn. The Charge value is equal to 60% of their current HP.",
+            "Charges Dewdrop at the beginning of a character's turn. The Charge value is equal to 70% of their Max HP."
+        ],
+        "name": "Mudra of Blessing",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1233101,
+            1233102
+        ]
+    },
+    "612332": {
+        "levels": [
+            "When a character provides healing, allies other than the healed target will also gain HP equal to 30% of the Outgoing Healing.",
+            "When a character provides healing, allies other than the healed target will also restore HP equal to 30% of the amount healed. Increases the ATK of all allies by 15% of the amount healed, stacking up to no more than 80% of each ally's respective Base ATK and lasts until the end of the next turn."
+        ],
+        "name": "Being of Abundance, Becoming One Mind",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1233201,
+            1233202
+        ]
+    },
+    "612340": {
+        "levels": [
+            "Restores HP to the character equal to 20% of the Charge value when Dewdrop ruptures, up to 18% of the character's Max HP.",
+            "Restores HP equal to 20% of the Charge value when Dewdrop ruptures, up to 24% of the character's Max HP and no less than 12% of their Max HP."
+        ],
+        "name": "Good Deeds Come After Old Sins",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1234001,
+            1234002
+        ]
+    },
+    "612341": {
+        "levels": [
+            "When a character's HP is full, increases the Charging Efficiency for Dewdrop by 80%.",
+            "When a character's HP is full, increases the Charging Efficiency for Dewdrop by 120%."
+        ],
+        "name": "Mortals of the Buddha-Field",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1234101,
+            1234102
+        ]
+    },
+    "612342": {
+        "levels": [
+            "When a Dewdrop breaks, there is a 65% fixed chance to remove 1 debuff on the character.",
+            "When a Dewdrop breaks, there is a 100% fixed chance to remove 1 debuff on the character."
+        ],
+        "name": "Salvation From Damnation",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1234201,
+            1234202
+        ]
+    },
+    "612343": {
+        "levels": [
+            "When a character provides healing to allies, increases the ATK of both units by 50% for 1 turn(s).",
+            "When a character provides healing to allies, increases the ATK of all allies by 50% for 1 turn(s)."
+        ],
+        "name": "Precious Moon-Like Candlelight",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1234301,
+            1234302
+        ]
+    },
+    "612344": {
+        "levels": [
+            "After launching attacks, characters deal Additional DMG equal to 36% of their current HP.",
+            "Whenever a character attacks, deals Additional DMG to the enemy equal to 42% of the character's Max HP."
+        ],
+        "name": "Aversion to Suffering",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1234401,
+            1234402
+        ]
+    },
+    "612345": {
+        "levels": [
+            "When a character's HP is full, reduces their DMG taken by 36%.",
+            "When a character's HP is full, reduces their DMG taken by 36%, and increases their Effect RES by 27%."
+        ],
+        "name": "Clear Lucite Body",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1234501,
+            1234502
+        ]
+    },
+    "612346": {
+        "levels": [
+            "When being healed by an ally, characters restore extra HP equal to 30% of the amount of HP healed.",
+            "When being healed by an ally, characters restore extra HP equal to 45% of the amount of HP healed."
+        ],
+        "name": "Prajna Boat",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1234601,
+            1234602
+        ]
+    },
+    "612350": {
+        "levels": [
+            "For each Abundance Blessing, increase allies' respective Max HP by 5%. This effect can stack up to a max of 6 time(s).",
+            "For each Abundance Blessing, increase allies' respective Max HP by 7%. This effect can stack up to a max of 9 time(s)."
+        ],
+        "name": "Rain of Truth",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1235001,
+            1235002
+        ]
+    },
+    "612351": {
+        "levels": [
+            "Increases Incoming Healing by 12%.",
+            "Increases Incoming Healing by 18%."
+        ],
+        "name": "Sweet Dew",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1235101,
+            1235102
+        ]
+    },
+    "612352": {
+        "levels": [
+            "Upon entering battle, characters restore HP equal to 24% of their Max HP.",
+            "Upon entering battle, characters restore HP equal to 36% of their Max HP."
+        ],
+        "name": "Extended Life",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1235201,
+            1235202
+        ]
+    },
+    "612353": {
+        "levels": [
+            "After a character inflicts Weakness Break on an enemy, restores HP to the character equal to 16% of their Max HP.",
+            "After a character inflicts Weakness Break on an enemy, restores HP to the character equal to 24% of their Max HP."
+        ],
+        "name": "Seal",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1235301,
+            1235302
+        ]
+    },
+    "612354": {
+        "levels": [
+            "After a character is healed, increases their DEF by 24% for 1 turn(s).",
+            "After a character is healed, increases their DEF by 36% for 1 turn(s)."
+        ],
+        "name": "Dispel Disaster",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1235401,
+            1235402
+        ]
+    },
+    "612355": {
+        "levels": [
+            "After a character provides healing, they restore HP equal to 12% of their Max HP. This effect can only trigger once per action.",
+            "After a character provides healing, they restore HP equal to 18% of their Max HP. This effect can only trigger once per action."
+        ],
+        "name": "Rebirth",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1235501,
+            1235502
+        ]
+    },
+    "612356": {
+        "levels": [
+            "After a character is healed, increases their SPD by 10% for 1 turn(s).",
+            "After a character is healed, increases their SPD by 15% for 1 turn(s)."
+        ],
+        "name": "Victorious Force",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1235601,
+            1235602
+        ]
+    },
+    "612357": {
+        "levels": [
+            "After a character provides healing, there is a 30% fixed chance to recover 1 Skill Point. This effect can only trigger once per action.",
+            "After a character provides healing, there is a 45% fixed chance to recover 1 Skill Point. This effect can only trigger once per action."
+        ],
+        "name": "Blessing",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            1235701,
+            1235702
+        ]
+    },
+    "612420": {
+        "path": "The Hunt",
+        "levels": [
+            "Spend 100 points of Energy to use this ability and resonate with the Path of The Hunt, dealing Wind DMG to all enemies based on the current ATK of the character currently with the highest ATK."
+        ],
+        "name": "Path Resonance: The Hunt",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1242001
+        ]
+    },
+    "612421": {
+        "path": "The Hunt",
+        "levels": [
+            "When using Path Resonance, the ally with the highest ATK will be given a turn instantly and be granted Light-Hunting Celestial Arrow, lasting until this ally uses any ability."
+        ],
+        "name": "Resonance Formation: Star Hunter",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1242101
+        ]
+    },
+    "612422": {
+        "path": "The Hunt",
+        "levels": [
+            "When Path Resonance: The Hunt deals damage, enemies whose HP is lower than 50% are guaranteed to receive CRIT Hits, with the CRIT DMG at 50%. When the enemy is defeated, regenerates 50% Energy."
+        ],
+        "name": "Resonance Formation: Bow and Arrow",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1242201
+        ]
+    },
+    "612423": {
+        "path": "The Hunt",
+        "levels": [
+            "Increase the Energy limit of Path Resonance from 100 to 200 points. When an ally's turn starts, additionally regenerates 3% Energy for Path Resonance."
+        ],
+        "name": "Resonance Formation: Perfect Aim",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1242301
+        ]
+    },
+    "612424": {
+        "path": "The Hunt",
+        "levels": [
+            "After using Path Resonance, all allies' SPD increases by 25 for 2 turn(s). This effect also applies to units summoned by allies."
+        ],
+        "name": "Resonance Interplay: Startling Breeze",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1242401
+        ]
+    },
+    "612425": {
+        "path": "The Hunt",
+        "levels": [
+            "After enemy target(s) are defeated by a Path Resonance, restores all allies' HP equal to 50% of their respective Max HP."
+        ],
+        "name": "Resonance Interplay: Shooting Starfire",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1242501
+        ]
+    },
+    "612426": {
+        "path": "The Hunt",
+        "levels": [
+            "For every Skill Point recovered by allies, the next Path Resonance deals 20% more DMG, stacking up to 8 time(s)."
+        ],
+        "name": "Resonance Interplay: Solemn Snare",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1242601
+        ]
+    },
+    "612427": {
+        "path": "The Hunt",
+        "levels": [
+            "When using Path Resonance, allies' Shield duration extends by 5 turn(s)."
+        ],
+        "name": "Resonance Interplay: Waiting with Drawn Bow",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1242701
+        ]
+    },
+    "612430": {
+        "levels": [
+            "When a character's turn begins, they gain 1 stack(s) of Critical Boost.",
+            "When a character's turn begins, they gain 1 stack(s) of Critical Boost and increases the stack limit of Critical Boost to 12."
+        ],
+        "name": "Imperial Reign",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1243001,
+            1243002
+        ]
+    },
+    "612431": {
+        "levels": [
+            "After a character defeats an enemy, their action is Advanced Forward by 100%. At the beginning of the next turn, they gain 4 stack(s) of Critical Boost.",
+            "After a character defeats an enemy, their action is Advanced Forward by 100%. At the beginning of the next turn, they gain 7 stack(s) of Critical Boost."
+        ],
+        "name": "Imperishable Victory",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1243101,
+            1243102
+        ]
+    },
+    "612432": {
+        "levels": [
+            "After a character inflicts Weakness Break on an enemy, their action Advances Forward by 100% and increases the DMG dealt by their next attack by 50%.",
+            "After a character inflicts Weakness Break on an enemy, their action Advances Forward by 100% and increases the DMG dealt by their next attack by 75%. If the Weakness Broken enemy is an Elite Enemy, then Action Advances for all allies."
+        ],
+        "name": "Celestial Annihilation",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1243201,
+            1243202
+        ]
+    },
+    "612440": {
+        "levels": [
+            "If a character has higher than 100% CRIT Rate and currently has Critical Boost, for every 1% CRIT Rate that exceeds 100%, CRIT DMG increases by 3%. CRIT DMG can be increased this way by up to 150%.",
+            "If a character has higher than 100% CRIT Rate and currently has Critical Boost, for every 1% CRIT Rate that exceeds 100%, CRIT DMG increases by 3%. For every stack of Critical Boost, CRIT DMG increases by an extra 0.002[f1]%. CRIT DMG can be increased this way by up to 200%."
+        ],
+        "name": "Battle Against the Old Foe",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1244001,
+            1244002
+        ]
+    },
+    "612441": {
+        "levels": [
+            "When a character's turn begins, every stack of Critical Boost restores the character's HP equal to 5% of their Max HP.",
+            "When a character's turn begins, or after they used their Ultimate, restores the character's HP equal to 5% of their Max HP for every stack of Critical Boost."
+        ],
+        "name": "Archery Duel",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1244101,
+            1244102
+        ]
+    },
+    "612442": {
+        "levels": [
+            "When any ally uses their Ultimate, they can inherit Critical Boost, and the number of Critical Boost stacks increases by 1.",
+            "When any ally uses their Ultimate or performs a follow-up attack, they can inherit Critical Boost, and the number of Critical Boost stacks increases by 1."
+        ],
+        "name": "Adept's Bow",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1244201,
+            1244202
+        ]
+    },
+    "612443": {
+        "levels": [
+            "When the same character acts consecutively, their ATK increases by 40%. This effect can stack up to 2 time(s).",
+            "When the same character acts consecutively, their ATK increases by 40%. This effect can stack up to 2 times and gives a 50% fixed chance to recover 1 Skill Point. This effect cannot be triggered repeatedly."
+        ],
+        "name": "Flowing Mist",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1244301,
+            1244302
+        ]
+    },
+    "612444": {
+        "levels": [
+            "When a character defeats an enemy, regenerates Energy equal to 60% of the character's Max Energy.",
+            "When a character defeats an enemy, regenerates Energy equal to 100% of the character's Max Energy."
+        ],
+        "name": "Auspicious Star",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1244401,
+            1244402
+        ]
+    },
+    "612445": {
+        "levels": [
+            "After every 6 turn(s) conducted by all allies, the current character's action is Advanced Forward by 100%. The effect cannot be triggered repeatedly by the same character.",
+            "After every 6 turn(s) conducted by all allies, the current character's action is Advanced Forward by 100%. The effect cannot be triggered repeatedly by the same character. Upon entering battle, 5 turn(s) are considered to have already passed."
+        ],
+        "name": "Ejecting the Borisin",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1244501,
+            1244502
+        ]
+    },
+    "612446": {
+        "levels": [
+            "When a character defeats an enemy, restores their HP equal to 48% of their Max HP.",
+            "After a character inflicts Weakness Break on an enemy, restores HP equal to 18% of their Max HP. When a character defeats an enemy, restores HP equal to 48% of their Max HP."
+        ],
+        "name": "Monster-Expelling Rainbow",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1244601,
+            1244602
+        ]
+    },
+    "612450": {
+        "levels": [
+            "For every Blessing from The Hunt, increases SPD by 3%. This effect can stack up to a max of 6 time(s).",
+            "For every Blessing from The Hunt, increases SPD by 4%. This effect can stack up to a max of 9 time(s)."
+        ],
+        "name": "Vermeil Bow and White Arrow",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1245001,
+            1245002
+        ]
+    },
+    "612451": {
+        "levels": [
+            "Increases CRIT Rate by 11%.",
+            "Increases CRIT Rate by 16%."
+        ],
+        "name": "Skirting Life and Death",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1245101,
+            1245102
+        ]
+    },
+    "612452": {
+        "levels": [
+            "Increases CRIT DMG by 20%.",
+            "Increases CRIT DMG by 30%."
+        ],
+        "name": "Shrewd Arrangement",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1245201,
+            1245202
+        ]
+    },
+    "612453": {
+        "levels": [
+            "After a character inflicts Weakness Break on an enemy, delays the enemy's action by 20%.",
+            "After a character inflicts Weakness Break on an enemy, delays the enemy's action by 30%."
+        ],
+        "name": "Thundering Chariot",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1245301,
+            1245302
+        ]
+    },
+    "612454": {
+        "levels": [
+            "Upon entering battle, characters' SPD increases by 30% until they are attacked.",
+            "Upon entering battle, characters' SPD increases by 45% until they are attacked."
+        ],
+        "name": "Constellation Surge",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1245401,
+            1245402
+        ]
+    },
+    "612455": {
+        "levels": [
+            "At the end of a character's turn, their next action is Advanced Forward by 8%.",
+            "At the end of a character's turn, their next action is Advanced Forward by 12%."
+        ],
+        "name": "Catastrophic Constellation",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1245501,
+            1245502
+        ]
+    },
+    "612456": {
+        "levels": [
+            "At the beginning of a character's turn, they regenerate 4 Energy.",
+            "At the beginning of a character's turn, they regenerate 6 Energy."
+        ],
+        "name": "Vaulting Ambition",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1245601,
+            1245602
+        ]
+    },
+    "612457": {
+        "levels": [
+            "At the beginning of a character's turn, receives an ATK boost equal to 10% of the last-acting ally's ATK. This will last until the next turn starts.",
+            "At the beginning of a character's turn, receives an ATK boost equal to 15% of the last-acting ally's ATK. This will last until the next turn starts."
+        ],
+        "name": "Blessed Bow and Arrow",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            1245701,
+            1245702
+        ]
+    },
+    "612520": {
+        "path": "Destruction",
+        "levels": [
+            "Spend 100 points of Energy to use this ability and resonate with the Path of Destruction, dealing Fire DMG to all enemies based on the current HP difference between Max HP and current HP for all allies combined."
+        ],
+        "name": "Path Resonance: Destruction",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1252001
+        ]
+    },
+    "612521": {
+        "path": "Destruction",
+        "levels": [
+            "Using a Path Resonance will consume HP from all allies up to 40% of their respective Max HP, increasing the DMG of Path Resonance: Destruction by 20%. The amount of HP consumed will be converted into a Shield lasting for 2 turn(s), with the same Shield value as the HP lost."
+        ],
+        "name": "Resonance Formation: Cataclysmic Variable",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1252101
+        ]
+    },
+    "612522": {
+        "path": "Destruction",
+        "levels": [
+            "The attacks of Path Resonance: Destruction have a 150% base chance to inflict Entropic Retribution on the enemy target for 2 turn(s)."
+        ],
+        "name": "Resonance Formation: Extreme Helium Flash",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1252201
+        ]
+    },
+    "612523": {
+        "path": "Destruction",
+        "levels": [
+            "When an ally whose current HP is below 35% gets attacked, automatically releases 1 Path Resonance without consuming Energy. This effect can be triggered up to a max of 2 time(s) in a single battle and cannot be triggered multiple times by the same attack."
+        ],
+        "name": "Resonance Formation: Event Horizon",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1252301
+        ]
+    },
+    "612524": {
+        "path": "Destruction",
+        "levels": [
+            "Using Path Resonance will cause any character with current HP percentage lower than 50% to gain a Shield equal to 40% of their Max HP, lasting for 2 turn(s)."
+        ],
+        "name": "Resonance Interplay: Substellar Belt",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1252401
+        ]
+    },
+    "612525": {
+        "path": "Destruction",
+        "levels": [
+            "When a character launches a follow-up attack, regenerates 5% Energy for Path Resonance. If the character's current HP percentage is lower than 50%, additionally regenerates 5% Energy for Path Resonance."
+        ],
+        "name": "Resonance Interplay: Zero Age Main Sequence",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1252501
+        ]
+    },
+    "612526": {
+        "path": "Destruction",
+        "levels": [
+            "When using Path Resonance to attack, additionally deals a set amount of DMG to all enemy targets whose HP is below 20% of their Max HP, reducing these targets' HP to 1."
+        ],
+        "name": "Resonance Interplay: Nuclear Implosion",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1252601
+        ]
+    },
+    "612527": {
+        "path": "Destruction",
+        "levels": [
+            "After losing HP due to allies or Path Resonance effects, the characters gain Healing Over Time that lasts 2 turn(s). At the start of every turn, restore HP equal to 30% of the consumed HP."
+        ],
+        "name": "Resonance Interplay: Protostar",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1252701
+        ]
+    },
+    "612530": {
+        "levels": [
+            "If a character's current HP is below 50%, they are considered to have 16 extra stacks of Fighting Spirit.",
+            "If a character's current HP is below 50%, they are considered to have 20 extra stacks of Fighting Spirit. For every 10% further HP lost, gains 2 extra stack(s) of Fighting Spirit."
+        ],
+        "name": "Non-Inverse Antimatter Equation",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1253001,
+            1253002
+        ]
+    },
+    "612531": {
+        "levels": [
+            "When characters are hit or are losing HP, they gain 4 stack(s) of Fighting Spirit. When the turn ends, the character loses 4 stack(s) of Fighting Spirit.",
+            "When characters are hit or are losing HP, the character gains 4 stacks of Fighting Spirit, and adjacent allies gain 1 stacks of Fighting Spirit. When the turn ends, the character loses 4 stacks of Fighting Spirit."
+        ],
+        "name": "Universal Heat Death Characteristic",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1253101,
+            1253102
+        ]
+    },
+    "612532": {
+        "levels": [
+            "When player characters are hit, DMG taken by the characters is equally distributed among all allies.",
+            "Receives 15% less DMG. When player characters are hit, DMG taken by the characters is equally distributed among all allies."
+        ],
+        "name": "Regression Inequality of Annihilation",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1253201,
+            1253202
+        ]
+    },
+    "612540": {
+        "levels": [
+            "After being hit, for each stack of Fighting Spirit the character has, the character deals Additional DMG equal to 4% of their ATK to the attacker. This DMG will not be able to defeat the enemy.",
+            "After being hit, for each stack of Fighting Spirit the character has, the character deals Additional DMG equal to 4% of their ATK plus 2% of the current HP loss to the attacker. This DMG will not be able to defeat the enemy."
+        ],
+        "name": "Incremental Doomsday",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1254001,
+            1254002
+        ]
+    },
+    "612541": {
+        "levels": [
+            "If a character attacks while having Fighting Spirit, consumes HP equal to 10% of current HP and deals Additional DMG equal to 60% of the HP lost.",
+            "If a character attacks while having Fighting Spirit, consumes HP equal to 10% of current HP and deals Additional DMG equal to 60% of the HP lost. For each stack of Fighting Spirit, deals Additional DMG equal to 1% of the HP lost."
+        ],
+        "name": "Catastrophic Resonance",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1254101,
+            1254102
+        ]
+    },
+    "612542": {
+        "levels": [
+            "For each stack of Fighting Spirit, reduces the DMG taken by the character by 0.008[f1]%.",
+            "For each stack of Fighting Spirit, reduces the DMG taken by characters by 0.008[f1]%. Fighting Spirit can stack up to 45 time(s)."
+        ],
+        "name": "Indicative Depth of Field",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1254201,
+            1254202
+        ]
+    },
+    "612543": {
+        "levels": [
+            "For every 1% of the difference between a character's Max HP and current HP, their ATK increases by 0.008[f1]%.",
+            "For every 1% of a character's Max HP that is lost, their ATK increases by 0.008[f1]% and DEF by 0.005[f1]%."
+        ],
+        "name": "Devastating Accretion",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1254301,
+            1254302
+        ]
+    },
+    "612544": {
+        "levels": [
+            "When a character's HP is lower than 50%, deals 40% increased DMG.",
+            "When a character's HP is lower than 50%, deals 50% increased DMG. When HP's lower than 35%, DMG dealt further increases by 20%."
+        ],
+        "name": "Destructive Flare",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1254401,
+            1254402
+        ]
+    },
+    "612545": {
+        "levels": [
+            "If a character's HP is lower than 35% after being attacked or losing HP, restores their HP by 12% of their Max HP.",
+            "If a character's HP is lower than 35% after being attacked or losing HP, restores their HP by 12% of their Max HP. The lower the current HP is, the more HP will be restored this way, but no more than 20%."
+        ],
+        "name": "Disciplinary Flicker",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1254501,
+            1254502
+        ]
+    },
+    "612546": {
+        "levels": [
+            "After a character uses their Ultimate, they gain a Shield that can absorb DMG equal to 25% of the HP difference between their Max HP and current HP, lasting for 2 turn(s).",
+            "After a character uses their Ultimate, they gain a Shield that can absorb DMG equal to 25% of the HP difference between their Max HP and current HP, plus 7% of their Max HP, lasting for 2 turn(s)."
+        ],
+        "name": "Hazardous Lucent Residue",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1254601,
+            1254602
+        ]
+    },
+    "612550": {
+        "levels": [
+            "Characters gain a 5% ATK increase for each Destruction Blessing. This effect can stack up to a max of 6 time(s).",
+            "Characters gain a 7% ATK increase for each Destruction Blessing. This effect can stack up to a max of 9 time(s)."
+        ],
+        "name": "Primordial Black Hole",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1255001,
+            1255002
+        ]
+    },
+    "612551": {
+        "levels": [
+            "When struck with a killing blow, instead of becoming downed, characters immediately restore HP by 1% of their Max HP. The allied team can only trigger this effect 1 time(s) per battle.",
+            "When struck with a killing blow, instead of becoming downed, characters immediately restore HP by 30% of their Max HP. The allied team can only trigger this effect 1 time(s) per battle."
+        ],
+        "name": "Reflection",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1255101,
+            1255102
+        ]
+    },
+    "612552": {
+        "levels": [
+            "Increases Max HP by 16%.",
+            "Increases Max HP by 24%."
+        ],
+        "name": "Orbital Redshift",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1255201,
+            1255202
+        ]
+    },
+    "612553": {
+        "levels": [
+            "When characters are hit or have lost HP, 4 Energy is regenerated.",
+            "When characters are hit or have lost HP, 6 Energy is regenerated."
+        ],
+        "name": "Instability Strip",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1255301,
+            1255302
+        ]
+    },
+    "612554": {
+        "levels": [
+            "Upon entering battle, characters gain a Shield that can absorb DMG equal to 36% the HP difference between the character's Max HP and current HP, lasting for 2 turn(s).",
+            "Upon entering battle, characters gain a Shield that can absorb DMG equal to 54% the HP difference between the character's Max HP and current HP, lasting for 2 turn(s)."
+        ],
+        "name": "Metric Reservation",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1255401,
+            1255402
+        ]
+    },
+    "612555": {
+        "levels": [
+            "When a character's HP is lower than 50%, they gain a Shield that can absorb DMG equal to 20% of their Max HP for 2 turn(s). This effect can only be triggered 1 time(s) by each character per battle.",
+            "When a character's HP is lower than 50%, they gain a Shield that can absorb DMG equal to 30% of their Max HP for 2 turn(s). This effect can only be triggered 1 time(s) by each character per battle."
+        ],
+        "name": "Sentinel Satellite",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1255501,
+            1255502
+        ]
+    },
+    "612556": {
+        "levels": [
+            "For every 1% of HP lost by a character, their DEF increases by 0.004[f2]%.",
+            "For every 1% of HP lost by a character, their DEF increases by 0.006[f2]%."
+        ],
+        "name": "Polarization Receptor",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1255601,
+            1255602
+        ]
+    },
+    "612557": {
+        "levels": [
+            "For every 1% of HP lost by a character, their Effect RES increases by 0.003[f2]%.",
+            "For every 1% of HP lost by a character, their Effect RES increases by 0.005[f2]%."
+        ],
+        "name": "Eternally Collapsing Object",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            1255701,
+            1255702
+        ]
+    },
+    "612620": {
+        "path": "Elation",
+        "levels": [
+            "Spend 100 points of Energy to use this ability and resonate with the Path of Elation, dealing follow-up attacks of a random Type to all enemies for 3 – 5 time(s)."
+        ],
+        "name": "Path Resonance: Elation",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1262001
+        ]
+    },
+    "612621": {
+        "path": "Elation",
+        "levels": [
+            "When Path Resonance: Elation deals DMG, there is a 150% base chance to apply Sensory Pursuit to enemies for 1 turn."
+        ],
+        "name": "Resonance Formation: Doomsday Carnival",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1262101
+        ]
+    },
+    "612622": {
+        "path": "Elation",
+        "levels": [
+            "Increase the Energy limit of Path Resonance from 100 to 200 points. Using abilities to resonate with a Path will consume all Energy. For every 20% Energy consumed that exceeds the original limit, attacks will deal DMG for 1 extra time."
+        ],
+        "name": "Resonance Formation: Dance of Growth",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1262201
+        ]
+    },
+    "612623": {
+        "path": "Elation",
+        "levels": [
+            "When entering battle, Path Resonance regenerates 40% Energy. When a character launches a follow-up attack, Path Resonance additionally regenerates 5% Energy."
+        ],
+        "name": "Resonance Formation: Instant Win",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1262301
+        ]
+    },
+    "612624": {
+        "path": "Elation",
+        "levels": [
+            "When Path Resonance: Elation deals DMG, randomly dispels 1 debuff on 1 ally."
+        ],
+        "name": "Resonance Interplay: The Taste of Anglerfish",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1262401
+        ]
+    },
+    "612625": {
+        "path": "Elation",
+        "levels": [
+            "When Path Resonance: Elation deals Ice DMG, there is a 150% base chance to Freeze the enemy target for 1 turn(s)."
+        ],
+        "name": "Resonance Interplay: Guinea Pig in Ice Coffin",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1262501
+        ]
+    },
+    "612626": {
+        "path": "Elation",
+        "levels": [
+            "When Path Resonance deals Fire/Wind/Physical/Lightning DMG, there is a 50% base chance to apply a DoT of the same Type, lasting for 1 turns."
+        ],
+        "name": "Resonance Interplay: Unending Night",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1262601
+        ]
+    },
+    "612627": {
+        "path": "Elation",
+        "levels": [
+            "When using the Path Resonance, for every 20 Energy consumed, the ally with the highest ATK and all units summoned by allies will have their action Advanced Forward by 10%."
+        ],
+        "name": "Resonance Interplay: Pit and Pendulum",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1262701
+        ]
+    },
+    "612630": {
+        "levels": [
+            "After a character launches a follow-up attack, they deal Aftertaste DMG equal to 55% of their ATK for 1 to 3 time(s).",
+            "After a character launches a follow-up attack, they deal Aftertaste DMG equal to 60% of their ATK for 1 – 3 time(s). And increases Aftertaste DMG by 35%."
+        ],
+        "name": "Auto-Harmonica: Whitest Night",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1263001,
+            1263002
+        ]
+    },
+    "612631": {
+        "levels": [
+            "When characters launch follow-up attacks to an enemy, deals Aftertaste DMG equal to 80% of their ATK to the enemy being hit. If the enemy also has their Weakness Broken, then deals DMG for 1 extra time(s).",
+            "When characters launch follow-up attacks to an enemy, deals Aftertaste DMG equal to 80% of their ATK to the enemy being hit. If the enemy also has their Weakness Broken, then deals DMG for 2 extra time(s)."
+        ],
+        "name": "Slaughterhouse No. 4: Rest in Peace",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1263101,
+            1263102
+        ]
+    },
+    "612632": {
+        "levels": [
+            "When characters deal DMG to an enemy with their Ultimate, this attack is considered a follow-up attack. Increases the DMG of follow-up attacks by 15%.",
+            "When characters deal DMG to an enemy with their Ultimate, this attack is considered a follow-up attack. Increases the DMG of follow-up attacks by 55%."
+        ],
+        "name": "Champion's Dinner: Cat's Cradle",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1263201,
+            1263202
+        ]
+    },
+    "612640": {
+        "levels": [
+            "When causing Aftertaste DMG to an enemy, characters deal additional Aftertaste DMG of different Types for 1 time(s), at DMG values equal to 60% of the original DMG.",
+            "When causing Aftertaste DMG to an enemy, characters deal extra Aftertaste DMG of different Types for 1 time(s), at DMG values equal to 90% of the original DMG."
+        ],
+        "name": "Portrait of A Man On Fire",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1264001,
+            1264002
+        ]
+    },
+    "612641": {
+        "levels": [
+            "For every 1 Type of Aftertaste DMG the enemy received, increases the DMG taken by them by 8% until the end of their next action.",
+            "For every 1 Type of Aftertaste DMG the enemy received, increases the DMG taken by them by 12% until the end of their next action."
+        ],
+        "name": "Just Keep on Crying!",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1264101,
+            1264102
+        ]
+    },
+    "612642": {
+        "levels": [
+            "For every 1 Type of Aftertaste DMG the enemy received, reduces their ATK by 4% until the end of their next action.",
+            "For every 1 Type of Aftertaste DMG the enemy received, reduces their ATK by 6% until the end of their next action."
+        ],
+        "name": "The Hourglass Kindergarten",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1264201,
+            1264202
+        ]
+    },
+    "612643": {
+        "levels": [
+            "For each enemy hit by a character's follow-up attack, the character deals Additional DMG equal to 24% of their ATK to all enemies hit.",
+            "For each enemy hit by a character's follow-up attack, the character deals Additional DMG equal to 36% of their ATK to all enemies hit."
+        ],
+        "name": "The Painted Albatross",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1264301,
+            1264302
+        ]
+    },
+    "612644": {
+        "levels": [
+            "When a character deals DMG to an enemy with a follow-up attack, DMG for this follow-up attack increases by 4%.",
+            "When a character deals DMG to an enemy with a follow-up attack, DMG for this follow-up attack increases by 6%."
+        ],
+        "name": "12 Monkeys and Angry Men",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1264401,
+            1264402
+        ]
+    },
+    "612645": {
+        "levels": [
+            "When a character launches follow-up attacks on enemies, the enemies' action is delayed by 12%.",
+            "When characters launch follow-up attacks on enemies, the attacked enemies' actions are delayed by 12%, and there is a 10% base chance to cause Imprisonment on the enemies, lasting for 1 turn(s)."
+        ],
+        "name": "Aiden Gravitational Rainbow",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1264501,
+            1264502
+        ]
+    },
+    "612646": {
+        "levels": [
+            "After a character launches follow-up attacks, there is a 65% fixed chance to recover 1 Skill Point.",
+            "After a character launches follow-up attacks, there is a 100% fixed chance to recover 1 Skill Point."
+        ],
+        "name": "Twenty-First Military Rule",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1264601,
+            1264602
+        ]
+    },
+    "612650": {
+        "levels": [
+            "Increases the DMG of follow-up attacks by 9% for each Elation Blessing. This effect can stack up to a max of 6 time(s).",
+            "Increases the DMG of follow-up attacks by 12% for each Elation Blessing. This effect can stack up to a max of 9 time(s)."
+        ],
+        "name": "Exemplary Conduct",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1265001,
+            1265002
+        ]
+    },
+    "612651": {
+        "levels": [
+            "Increases the Weakness Break efficiency of follow-up attacks by 35%.",
+            "Increases the Weakness Break efficiency of follow-up attacks by 50%."
+        ],
+        "name": "Mostly Harmful",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1265101,
+            1265102
+        ]
+    },
+    "612652": {
+        "levels": [
+            "Increases the DMG of follow-up attacks by 26%.",
+            "Increases the DMG of follow-up attacks by 39%."
+        ],
+        "name": "Suspiria",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1265201,
+            1265202
+        ]
+    },
+    "612653": {
+        "levels": [
+            "Increases the CRIT Rate of follow-up attacks by 26%.",
+            "Increases the CRIT Rate of follow-up attacks by 39%."
+        ],
+        "name": "Pale Fire",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1265301,
+            1265302
+        ]
+    },
+    "612654": {
+        "levels": [
+            "When a character deals DMG to an enemy with a follow-up attack, increases their Energy Regeneration Rate by 24%.",
+            "When a character deals DMG to an enemy with a follow-up attack, increases their Energy Regeneration Rate by 36%."
+        ],
+        "name": "Back to the Lighthouse",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1265401,
+            1265402
+        ]
+    },
+    "612655": {
+        "levels": [
+            "After a character launches a follow-up attack, restores their HP by 10% of their Max HP.",
+            "After a character launches a follow-up attack, restores their HP by 15% of their Max HP."
+        ],
+        "name": "Doctor of Love",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1265501,
+            1265502
+        ]
+    },
+    "612656": {
+        "levels": [
+            "After characters launch follow-up attacks, increase their DEF by 40% for 1 turn(s).",
+            "After characters launch follow-up attacks, increase their DEF by 40% for 2 turn(s)."
+        ],
+        "name": "Platinum Age",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1265601,
+            1265602
+        ]
+    },
+    "612657": {
+        "levels": [
+            "After characters launch follow-up attacks, increases SPD by 16% for 1 turn(s).",
+            "After characters launch follow-up attacks, increases SPD by 16% for 2 turn(s)."
+        ],
+        "name": "Clockwork Apple",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            1265701,
+            1265702
+        ]
+    },
+    "612720": {
+        "path": "Propagation",
+        "levels": [
+            "Consumes 100 Energy to resonate with the Path of Propagation and allows a target ally to immediately take action, recover 2 Skill Point(s) and become affected by Metamorphosis. Metamorphosis lasts for 1 turn and only takes effect on the latest target."
+        ],
+        "name": "Path Resonance: Propagation",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1272001
+        ]
+    },
+    "612721": {
+        "path": "Propagation",
+        "levels": [
+            "Extends the duration of Metamorphosis for 1 turn. After a character with Metamorphosis defeats an enemy, Path Resonance regenerates 20% Energy."
+        ],
+        "name": "Resonance Formation: Proboscis",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1272101
+        ]
+    },
+    "612722": {
+        "path": "Propagation",
+        "levels": [
+            "Increase the Energy limit of Path Resonance from 100 to 200 points. After a character consumes or recovers Skill Points, additionally regenerates 0.01[f1]% Energy for Path Resonance."
+        ],
+        "name": "Resonance Formation: Phenol Compounds",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1272201
+        ]
+    },
+    "612723": {
+        "path": "Propagation",
+        "levels": [
+            "Metamorphosis additionally increases DMG dealt by a character by 40%. Only when a character is under the Metamorphosis effect can they cause Spores to burst. Every time a character causes a Spore to burst, additionally deal Basic ATK DMG equal to 80% of the character's ATK. This effect can trigger up to 3 time(s) on the same target."
+        ],
+        "name": "Resonance Formation: Crystal Pincers",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1272301
+        ]
+    },
+    "612724": {
+        "path": "Propagation",
+        "levels": [
+            "After using Path Resonance, nullifies all DMG received by a single target ally except DoT. This status is dispelled after being attacked. If the target ally's current HP percentage is lower than 50% when Path Resonance is used, it will additionally recover 1 Skill Point(s)."
+        ],
+        "name": "Resonance Interplay: Superposition Eye",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1272401
+        ]
+    },
+    "612725": {
+        "path": "Propagation",
+        "levels": [
+            "When using Path Resonance, a single target ally gain a Shield equal to 60% of Max HP, lasting for 3 turn(s)."
+        ],
+        "name": "Resonance Interplay: Adherent Microbial Mat",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1272501
+        ]
+    },
+    "612726": {
+        "path": "Propagation",
+        "levels": [
+            "When using Path Resonance, heals the target ally for 50% of their Max HP. 200% of the healing that exceeds Max HP will be evenly distributed among other characters."
+        ],
+        "name": "Resonance Interplay: Compounded Macrospore",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1272601
+        ]
+    },
+    "612727": {
+        "path": "Propagation",
+        "levels": [
+            "Characters in the Metamorphosis status deal 20% more DMG to Frozen enemies. In addition, their attacks have a 10% base chance to Freeze hit targets for 1 turns."
+        ],
+        "name": "Resonance Interplay: Condensation Cavity",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1272701
+        ]
+    },
+    "612730": {
+        "levels": [
+            "For each Skill Point a character consumes, all enemies will gain 1 Spore(s).",
+            "For each Skill Point a character consumes, all enemies will gain 1 Spores. When all Skill Points are consumed, the SPD of the character who consumed the last Skill Point increases by 20% for 2 turn(s)."
+        ],
+        "name": "Spore Discharge",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1273001,
+            1273002
+        ]
+    },
+    "612731": {
+        "levels": [
+            "For each Skill Point recovered, apply 1 Spore to 2 random enemy target(s).",
+            "For each Skill Point recovered, apply 1 Spore to 2 random enemy target(s). The max number of Spores that can be possessed increases to 9."
+        ],
+        "name": "Fungal Pustule",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1273101,
+            1273102
+        ]
+    },
+    "612732": {
+        "levels": [
+            "After a character uses their Ultimate, the next time they consume Skill Points, it will be considered as 1 additional Skill Point being consumed. For each Skill Point consumed, the character's CRIT DMG increases by 40%. This effect can stack up to 2 time(s), lasting until the character uses an attack.",
+            "After a character uses their Ultimate, the next time they consume or recover Skill Points, it will be considered as 1 additional Skill Point being consumed or recovered. For each Skill Point consumed, the character's CRIT DMG increases by 45%. This effect can stack up to 2 time(s), lasting until the character uses an attack."
+        ],
+        "name": "Scythe Limbs",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1273201,
+            1273202
+        ]
+    },
+    "612740": {
+        "levels": [
+            "Changes the number of times Spores can spread after bursting to 2 times. Can also spread to the original bearer of Spores.",
+            "Changes the number of times Spores can spread after bursting to 3 times. Can also spread to the original bearer of Spores."
+        ],
+        "name": "Putrefaction Ulcer",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1274001,
+            1274002
+        ]
+    },
+    "612741": {
+        "levels": [
+            "Increases the DMG caused by Spores bursting. The DMG increased is equal to 35% of the original DMG. After the target enemy was defeated, the Spores they were carrying will spread to targets adjacent to them.",
+            "Increases the DMG caused by Spores bursting. The DMG increased is equal to 50% of the original DMG. After the target enemy was defeated, the Spores they were carrying will spread to other enemy targets."
+        ],
+        "name": "Lytic Enzyme",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1274101,
+            1274102
+        ]
+    },
+    "612742": {
+        "levels": [
+            "For each Spore that bursts, heals the character with the lowest HP by 10% of their Max HP.",
+            "For each Spore possessed by all enemies, reduces the DMG received by all allies by 0.008[f1]%, After the Spores burst, heals the ally with the lowest HP by 12% of their Max HP."
+        ],
+        "name": "Metabolic Cavity",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1274201,
+            1274202
+        ]
+    },
+    "612743": {
+        "levels": [
+            "If the team has 0 Skill Point when an ally uses their Basic ATK, additionally recovers 1 Skill Point.",
+            "If the Skill Point is 0 when using Basic ATK, additionally recovers 1 Skill Point and has a 50% fixed chance of further recovering 1 Skill Point."
+        ],
+        "name": "Excitatory Gland",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1274301,
+            1274302
+        ]
+    },
+    "612744": {
+        "levels": [
+            "The DMG dealt by Basic ATK will deal DMG equal to 30% of the original DMG to a random adjacent target.",
+            "The DMG dealt by Basic ATK will deal DMG equal to 35% of the original DMG to adjacent targets."
+        ],
+        "name": "Exposed Brain Matter",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1274401,
+            1274402
+        ]
+    },
+    "612745": {
+        "levels": [
+            "For each Skill Point a character consumes, the DMG received by them reduces by 8% for 1 turn(s). This effect can be stacked up to 2 time(s).",
+            "For each Skill Point a character consumes, the DMG received by them reduces by 8% for 1 turn(s). This effect can be stacked up to 3 time(s)."
+        ],
+        "name": "Intersegmental Membrane",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1274501,
+            1274502
+        ]
+    },
+    "612746": {
+        "levels": [
+            "After a character uses their Skill and if the Skill did not unleash an attack, all allies' DMG dealt increases by 20% for 1 turn(s). This effect can be stacked up to 3 time(s).",
+            "After a character uses their Skill and if the Skill did not unleash an attack, all allies' DMG dealt increases by 30% for 1 turn(s). This effect can be stacked up to 3 time(s)."
+        ],
+        "name": "Catalyst",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1274601,
+            1274602
+        ]
+    },
+    "612750": {
+        "levels": [
+            "For each Blessing of Propagation in possession, increases all characters' Basic ATK DMG by 9%. This effect can stacked up to 6 time(s).",
+            "For each Blessing of Propagation in possession, increases all characters' Basic ATK DMG by 12%. This effect can stacked up to 9 time(s)."
+        ],
+        "name": "Osseus Blade",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1275001,
+            1275002
+        ]
+    },
+    "612751": {
+        "levels": [
+            "Characters' Basic ATK CRIT Rate increases by 24%.",
+            "Characters' Basic ATK CRIT Rate increases by 36%."
+        ],
+        "name": "Spinal Spur",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1275101,
+            1275102
+        ]
+    },
+    "612752": {
+        "levels": [
+            "Characters' Basic ATK CRIT DMG increases by 40%.",
+            "Characters' Basic ATK CRIT DMG increases by 60%."
+        ],
+        "name": "Channeled Needle",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1275201,
+            1275202
+        ]
+    },
+    "612753": {
+        "levels": [
+            "After characters use Basic ATKs, their DEF increases by 40% for 1 turn(s).",
+            "After characters use Basic ATKs, their DEF increases by 40% for 2 turn(s)."
+        ],
+        "name": "Conjunctiva",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1275301,
+            1275302
+        ]
+    },
+    "612754": {
+        "levels": [
+            "After characters use Basic ATKs, their SPD increases by 16% for 1 turn(s).",
+            "After characters use Basic ATKs, their SPD increases by 16% for 2 turn(s)."
+        ],
+        "name": "Scaled Wing",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1275401,
+            1275402
+        ]
+    },
+    "612755": {
+        "levels": [
+            "After entering battle, recovers 1 Skill Point after each ally's turn. This effect can be triggered up to 3 time(s) across all allies.",
+            "After entering battle, recovers 1 Skill Point after each ally's turn. This effect can be triggered up to 5 time(s) across all allies."
+        ],
+        "name": "Compound Eye",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1275501,
+            1275502
+        ]
+    },
+    "612756": {
+        "levels": [
+            "For each Skill Point a character consumes, the character regenerates 3 extra Energy.",
+            "For each Skill Point a character consumes, the character regenerates 4 extra Energy."
+        ],
+        "name": "Sporangium",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1275601,
+            1275602
+        ]
+    },
+    "612757": {
+        "levels": [
+            "For each Skill Point a character consumes, the character restores HP equal to 10% of their Max HP.",
+            "For each Skill Point a character consumes, the character restores HP equal to 15% of their Max HP."
+        ],
+        "name": "Vesicle",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            1275701,
+            1275702
+        ]
+    },
+    "612820": {
+        "path": "Erudition",
+        "levels": [
+            "Consume 100 Energy to resonate with the Path of Erudition. Path Resonance links the enemy with the highest Max HP with other enemies, inflicting Synapse Resonance on all enemies and dealing Imaginary DMG to them."
+        ],
+        "name": "Path Resonance: \"Erudition\"",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Erudition",
+            "subtitle": "Erudition",
+            "hint": "Explore Simulated Universe: Gold and Gears to unlock this Path"
+        },
+        "tags": [
+            1282001
+        ]
+    },
+    "612821": {
+        "path": "Erudition",
+        "levels": [
+            "When an enemy target with Synapse Resonance is attacked by Ultimate, the enemy target with the highest Max HP takes increased DMG equal to 50% of the attacking character's ATK."
+        ],
+        "name": "Resonance Formation: Melt Core",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Erudition",
+            "subtitle": "Erudition",
+            "hint": "Explore Simulated Universe: Gold and Gears to unlock this Path"
+        },
+        "tags": [
+            1282101
+        ]
+    },
+    "612822": {
+        "path": "Erudition",
+        "levels": [
+            "When characters defeat an enemy with Synapse Resonance, the effect is additionally triggered for 2 time(s)."
+        ],
+        "name": "Resonance Formation: Chain Contagion",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Erudition",
+            "subtitle": "Erudition",
+            "hint": "Explore Simulated Universe: Gold and Gears to unlock this Path"
+        },
+        "tags": [
+            1282201
+        ]
+    },
+    "612823": {
+        "path": "Erudition",
+        "levels": [
+            "When an enemy target appears, regenerates Path Resonance Energy equal to 0.05[f1]% of the combined Max Energy of all characters."
+        ],
+        "name": "Resonance Formation: Memetic Inversion",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Erudition",
+            "subtitle": "Erudition",
+            "hint": "Explore Simulated Universe: Gold and Gears to unlock this Path"
+        },
+        "tags": [
+            1282301
+        ]
+    },
+    "612826": {
+        "path": "Erudition",
+        "levels": [
+            "When enemies with Synapse Resonance are attacked by follow-up attacks, the effect is additionally triggered 1 time and the available Synapse Resonance count is not reduced."
+        ],
+        "name": "Resonance Interplay: Full Scan",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Erudition",
+            "subtitle": "Erudition",
+            "hint": "Explore Simulated Universe: Gold and Gears to unlock this Path"
+        },
+        "tags": [
+            1282601
+        ]
+    },
+    "612827": {
+        "path": "Erudition",
+        "levels": [
+            "Attacks against Weakness Broken enemies do not reduce the available Synapse Resonance count."
+        ],
+        "name": "Resonance Interplay: Data Reinforcement",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Erudition",
+            "subtitle": "Erudition",
+            "hint": "Explore Simulated Universe: Gold and Gears to unlock this Path"
+        },
+        "tags": [
+            1282701
+        ]
+    },
+    "612830": {
+        "levels": [
+            "When entering battle, charges the Brain in a Vat by 65%. Breaking an enemy's Weakness charges the Brain in a Vat by 35%.",
+            "When entering battle, charges Brain in a Vat by 100%. Breaking an enemy's Weakness or attacking Weakness Broken enemies will charge Brain in a Vat by 40% or 5% respectively. This effect can only be triggered once by each enemy during each attack."
+        ],
+        "name": "BCI-34 Gray Matter",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Erudition",
+            "subtitle": "Erudition",
+            "hint": "Explore Simulated Universe: Gold and Gears to unlock this Path"
+        },
+        "tags": [
+            1283001,
+            1283002
+        ]
+    },
+    "612831": {
+        "levels": [
+            "Dealing fatal DMG to enemies will charge the Brain in a Vat by 50%.",
+            "Dealing fatal DMG to enemies charges the Brain in a Vat by 50%. When the Brain in a Vat is fully charged, characters' SPD increases by 20% for 2 turn(s)."
+        ],
+        "name": "SMR-2 Amygdala",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Erudition",
+            "subtitle": "Erudition",
+            "hint": "Explore Simulated Universe: Gold and Gears to unlock this Path"
+        },
+        "tags": [
+            1283101,
+            1283102
+        ]
+    },
+    "612832": {
+        "levels": [
+            "The All-Type RES PEN for characters' Ultimate DMG increases by 20%. When Ultimate is used, for every hit enemy target, the All-Type RES PEN for the next Ultimate's DMG will additionally increase by 3%.",
+            "The All-Type RES PEN for characters' Ultimate DMG increases by 25%. For each enemy target hit by the Ultimate that achieves the highest number of enemy hits in a single attack in this battle, the All-Type RES PEN for the Ultimate DMG additionally increases by 3%."
+        ],
+        "name": "VEP-18 Occipital Lobe",
+        "rarity": 3,
+        "type": {
+            "title": "Blessings of Erudition",
+            "subtitle": "Erudition",
+            "hint": "Explore Simulated Universe: Gold and Gears to unlock this Path"
+        },
+        "tags": [
+            1283201,
+            1283202
+        ]
+    },
+    "612840": {
+        "levels": [
+            "When characters use Ultimates via Brain in a Vat, their CRIT DMG increases by 80%, lasting until this ability ends.",
+            "When characters use Ultimates via Brain in a Vat, their CRIT DMG increases by 90%. This CRIT DMG increase lasts until the next attack ends."
+        ],
+        "name": "Attachment: Vestibular System",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Erudition",
+            "subtitle": "Erudition",
+            "hint": "Explore Simulated Universe: Gold and Gears to unlock this Path"
+        },
+        "tags": [
+            1284001,
+            1284002
+        ]
+    },
+    "612841": {
+        "levels": [
+            "For every 1 Energy that exceeds the characters' Max Energy, charges Brain in a Vat by 0.008[f1]%.",
+            "For every 1 Energy that exceeds the characters' Max Energy, charges Brain in a Vat by 0.012[f1]%."
+        ],
+        "name": "Imitation: Transmitter Synthesis",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Erudition",
+            "subtitle": "Erudition",
+            "hint": "Explore Simulated Universe: Gold and Gears to unlock this Path"
+        },
+        "tags": [
+            1284101,
+            1284102
+        ]
+    },
+    "612842": {
+        "levels": [
+            "After characters use their Ultimate via Brain in a Vat, they gain a Shield equal in strength to 36% of their Max HP, lasting for 2 turns.",
+            "After characters use their Ultimate via Brain in a Vat, they gain a Shield equal in strength to 45% of their Max HP, lasting for 3 turns."
+        ],
+        "name": "Implant: Explicit Memory",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Erudition",
+            "subtitle": "Erudition",
+            "hint": "Explore Simulated Universe: Gold and Gears to unlock this Path"
+        },
+        "tags": [
+            1284201,
+            1284202
+        ]
+    },
+    "612843": {
+        "levels": [
+            "After characters use an attack, they deal Additional DMG to the attacked enemy target(s). For every enemy target that was attacked, increase Additional DMG by 15% of the character's ATK.",
+            "After characters use an attack, they deal Additional DMG to the attacked enemy target(s). For every enemy target that was attacked, increase Additional DMG by 20% of the character's ATK. Up to 5 enemies that have been defeated in the current battle will also be regarded as having been attacked."
+        ],
+        "name": "Mimesis: Tactile Pathway",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Erudition",
+            "subtitle": "Erudition",
+            "hint": "Explore Simulated Universe: Gold and Gears to unlock this Path"
+        },
+        "tags": [
+            1284301,
+            1284302
+        ]
+    },
+    "612844": {
+        "levels": [
+            "Characters' Ultimate DMG increases by 50%, lasting until the end of the first Ultimate they use in battle. After entering battle, characters regenerate energy equal to 60% of their respective Max Energy.",
+            "Characters' Ultimate DMG increases by 50%. After entering battle, regenerates energy equal to 100% of the character's Max Energy."
+        ],
+        "name": "Analysis: Subliminal Sensation",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Erudition",
+            "subtitle": "Erudition",
+            "hint": "Explore Simulated Universe: Gold and Gears to unlock this Path"
+        },
+        "tags": [
+            1284401,
+            1284402
+        ]
+    },
+    "612845": {
+        "levels": [
+            "If characters' AoE ATK ability only attacks 1 enemy, this ATK will deal a set amount of DMG equal to 40% of the original DMG to the attacked enemy target.",
+            "If characters' AoE ATK ability only attacks 1 enemy, this ATK will deal a set amount of DMG equal to 60% of the original DMG to the attacked enemy target."
+        ],
+        "name": "Load: Striated Cortex",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Erudition",
+            "subtitle": "Erudition",
+            "hint": "Explore Simulated Universe: Gold and Gears to unlock this Path"
+        },
+        "tags": [
+            1284501,
+            1284502
+        ]
+    },
+    "612846": {
+        "levels": [
+            "When characters use their Ultimate to attack enemies that are Weakness Broken, delay the enemy's action by 16%. Every time the enemy target becomes Weakness Broken, this effect can be triggered up to 3 times.",
+            "When characters use their Ultimate to attack enemies that are Weakness Broken, delay the enemy's action by 24%. Every time the enemy target becomes Weakness Broken, this effect can be triggered up to 3 times."
+        ],
+        "name": "Stimulation: Saltatory Conduction",
+        "rarity": 2,
+        "type": {
+            "title": "Blessings of Erudition",
+            "subtitle": "Erudition",
+            "hint": "Explore Simulated Universe: Gold and Gears to unlock this Path"
+        },
+        "tags": [
+            1284601,
+            1284602
+        ]
+    },
+    "612850": {
+        "levels": [
+            "For every Blessing of Erudition currently in possession, characters' Ultimate DMG increases by 7%, stacking up to 6 times.",
+            "For every Blessing of Erudition currently in possession, characters' Ultimate DMG increases by 10%, stacking up to 9 times."
+        ],
+        "name": "Throne of Engaged Gears",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Erudition",
+            "subtitle": "Erudition",
+            "hint": "Explore Simulated Universe: Gold and Gears to unlock this Path"
+        },
+        "tags": [
+            1285001,
+            1285002
+        ]
+    },
+    "612851": {
+        "levels": [
+            "Characters' Ultimate CRIT Rate increases by 18%.",
+            "Characters' Ultimate CRIT Rate increases by 27%."
+        ],
+        "name": "Ring of Bent Wires",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Erudition",
+            "subtitle": "Erudition",
+            "hint": "Explore Simulated Universe: Gold and Gears to unlock this Path"
+        },
+        "tags": [
+            1285101,
+            1285102
+        ]
+    },
+    "612852": {
+        "levels": [
+            "Characters' Ultimate CRIT DMG increases by 30%.",
+            "Characters' Ultimate CRIT DMG increases by 45%."
+        ],
+        "name": "Scepter of Energy Torque",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Erudition",
+            "subtitle": "Erudition",
+            "hint": "Explore Simulated Universe: Gold and Gears to unlock this Path"
+        },
+        "tags": [
+            1285201,
+            1285202
+        ]
+    },
+    "612853": {
+        "levels": [
+            "After characters use their Ultimate, their next attack will deal 50% more DMG.",
+            "After characters use their Ultimate, their next attack will deal 75% more DMG."
+        ],
+        "name": "Torch of Anti-Lag Ignition",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Erudition",
+            "subtitle": "Erudition",
+            "hint": "Explore Simulated Universe: Gold and Gears to unlock this Path"
+        },
+        "tags": [
+            1285301,
+            1285302
+        ]
+    },
+    "612854": {
+        "levels": [
+            "After characters use an AoE ATK ability, their ATK increases by 30%, lasting for 2 turn(s).",
+            "After characters use an AoE ATK ability, their ATK increases by 40%, lasting for 3 turn(s)."
+        ],
+        "name": "Candle of Delayed Diffraction",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Erudition",
+            "subtitle": "Erudition",
+            "hint": "Explore Simulated Universe: Gold and Gears to unlock this Path"
+        },
+        "tags": [
+            1285401,
+            1285402
+        ]
+    },
+    "612855": {
+        "levels": [
+            "After characters use an AoE ATK ability, their DEF increases by 30%, lasting for 2 turn(s).",
+            "After characters use an AoE ATK ability, their DEF increases by 40%, lasting for 3 turn(s)."
+        ],
+        "name": "Canopy of Mottled Metal",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Erudition",
+            "subtitle": "Erudition",
+            "hint": "Explore Simulated Universe: Gold and Gears to unlock this Path"
+        },
+        "tags": [
+            1285501,
+            1285502
+        ]
+    },
+    "612856": {
+        "levels": [
+            "After characters use their Ultimate, they restore HP equal to 16% of their Max HP.",
+            "After characters use their Ultimate, they restore HP equal to 24% of their Max HP."
+        ],
+        "name": "Garment of Coiled Wires",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Erudition",
+            "subtitle": "Erudition",
+            "hint": "Explore Simulated Universe: Gold and Gears to unlock this Path"
+        },
+        "tags": [
+            1285601,
+            1285602
+        ]
+    },
+    "612857": {
+        "levels": [
+            "When struck with a killing blow, characters will not be knocked down and will instead consume all their Energy, then restore HP equal to 50% of the consumed Energy. This effect can only be triggered once per battle for the whole team.",
+            "When struck with a killing blow, characters will not be knocked down and will instead consume all their Energy, then restore HP equal to 100% of the consumed Energy. This effect can only be triggered once per battle for the whole team."
+        ],
+        "name": "Wreath of Interlaced Pipes",
+        "rarity": 1,
+        "type": {
+            "title": "Blessings of Erudition",
+            "subtitle": "Erudition",
+            "hint": "Explore Simulated Universe: Gold and Gears to unlock this Path"
+        },
+        "tags": [
+            1285701,
+            1285702
+        ]
+    },
+    "620001": {
+        "levels": [
+            "After a character is attacked, deals Quake DMG to the attacker, equal to 420% of the character's Shield effect just before the attack. This DMG cannot defeat the enemy.",
+            "After a character is attacked, deals Quake DMG to the attacker, equal to 1050% of the character's Shield effect just before the attack. This DMG cannot defeat the enemy.",
+            "After a character is attacked, deals Quake DMG to the attacker, equal to 1680% of the character's Shield effect just before the attack. This DMG cannot defeat the enemy.",
+            "After a character is attacked, deals Quake DMG to the attacker, equal to 2310% of the character's Shield effect just before the attack. This DMG cannot defeat the enemy.",
+            "After a character is attacked, deals Quake DMG to the attacker, equal to 2940% of the character's Shield effect just before the attack. This DMG cannot defeat the enemy.",
+            "After a character is attacked, deals Quake DMG to the attacker, equal to 3570% of the character's Shield effect just before the attack. This DMG cannot defeat the enemy.",
+            "After a character is attacked, deals Quake DMG to the attacker, equal to 4200% of the character's Shield effect just before the attack. This DMG cannot defeat the enemy.",
+            "After a character is attacked, deals Quake DMG to the attacker, equal to 4830% of the character's Shield effect just before the attack. This DMG cannot defeat the enemy.",
+            "After a character is attacked, deals Quake DMG to the attacker, equal to 5460% of the character's Shield effect just before the attack. This DMG cannot defeat the enemy.",
+            "After a character is attacked, deals Quake DMG to the attacker, equal to 6090% of the character's Shield effect just before the attack. This DMG cannot defeat the enemy."
+        ],
+        "name": "Divine Construct: Metastatic Field (Infinite)",
+        "rarity": 4,
+        "type": {
+            "title": "Blessings of Preservation{SPACE}",
+            "subtitle": "Preservation"
+        },
+        "tags": [
+            2000101,
+            2000102,
+            2000103,
+            2000104,
+            2000105,
+            2000106,
+            2000107,
+            2000108,
+            2000109,
+            2000110
+        ]
+    },
+    "620002": {
+        "levels": [
+            "After an enemy receives Ice DMG, additionally receive DMG equal to 30% of the original DMG. All other enemies will also receive DMG equal to 30% of the original DMG.",
+            "After an enemy receives Ice DMG, additionally receive DMG equal to 60% of the original DMG. All other enemies will also receive DMG equal to 60% of the original DMG.",
+            "After an enemy receives Ice DMG, additionally receive DMG equal to 90% of the original DMG. All other enemies will also receive DMG equal to 90% of the original DMG.",
+            "After an enemy receives Ice DMG, additionally receive DMG equal to 120% of the original DMG. All other enemies will also receive DMG equal to 120% of the original DMG.",
+            "After an enemy receives Ice DMG, additionally receive DMG equal to 150% of the original DMG. All other enemies will also receive DMG equal to 150% of the original DMG.",
+            "After an enemy receives Ice DMG, additionally receive DMG equal to 180% of the original DMG. All other enemies will also receive DMG equal to 180% of the original DMG.",
+            "After an enemy receives Ice DMG, additionally receive DMG equal to 210% of the original DMG. All other enemies will also receive DMG equal to 210% of the original DMG.",
+            "After an enemy receives Ice DMG, additionally receive DMG equal to 240% of the original DMG. All other enemies will also receive DMG equal to 240% of the original DMG.",
+            "After an enemy receives Ice DMG, additionally receive DMG equal to 270% of the original DMG. All other enemies will also receive DMG equal to 270% of the original DMG.",
+            "After an enemy receives Ice DMG, additionally receive DMG equal to 300% of the original DMG. All other enemies will also receive DMG equal to 300% of the original DMG."
+        ],
+        "name": "Ultimate Experience: Sentimentality (Infinite)",
+        "rarity": 4,
+        "type": {
+            "title": "Blessings of Remembrance{SPACE}",
+            "subtitle": "Remembrance"
+        },
+        "tags": [
+            2000201,
+            2000202,
+            2000203,
+            2000204,
+            2000205,
+            2000206,
+            2000207,
+            2000208,
+            2000209,
+            2000210
+        ]
+    },
+    "620003": {
+        "levels": [
+            "At the beginning of an enemy's turn, additionally causes DoT for 1 times, and makes their current DoT immediately deal DMG equal to 135% of the original DoT.",
+            "At the beginning of an enemy's turn, additionally causes DoT for 1 times, and makes their current DoT immediately deal DMG equal to 335% of the original DoT.",
+            "At the beginning of an enemy's turn, additionally causes DoT for 1 times, and makes their current DoT immediately deal DMG equal to 535% of the original DoT.",
+            "At the beginning of an enemy's turn, additionally causes DoT for 1 times, and makes their current DoT immediately deal DMG equal to 735% of the original DoT.",
+            "At the beginning of an enemy's turn, additionally causes DoT for 1 times, and makes their current DoT immediately deal DMG equal to 935% of the original DoT.",
+            "At the beginning of an enemy's turn, additionally causes DoT for 1 times, and makes their current DoT immediately deal DMG equal to 1135% of the original DoT.",
+            "At the beginning of an enemy's turn, additionally causes DoT for 1 times, and makes their current DoT immediately deal DMG equal to 1335% of the original DoT.",
+            "At the beginning of an enemy's turn, additionally causes DoT for 1 times, and makes their current DoT immediately deal DMG equal to 1535% of the original DoT.",
+            "At the beginning of an enemy's turn, additionally causes DoT for 1 times, and makes their current DoT immediately deal DMG equal to 1735% of the original DoT.",
+            "At the beginning of an enemy's turn, additionally causes DoT for 1 times, and makes their current DoT immediately deal DMG equal to 1935% of the original DoT."
+        ],
+        "name": "Why Hasn't Everything Already Disappeared? (Infinite)",
+        "rarity": 4,
+        "type": {
+            "title": "Blessings of Nihility{SPACE}",
+            "subtitle": "Nihility",
+            "hint": "Explore Simulated Universe: World 4 to unlock Path"
+        },
+        "tags": [
+            2000301,
+            2000302,
+            2000303,
+            2000304,
+            2000305,
+            2000306,
+            2000307,
+            2000308,
+            2000309,
+            2000310
+        ]
+    },
+    "620004": {
+        "levels": [
+            "Charges Dewdrop when a character's HP is restored. The Charge value is equal to 100% of the amount of healing received. And increases the DMG of Dewdrop by 40%.",
+            "Charges Dewdrop when a character's HP is restored. The Charge value is equal to 200% of the amount of healing received. And increases the DMG of Dewdrop by 60%.",
+            "Charges Dewdrop when a character's HP is restored. The Charge value is equal to 300% of the amount of healing received. And increases the DMG of Dewdrop by 80%.",
+            "Charges Dewdrop when a character's HP is restored. The Charge value is equal to 400% of the amount of healing received. And increases the DMG of Dewdrop by 100%.",
+            "Charges Dewdrop when a character's HP is restored. The Charge value is equal to 500% of the amount of healing received. And increases the DMG of Dewdrop by 120%.",
+            "Charges Dewdrop when a character's HP is restored. The Charge value is equal to 600% of the amount of healing received. And increases the DMG of Dewdrop by 140%.",
+            "Charges Dewdrop when a character's HP is restored. The Charge value is equal to 700% of the amount of healing received. And increases the DMG of Dewdrop by 160%.",
+            "Charges Dewdrop when a character's HP is restored. The Charge value is equal to 800% of the amount of healing received. And increases the DMG of Dewdrop by 180%.",
+            "Charges Dewdrop when a character's HP is restored. The Charge value is equal to 900% of the amount of healing received. And increases the DMG of Dewdrop by 200%.",
+            "Charges Dewdrop when a character's HP is restored. The Charge value is equal to 1000% of the amount of healing received. And increases the DMG of Dewdrop by 220%."
+        ],
+        "name": "Prosperity, Longevity (Infinite)",
+        "rarity": 4,
+        "type": {
+            "title": "Blessings of Abundance{SPACE}",
+            "subtitle": "Abundance",
+            "hint": "Explore Simulated Universe: World 5 to unlock Path"
+        },
+        "tags": [
+            2000401,
+            2000402,
+            2000403,
+            2000404,
+            2000405,
+            2000406,
+            2000407,
+            2000408,
+            2000409,
+            2000410
+        ]
+    },
+    "620005": {
+        "levels": [
+            "When a character's turn begins, they gain 1 stack(s) of Critical Boost and increases the stack limit of Critical Boost to 12.",
+            "When a character's turn begins, they gain 2 stack(s) of Critical Boost and increases the stack limit of Critical Boost to 15.",
+            "When a character's turn begins, they gain 3 stack(s) of Critical Boost and increases the stack limit of Critical Boost to 18.",
+            "When a character's turn begins, they gain 4 stack(s) of Critical Boost and increases the stack limit of Critical Boost to 21.",
+            "When a character's turn begins, they gain 5 stack(s) of Critical Boost and increases the stack limit of Critical Boost to 24.",
+            "When a character's turn begins, they gain 6 stack(s) of Critical Boost and increases the stack limit of Critical Boost to 27.",
+            "When a character's turn begins, they gain 7 stack(s) of Critical Boost and increases the stack limit of Critical Boost to 30.",
+            "When a character's turn begins, they gain 8 stack(s) of Critical Boost and increases the stack limit of Critical Boost to 33.",
+            "When a character's turn begins, they gain 9 stack(s) of Critical Boost and increases the stack limit of Critical Boost to 36.",
+            "When a character's turn begins, they gain 10 stack(s) of Critical Boost and increases the stack limit of Critical Boost to 39."
+        ],
+        "name": "Imperial Reign (Infinite)",
+        "rarity": 4,
+        "type": {
+            "title": "Blessings of The Hunt{SPACE}",
+            "subtitle": "The Hunt",
+            "hint": "Explore Simulated Universe: World 2 to unlock Path"
+        },
+        "tags": [
+            2000501,
+            2000502,
+            2000503,
+            2000504,
+            2000505,
+            2000506,
+            2000507,
+            2000508,
+            2000509,
+            2000510
+        ]
+    },
+    "620006": {
+        "levels": [
+            "For every 1% of HP that characters lose, increases their DMG by 1%. After unleashing an attack, deals Additional DMG equal to 80% of the HP difference between the character's Max HP and current HP.",
+            "For every 1% of HP that characters lose, increases their DMG by 2%. After unleashing an attack, deals Additional DMG equal to 120% of the HP difference between the character's Max HP and current HP.",
+            "For every 1% of HP that characters lose, increases their DMG by 3%. After unleashing an attack, deals Additional DMG equal to 160% of the HP difference between the character's Max HP and current HP.",
+            "For every 1% of HP that characters lose, increases their DMG by 4%. After unleashing an attack, deals Additional DMG equal to 200% of the HP difference between the character's Max HP and current HP.",
+            "For every 1% of HP that characters lose, increases their DMG by 5%. After unleashing an attack, deals Additional DMG equal to 240% of the HP difference between the character's Max HP and current HP.",
+            "For every 1% of HP that characters lose, increases their DMG by 6%. After unleashing an attack, deals Additional DMG equal to 280% of the HP difference between the character's Max HP and current HP.",
+            "For every 1% of HP that characters lose, increases their DMG by 7%. After unleashing an attack, deals Additional DMG equal to 320% of the HP difference between the character's Max HP and current HP.",
+            "For every 1% of HP that characters lose, increases their DMG by 8%. After unleashing an attack, deals Additional DMG equal to 360% of the HP difference between the character's Max HP and current HP.",
+            "For every 1% of HP that characters lose, increases their DMG by 9%. After unleashing an attack, deals Additional DMG equal to 400% of the HP difference between the character's Max HP and current HP.",
+            "For every 1% of HP that characters lose, increases their DMG by 10%. After unleashing an attack, deals Additional DMG equal to 440% of the HP difference between the character's Max HP and current HP."
+        ],
+        "name": "Cataclysmic Blazar (Infinite)",
+        "rarity": 4,
+        "type": {
+            "title": "Blessings of Destruction{SPACE}",
+            "subtitle": "Destruction",
+            "hint": "Explore Simulated Universe: World 3 to unlock Path"
+        },
+        "tags": [
+            2000601,
+            2000602,
+            2000603,
+            2000604,
+            2000605,
+            2000606,
+            2000607,
+            2000608,
+            2000609,
+            2000610
+        ]
+    },
+    "620007": {
+        "levels": [
+            "After a character launches a follow-up attack, they deal Aftertaste DMG equal to 60% of their ATK for 1 - 3 time(s). And increases Aftertaste DMG by 35%.",
+            "After a character launches a follow-up attack, they deal Aftertaste DMG equal to 65% of their ATK for 2 - 4 time(s). And increases Aftertaste DMG by 35%.",
+            "After a character launches a follow-up attack, they deal Aftertaste DMG equal to 70% of their ATK for 3 - 5 time(s). And increases Aftertaste DMG by 35%.",
+            "After a character launches a follow-up attack, they deal Aftertaste DMG equal to 75% of their ATK for 4 - 6 time(s). And increases Aftertaste DMG by 35%.",
+            "After a character launches a follow-up attack, they deal Aftertaste DMG equal to 80% of their ATK for 5 - 7 time(s). And increases Aftertaste DMG by 35%.",
+            "After a character launches a follow-up attack, they deal Aftertaste DMG equal to 85% of their ATK for 6 - 8 time(s). And increases Aftertaste DMG by 35%.",
+            "After a character launches a follow-up attack, they deal Aftertaste DMG equal to 90% of their ATK for 7 - 9 time(s). And increases Aftertaste DMG by 35%.",
+            "After a character launches a follow-up attack, they deal Aftertaste DMG equal to 95% of their ATK for 8 - 10 time(s). And increases Aftertaste DMG by 35%.",
+            "After a character launches a follow-up attack, they deal Aftertaste DMG equal to 100% of their ATK for 9 - 11 time(s). And increases Aftertaste DMG by 35%.",
+            "After a character launches a follow-up attack, they deal Aftertaste DMG equal to 105% of their ATK for 10 - 12 time(s). And increases Aftertaste DMG by 35%."
+        ],
+        "name": "Auto-Harmonica: Whitest Night (Infinite)",
+        "rarity": 4,
+        "type": {
+            "title": "Blessings of Elation{SPACE}",
+            "subtitle": "Elation"
+        },
+        "tags": [
+            2000701,
+            2000702,
+            2000703,
+            2000704,
+            2000705,
+            2000706,
+            2000707,
+            2000708,
+            2000709,
+            2000710
+        ]
+    },
+    "620008": {
+        "levels": [
+            "For each Skill Point recovered, apply 1 Spore to 2 random enemy target(s). The max number of Spores that can be possessed increases to 9.",
+            "For each Skill Point recovered, apply 1 Spore to 5 random enemy target(s). The max number of Spores that can be possessed increases to 15.",
+            "For each Skill Point recovered, apply 1 Spore to 8 random enemy target(s). The max number of Spores that can be possessed increases to 21.",
+            "For each Skill Point recovered, apply 1 Spore to 11 random enemy target(s). The max number of Spores that can be possessed increases to 27.",
+            "For each Skill Point recovered, apply 1 Spore to 14 random enemy target(s). The max number of Spores that can be possessed increases to 33.",
+            "For each Skill Point recovered, apply 1 Spore to 17 random enemy target(s). The max number of Spores that can be possessed increases to 39.",
+            "For each Skill Point recovered, apply 1 Spore to 20 random enemy target(s). The max number of Spores that can be possessed increases to 45.",
+            "For each Skill Point recovered, apply 1 Spore to 23 random enemy target(s). The max number of Spores that can be possessed increases to 51.",
+            "For each Skill Point recovered, apply 1 Spore to 26 random enemy target(s). The max number of Spores that can be possessed increases to 57.",
+            "For each Skill Point recovered, apply 1 Spore to 29 random enemy target(s). The max number of Spores that can be possessed increases to 63."
+        ],
+        "name": "Fungal Pustule (Infinite)",
+        "rarity": 4,
+        "type": {
+            "title": "Blessings of Propagation{SPACE}",
+            "subtitle": "Propagation",
+            "hint": "Explore Simulated Universe: Swarm Disaster to unlock Path"
+        },
+        "tags": [
+            2000801,
+            2000802,
+            2000803,
+            2000804,
+            2000805,
+            2000806,
+            2000807,
+            2000808,
+            2000809,
+            2000810
+        ]
+    }
+}

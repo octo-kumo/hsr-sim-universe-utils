@@ -1,0 +1,2663 @@
+{
+    "1200": [
+        12001,
+        12002,
+        12003
+    ],
+    "1201": [
+        12001,
+        12002,
+        12008
+    ],
+    "1202": [
+        12011,
+        12012,
+        12013
+    ],
+    "1203": [
+        12012,
+        12013
+    ],
+    "1204": [
+        12002,
+        12003
+    ],
+    "1210": [
+        12101,
+        12102,
+        12103
+    ],
+    "1211": [
+        12101,
+        12102,
+        12108
+    ],
+    "1212": [
+        12111,
+        12112,
+        12113
+    ],
+    "1213": [
+        12112,
+        12113
+    ],
+    "1214": [
+        12102,
+        12103
+    ],
+    "1220": [
+        12201,
+        12202,
+        12203
+    ],
+    "1221": [
+        12201,
+        12202,
+        12208
+    ],
+    "1222": [
+        12211,
+        12212,
+        12213
+    ],
+    "1223": [
+        12212,
+        12213
+    ],
+    "1224": [
+        12202,
+        12203
+    ],
+    "1230": [
+        12301,
+        12302,
+        12303
+    ],
+    "1231": [
+        12301,
+        12302,
+        12308
+    ],
+    "1232": [
+        12311,
+        12312,
+        12313
+    ],
+    "1233": [
+        12312,
+        12313
+    ],
+    "1234": [
+        12302,
+        12303
+    ],
+    "1240": [
+        12401,
+        12402,
+        12403
+    ],
+    "1241": [
+        12401,
+        12402,
+        12408
+    ],
+    "1242": [
+        12411,
+        12412,
+        12413
+    ],
+    "1243": [
+        12412,
+        12413
+    ],
+    "1244": [
+        12402,
+        12403
+    ],
+    "1250": [
+        12501,
+        12502,
+        12503
+    ],
+    "1251": [
+        12501,
+        12502,
+        12508
+    ],
+    "1252": [
+        12511,
+        12512,
+        12513
+    ],
+    "1253": [
+        12512,
+        12513
+    ],
+    "1254": [
+        12502,
+        12503
+    ],
+    "1260": [
+        12601,
+        12602,
+        12603
+    ],
+    "1261": [
+        12601,
+        12602,
+        12608
+    ],
+    "1262": [
+        12611,
+        12612,
+        12613
+    ],
+    "1263": [
+        12612,
+        12613
+    ],
+    "1264": [
+        12602,
+        12603
+    ],
+    "1270": [
+        12701,
+        12702,
+        12703
+    ],
+    "1271": [
+        12701,
+        12702,
+        12708
+    ],
+    "1272": [
+        12711,
+        12712,
+        12713
+    ],
+    "1273": [
+        12712,
+        12713
+    ],
+    "1274": [
+        12702,
+        12703
+    ],
+    "1280": [
+        12801,
+        12802,
+        12803
+    ],
+    "1281": [
+        12801,
+        12802,
+        12808
+    ],
+    "1282": [
+        12811,
+        12812,
+        12813
+    ],
+    "1283": [
+        12812,
+        12813
+    ],
+    "1284": [
+        12802,
+        12803
+    ],
+    "9001": [
+        "Construct: Compensation%2",
+        "Interstellar Construct: Sanctuary%2",
+        "Construct: Sentinel%2"
+    ],
+    "9002": [
+        "Construct: Rotation%2",
+        "Divine Construct: Resonance Transfer%2",
+        "Construct: Firmness%2"
+    ],
+    "9003": [
+        "Divine Construct: Resonance Transfer%2",
+        "Divine Construct: Metastatic Field%2",
+        "Interstellar Construct: Shear Structure%2",
+        "Interstellar Construct: Quadrangular Pyramid%2"
+    ],
+    "9004": [
+        "Divine Construct: Resonance Transfer%2",
+        "Divine Construct: Metastatic Field%2",
+        "Interstellar Construct: Shear Structure%2",
+        "Interstellar Construct: Quadrangular Pyramid%2"
+    ],
+    "9101": [
+        "Perfect Experience: Innocence%2",
+        "Ultimate Experience: Maverick%2",
+        "Experience: Lost Memory%2"
+    ],
+    "9102": [
+        "Perfect Experience: Innocence%2",
+        "Ultimate Experience: Insensitivity%2",
+        "Experience: The Torment of Alienation%2",
+        "Experience: Primordial Hardship%2"
+    ],
+    "9103": [
+        "Perfect Experience: Reticence%2",
+        "Experience: Thrill of Escalation%2",
+        "Experience: Responsive Excitement%2"
+    ],
+    "9104": [
+        "The Painted Albatross%2",
+        "Pale Fire%2",
+        "Back to the Lighthouse%2"
+    ],
+    "9105": [
+        "Perfect Experience: Fuli%2",
+        "Ultimate Experience: Sentimentality%2",
+        "Doctor of Love%2"
+    ],
+    "9106": [
+        "Perfect Experience: Fuli%2",
+        "Ultimate Experience: Melancholia%2",
+        "Platinum Age%2",
+        "Clockwork Apple%2"
+    ],
+    "9200": [
+        "Clockwork Apple%1",
+        "Interstellar Construct: Safe Load%1",
+        "Ultimate Experience: Indelibility%1",
+        "Experience: Lost Memory%1"
+    ],
+    "12000": [
+        "Divine Construct: Resonance Transfer%1",
+        "Divine Construct: Metastatic Field%1",
+        "Divine Construct: Macrosegregation%1",
+        "Interstellar Construct: Shear Structure%1",
+        "Interstellar Construct: Burst Lattice%1",
+        "Interstellar Construct: Solid Solution%1",
+        "Interstellar Construct: Safe Load%1",
+        "Interstellar Construct: Sanctuary%1",
+        "Interstellar Construct: Quadrangular Pyramid%1",
+        "Interstellar Construct: Hypoeutectoid%1",
+        "Construct: Assemble%1",
+        "Construct: Sentinel%1",
+        "Construct: Patch%1",
+        "Construct: Compensation%1",
+        "Construct: Firmness%1",
+        "Construct: Rotation%1",
+        "Construct: Burst%1",
+        "Construct: Concentration%1"
+    ],
+    "12001": [
+        "Construct: Assemble%1",
+        "Construct: Sentinel%1",
+        "Construct: Patch%1",
+        "Construct: Compensation%1",
+        "Construct: Firmness%1",
+        "Construct: Rotation%1",
+        "Construct: Burst%1",
+        "Construct: Concentration%1"
+    ],
+    "12002": [
+        "Interstellar Construct: Shear Structure%1",
+        "Interstellar Construct: Burst Lattice%1",
+        "Interstellar Construct: Solid Solution%1",
+        "Interstellar Construct: Safe Load%1",
+        "Interstellar Construct: Sanctuary%1",
+        "Interstellar Construct: Quadrangular Pyramid%1",
+        "Interstellar Construct: Hypoeutectoid%1"
+    ],
+    "12003": [
+        "Divine Construct: Resonance Transfer%1",
+        "Divine Construct: Metastatic Field%1",
+        "Divine Construct: Macrosegregation%1"
+    ],
+    "12004": [
+        "Path Resonance: Preservation%1"
+    ],
+    "12005": [
+        "Resonance Formation: Zero-Dimensional Reinforcement%1",
+        "Resonance Formation: Eutectic Reaction%1",
+        "Resonance Formation: Isomorphous Reaction%1"
+    ],
+    "12006": [
+        "Interstellar Construct: Shear Structure%1",
+        "Interstellar Construct: Burst Lattice%1",
+        "Interstellar Construct: Solid Solution%1"
+    ],
+    "12007": [
+        "Divine Construct: Resonance Transfer%1",
+        "Divine Construct: Metastatic Field%1"
+    ],
+    "12008": [
+        "Divine Construct: Resonance Transfer%1",
+        "Divine Construct: Metastatic Field%1",
+        "Divine Construct: Macrosegregation%1"
+    ],
+    "12011": [
+        "Construct: Assemble%2",
+        "Construct: Sentinel%2",
+        "Construct: Patch%2",
+        "Construct: Compensation%2",
+        "Construct: Firmness%2",
+        "Construct: Rotation%2",
+        "Construct: Burst%2",
+        "Construct: Concentration%2"
+    ],
+    "12012": [
+        "Interstellar Construct: Shear Structure%2",
+        "Interstellar Construct: Burst Lattice%2",
+        "Interstellar Construct: Solid Solution%2",
+        "Interstellar Construct: Safe Load%2",
+        "Interstellar Construct: Sanctuary%2",
+        "Interstellar Construct: Quadrangular Pyramid%2",
+        "Interstellar Construct: Hypoeutectoid%2"
+    ],
+    "12013": [
+        "Divine Construct: Resonance Transfer%2",
+        "Divine Construct: Metastatic Field%2",
+        "Divine Construct: Macrosegregation%2"
+    ],
+    "12021": [
+        "Resonance Interplay: Spiked Armor%1"
+    ],
+    "12022": [
+        "Resonance Interplay: Cold Snap%1"
+    ],
+    "12023": [
+        "Resonance Interplay: Reverse Quenching%1"
+    ],
+    "12024": [
+        "Resonance Interplay: Displaced Ascent%1"
+    ],
+    "12100": [
+        "Perfect Experience: Fuli%1",
+        "Perfect Experience: Innocence%1",
+        "Perfect Experience: Reticence%1",
+        "Ultimate Experience: Melancholia%1",
+        "Ultimate Experience: Dizziness%1",
+        "Ultimate Experience: Insensitivity%1",
+        "Ultimate Experience: Sentimentality%1",
+        "Ultimate Experience: Indelibility%1",
+        "Ultimate Experience: Shudder%1",
+        "Ultimate Experience: Maverick%1",
+        "Experience: Unspeakable Shame%1",
+        "Experience: The Torment of Alienation%1",
+        "Experience: Lost Memory%1",
+        "Experience: Stone Cold Hatred%1",
+        "Experience: Pain & Suffering%1",
+        "Experience: Primordial Hardship%1",
+        "Experience: Thrill of Escalation%1",
+        "Experience: Responsive Excitement%1"
+    ],
+    "12101": [
+        "Experience: Unspeakable Shame%1",
+        "Experience: The Torment of Alienation%1",
+        "Experience: Lost Memory%1",
+        "Experience: Stone Cold Hatred%1",
+        "Experience: Pain & Suffering%1",
+        "Experience: Primordial Hardship%1",
+        "Experience: Thrill of Escalation%1",
+        "Experience: Responsive Excitement%1"
+    ],
+    "12102": [
+        "Ultimate Experience: Melancholia%1",
+        "Ultimate Experience: Dizziness%1",
+        "Ultimate Experience: Insensitivity%1",
+        "Ultimate Experience: Sentimentality%1",
+        "Ultimate Experience: Indelibility%1",
+        "Ultimate Experience: Shudder%1",
+        "Ultimate Experience: Maverick%1"
+    ],
+    "12103": [
+        "Perfect Experience: Fuli%1",
+        "Perfect Experience: Innocence%1",
+        "Perfect Experience: Reticence%1"
+    ],
+    "12104": [
+        "Path Resonance: Remembrance%1"
+    ],
+    "12105": [
+        "Resonance Formation: Total Recall%1",
+        "Resonance Formation: Rich Experience%1",
+        "Resonance Formation: First Love Once More%1"
+    ],
+    "12106": [
+        "Ultimate Experience: Melancholia%1",
+        "Ultimate Experience: Dizziness%1",
+        "Ultimate Experience: Insensitivity%1"
+    ],
+    "12107": [
+        "Perfect Experience: Fuli%1",
+        "Perfect Experience: Innocence%1"
+    ],
+    "12108": [
+        "Perfect Experience: Fuli%1",
+        "Perfect Experience: Innocence%1",
+        "Perfect Experience: Reticence%1"
+    ],
+    "12111": [
+        "Experience: Unspeakable Shame%2",
+        "Experience: The Torment of Alienation%2",
+        "Experience: Lost Memory%2",
+        "Experience: Stone Cold Hatred%2",
+        "Experience: Pain & Suffering%2",
+        "Experience: Primordial Hardship%2",
+        "Experience: Thrill of Escalation%2",
+        "Experience: Responsive Excitement%2"
+    ],
+    "12112": [
+        "Ultimate Experience: Melancholia%2",
+        "Ultimate Experience: Dizziness%2",
+        "Ultimate Experience: Insensitivity%2",
+        "Ultimate Experience: Sentimentality%2",
+        "Ultimate Experience: Indelibility%2",
+        "Ultimate Experience: Shudder%2",
+        "Ultimate Experience: Maverick%2"
+    ],
+    "12113": [
+        "Perfect Experience: Fuli%2",
+        "Perfect Experience: Innocence%2",
+        "Perfect Experience: Reticence%2"
+    ],
+    "12121": [
+        "Resonance Interplay: Faces Places%1"
+    ],
+    "12122": [
+        "Resonance Interplay: Landscape in the Mist%1"
+    ],
+    "12123": [
+        "Resonance Interplay: Roar and Rustle%1"
+    ],
+    "12124": [
+        "Resonance Interplay: Seemingly Mirrored%1"
+    ],
+    "12200": [
+        "Funeral of Sensory Pursuivant%1",
+        "The Man in the Cover%1",
+        "Why Hasn't Everything Already Disappeared?%1",
+        "Beginning and End%1",
+        "Café Self-Deceit%1",
+        "Call of the Wilderness%1",
+        "Night Beyond Pyre%1",
+        "Hell is Other People%1",
+        "Twilight of Existence%1",
+        "All Things are Possible%1",
+        "Ignosticism%1",
+        "Questioning of Purpose%1",
+        "Blind Vision%1",
+        "Tragic Lecture%1",
+        "Sensory Labyrinth%1",
+        "Emotional Decluttering%1",
+        "Offerings of Deception%1",
+        "Before Sunrise%1"
+    ],
+    "12201": [
+        "Ignosticism%1",
+        "Questioning of Purpose%1",
+        "Blind Vision%1",
+        "Tragic Lecture%1",
+        "Sensory Labyrinth%1",
+        "Emotional Decluttering%1",
+        "Offerings of Deception%1",
+        "Before Sunrise%1"
+    ],
+    "12202": [
+        "Beginning and End%1",
+        "Café Self-Deceit%1",
+        "Call of the Wilderness%1",
+        "Night Beyond Pyre%1",
+        "Hell is Other People%1",
+        "Twilight of Existence%1",
+        "All Things are Possible%1"
+    ],
+    "12203": [
+        "Funeral of Sensory Pursuivant%1",
+        "The Man in the Cover%1",
+        "Why Hasn't Everything Already Disappeared?%1"
+    ],
+    "12204": [
+        "Path Resonance: Nihility%1"
+    ],
+    "12205": [
+        "Resonance Formation: The Doubtful Fourfold Root%1",
+        "Resonance Formation: Suffering and Sunshine%1",
+        "Resonance Formation: Outsider%1"
+    ],
+    "12206": [
+        "Beginning and End%1",
+        "Café Self-Deceit%1",
+        "Call of the Wilderness%1"
+    ],
+    "12207": [
+        "Funeral of Sensory Pursuivant%1",
+        "The Man in the Cover%1"
+    ],
+    "12208": [
+        "Funeral of Sensory Pursuivant%1",
+        "The Man in the Cover%1",
+        "Why Hasn't Everything Already Disappeared?%1"
+    ],
+    "12211": [
+        "Ignosticism%2",
+        "Questioning of Purpose%2",
+        "Blind Vision%2",
+        "Tragic Lecture%2",
+        "Sensory Labyrinth%2",
+        "Emotional Decluttering%2",
+        "Offerings of Deception%2",
+        "Before Sunrise%2"
+    ],
+    "12212": [
+        "Beginning and End%2",
+        "Café Self-Deceit%2",
+        "Call of the Wilderness%2",
+        "Night Beyond Pyre%2",
+        "Hell is Other People%2",
+        "Twilight of Existence%2",
+        "All Things are Possible%2"
+    ],
+    "12213": [
+        "Funeral of Sensory Pursuivant%2",
+        "The Man in the Cover%2",
+        "Why Hasn't Everything Already Disappeared?%2"
+    ],
+    "12221": [
+        "Resonance Interplay: Off the Beaten Track%1"
+    ],
+    "12222": [
+        "Resonance Interplay: White Nights%1"
+    ],
+    "12223": [
+        "Resonance Interplay: Reign of Keys%1"
+    ],
+    "12224": [
+        "Resonance Interplay: Terror and Tremble%1"
+    ],
+    "12300": [
+        "Prosperity, Longevity%1",
+        "Mudra of Blessing%1",
+        "Being of Abundance, Becoming One Mind%1",
+        "Good Deeds Come After Old Sins%1",
+        "Mortals of the Buddha-Field%1",
+        "Salvation From Damnation%1",
+        "Precious Moon-Like Candlelight%1",
+        "Aversion to Suffering%1",
+        "Clear Lucite Body%1",
+        "Prajna Boat%1",
+        "Rain of Truth%1",
+        "Sweet Dew%1",
+        "Extended Life%1",
+        "Seal%1",
+        "Dispel Disaster%1",
+        "Rebirth%1",
+        "Victorious Force%1",
+        "Blessing%1"
+    ],
+    "12301": [
+        "Rain of Truth%1",
+        "Sweet Dew%1",
+        "Extended Life%1",
+        "Seal%1",
+        "Dispel Disaster%1",
+        "Rebirth%1",
+        "Victorious Force%1",
+        "Blessing%1"
+    ],
+    "12302": [
+        "Good Deeds Come After Old Sins%1",
+        "Mortals of the Buddha-Field%1",
+        "Salvation From Damnation%1",
+        "Precious Moon-Like Candlelight%1",
+        "Aversion to Suffering%1",
+        "Clear Lucite Body%1",
+        "Prajna Boat%1"
+    ],
+    "12303": [
+        "Prosperity, Longevity%1",
+        "Mudra of Blessing%1",
+        "Being of Abundance, Becoming One Mind%1"
+    ],
+    "12304": [
+        "Path Resonance: Abundance%1"
+    ],
+    "12305": [
+        "Resonance Formation: Terminal Nirvana%1",
+        "Resonance Formation: Anicca%1",
+        "Resonance Formation: Anatta%1"
+    ],
+    "12306": [
+        "Good Deeds Come After Old Sins%1",
+        "Mortals of the Buddha-Field%1",
+        "Salvation From Damnation%1"
+    ],
+    "12307": [
+        "Prosperity, Longevity%1",
+        "Mudra of Blessing%1"
+    ],
+    "12308": [
+        "Prosperity, Longevity%1",
+        "Mudra of Blessing%1",
+        "Being of Abundance, Becoming One Mind%1"
+    ],
+    "12311": [
+        "Rain of Truth%2",
+        "Sweet Dew%2",
+        "Extended Life%2",
+        "Seal%2",
+        "Dispel Disaster%2",
+        "Rebirth%2",
+        "Victorious Force%2",
+        "Blessing%2"
+    ],
+    "12312": [
+        "Good Deeds Come After Old Sins%2",
+        "Mortals of the Buddha-Field%2",
+        "Salvation From Damnation%2",
+        "Precious Moon-Like Candlelight%2",
+        "Aversion to Suffering%2",
+        "Clear Lucite Body%2",
+        "Prajna Boat%2"
+    ],
+    "12313": [
+        "Prosperity, Longevity%2",
+        "Mudra of Blessing%2",
+        "Being of Abundance, Becoming One Mind%2"
+    ],
+    "12321": [
+        "Resonance Interplay: Mountain High%1"
+    ],
+    "12322": [
+        "Resonance Interplay: Nullifying Ardor%1"
+    ],
+    "12323": [
+        "Resonance Interplay: Fleeting Samadhi%1"
+    ],
+    "12324": [
+        "Resonance Interplay: Destined Death%1"
+    ],
+    "12400": [
+        "Imperial Reign%1",
+        "Imperishable Victory%1",
+        "Celestial Annihilation%1",
+        "Battle Against the Old Foe%1",
+        "Archery Duel%1",
+        "Adept's Bow%1",
+        "Flowing Mist%1",
+        "Auspicious Star%1",
+        "Ejecting the Borisin%1",
+        "Monster-Expelling Rainbow%1",
+        "Vermeil Bow and White Arrow%1",
+        "Skirting Life and Death%1",
+        "Shrewd Arrangement%1",
+        "Thundering Chariot%1",
+        "Constellation Surge%1",
+        "Catastrophic Constellation%1",
+        "Vaulting Ambition%1",
+        "Blessed Bow and Arrow%1"
+    ],
+    "12401": [
+        "Vermeil Bow and White Arrow%1",
+        "Skirting Life and Death%1",
+        "Shrewd Arrangement%1",
+        "Thundering Chariot%1",
+        "Constellation Surge%1",
+        "Catastrophic Constellation%1",
+        "Vaulting Ambition%1",
+        "Blessed Bow and Arrow%1"
+    ],
+    "12402": [
+        "Battle Against the Old Foe%1",
+        "Archery Duel%1",
+        "Adept's Bow%1",
+        "Flowing Mist%1",
+        "Auspicious Star%1",
+        "Ejecting the Borisin%1",
+        "Monster-Expelling Rainbow%1"
+    ],
+    "12403": [
+        "Imperial Reign%1",
+        "Imperishable Victory%1",
+        "Celestial Annihilation%1"
+    ],
+    "12404": [
+        "Path Resonance: The Hunt%1"
+    ],
+    "12405": [
+        "Resonance Formation: Star Hunter%1",
+        "Resonance Formation: Bow and Arrow%1",
+        "Resonance Formation: Perfect Aim%1"
+    ],
+    "12406": [
+        "Battle Against the Old Foe%1",
+        "Archery Duel%1",
+        "Adept's Bow%1"
+    ],
+    "12407": [
+        "Imperial Reign%1",
+        "Imperishable Victory%1"
+    ],
+    "12408": [
+        "Imperial Reign%1",
+        "Imperishable Victory%1",
+        "Celestial Annihilation%1"
+    ],
+    "12411": [
+        "Vermeil Bow and White Arrow%2",
+        "Skirting Life and Death%2",
+        "Shrewd Arrangement%2",
+        "Thundering Chariot%2",
+        "Constellation Surge%2",
+        "Catastrophic Constellation%2",
+        "Vaulting Ambition%2",
+        "Blessed Bow and Arrow%2"
+    ],
+    "12412": [
+        "Battle Against the Old Foe%2",
+        "Archery Duel%2",
+        "Adept's Bow%2",
+        "Flowing Mist%2",
+        "Auspicious Star%2",
+        "Ejecting the Borisin%2",
+        "Monster-Expelling Rainbow%2"
+    ],
+    "12413": [
+        "Imperial Reign%2",
+        "Imperishable Victory%2",
+        "Celestial Annihilation%2"
+    ],
+    "12421": [
+        "Resonance Interplay: Startling Breeze%1"
+    ],
+    "12422": [
+        "Resonance Interplay: Shooting Starfire%1"
+    ],
+    "12423": [
+        "Resonance Interplay: Solemn Snare%1"
+    ],
+    "12424": [
+        "Resonance Interplay: Waiting with Drawn Bow%1"
+    ],
+    "12500": [
+        "Non-Inverse Antimatter Equation%1",
+        "Universal Heat Death Characteristic%1",
+        "Regression Inequality of Annihilation%1",
+        "Incremental Doomsday%1",
+        "Catastrophic Resonance%1",
+        "Indicative Depth of Field%1",
+        "Devastating Accretion%1",
+        "Destructive Flare%1",
+        "Disciplinary Flicker%1",
+        "Hazardous Lucent Residue%1",
+        "Primordial Black Hole%1",
+        "Reflection%1",
+        "Orbital Redshift%1",
+        "Instability Strip%1",
+        "Metric Reservation%1",
+        "Sentinel Satellite%1",
+        "Polarization Receptor%1",
+        "Eternally Collapsing Object%1"
+    ],
+    "12501": [
+        "Primordial Black Hole%1",
+        "Reflection%1",
+        "Orbital Redshift%1",
+        "Instability Strip%1",
+        "Metric Reservation%1",
+        "Sentinel Satellite%1",
+        "Polarization Receptor%1",
+        "Eternally Collapsing Object%1"
+    ],
+    "12502": [
+        "Incremental Doomsday%1",
+        "Catastrophic Resonance%1",
+        "Indicative Depth of Field%1",
+        "Devastating Accretion%1",
+        "Destructive Flare%1",
+        "Disciplinary Flicker%1",
+        "Hazardous Lucent Residue%1"
+    ],
+    "12503": [
+        "Non-Inverse Antimatter Equation%1",
+        "Universal Heat Death Characteristic%1",
+        "Regression Inequality of Annihilation%1"
+    ],
+    "12504": [
+        "Path Resonance: Destruction%1"
+    ],
+    "12505": [
+        "Resonance Formation: Cataclysmic Variable%1",
+        "Resonance Formation: Extreme Helium Flash%1",
+        "Resonance Formation: Event Horizon%1"
+    ],
+    "12506": [
+        "Incremental Doomsday%1",
+        "Catastrophic Resonance%1",
+        "Indicative Depth of Field%1"
+    ],
+    "12507": [
+        "Non-Inverse Antimatter Equation%1",
+        "Universal Heat Death Characteristic%1"
+    ],
+    "12508": [
+        "Non-Inverse Antimatter Equation%1",
+        "Universal Heat Death Characteristic%1",
+        "Regression Inequality of Annihilation%1"
+    ],
+    "12511": [
+        "Primordial Black Hole%2",
+        "Reflection%2",
+        "Orbital Redshift%2",
+        "Instability Strip%2",
+        "Metric Reservation%2",
+        "Sentinel Satellite%2",
+        "Polarization Receptor%2",
+        "Eternally Collapsing Object%2"
+    ],
+    "12512": [
+        "Incremental Doomsday%2",
+        "Catastrophic Resonance%2",
+        "Indicative Depth of Field%2",
+        "Devastating Accretion%2",
+        "Destructive Flare%2",
+        "Disciplinary Flicker%2",
+        "Hazardous Lucent Residue%2"
+    ],
+    "12513": [
+        "Non-Inverse Antimatter Equation%2",
+        "Universal Heat Death Characteristic%2",
+        "Regression Inequality of Annihilation%2"
+    ],
+    "12521": [
+        "Resonance Interplay: Substellar Belt%1"
+    ],
+    "12522": [
+        "Resonance Interplay: Zero Age Main Sequence%1"
+    ],
+    "12523": [
+        "Resonance Interplay: Nuclear Implosion%1"
+    ],
+    "12524": [
+        "Resonance Interplay: Protostar%1"
+    ],
+    "12600": [
+        "Auto-Harmonica: Whitest Night%1",
+        "Slaughterhouse No. 4: Rest in Peace%1",
+        "Champion's Dinner: Cat's Cradle%1",
+        "Portrait of A Man On Fire%1",
+        "Just Keep on Crying!%1",
+        "The Hourglass Kindergarten%1",
+        "The Painted Albatross%1",
+        "12 Monkeys and Angry Men%1",
+        "Aiden Gravitational Rainbow%1",
+        "Twenty-First Military Rule%1",
+        "Exemplary Conduct%1",
+        "Mostly Harmful%1",
+        "Suspiria%1",
+        "Pale Fire%1",
+        "Back to the Lighthouse%1",
+        "Doctor of Love%1",
+        "Platinum Age%1",
+        "Clockwork Apple%1"
+    ],
+    "12601": [
+        "Exemplary Conduct%1",
+        "Mostly Harmful%1",
+        "Suspiria%1",
+        "Pale Fire%1",
+        "Back to the Lighthouse%1",
+        "Doctor of Love%1",
+        "Platinum Age%1",
+        "Clockwork Apple%1"
+    ],
+    "12602": [
+        "Portrait of A Man On Fire%1",
+        "Just Keep on Crying!%1",
+        "The Hourglass Kindergarten%1",
+        "The Painted Albatross%1",
+        "12 Monkeys and Angry Men%1",
+        "Aiden Gravitational Rainbow%1",
+        "Twenty-First Military Rule%1"
+    ],
+    "12603": [
+        "Auto-Harmonica: Whitest Night%1",
+        "Slaughterhouse No. 4: Rest in Peace%1",
+        "Champion's Dinner: Cat's Cradle%1"
+    ],
+    "12604": [
+        "Path Resonance: Elation%1"
+    ],
+    "12605": [
+        "Resonance Formation: Doomsday Carnival%1",
+        "Resonance Formation: Dance of Growth%1",
+        "Resonance Formation: Instant Win%1"
+    ],
+    "12606": [
+        "Portrait of A Man On Fire%1",
+        "Just Keep on Crying!%1",
+        "The Hourglass Kindergarten%1"
+    ],
+    "12607": [
+        "Auto-Harmonica: Whitest Night%1",
+        "Slaughterhouse No. 4: Rest in Peace%1"
+    ],
+    "12608": [
+        "Auto-Harmonica: Whitest Night%1",
+        "Slaughterhouse No. 4: Rest in Peace%1",
+        "Champion's Dinner: Cat's Cradle%1"
+    ],
+    "12611": [
+        "Exemplary Conduct%2",
+        "Mostly Harmful%2",
+        "Suspiria%2",
+        "Pale Fire%2",
+        "Back to the Lighthouse%2",
+        "Doctor of Love%2",
+        "Platinum Age%2",
+        "Clockwork Apple%2"
+    ],
+    "12612": [
+        "Portrait of A Man On Fire%2",
+        "Just Keep on Crying!%2",
+        "The Hourglass Kindergarten%2",
+        "The Painted Albatross%2",
+        "12 Monkeys and Angry Men%2",
+        "Aiden Gravitational Rainbow%2",
+        "Twenty-First Military Rule%2"
+    ],
+    "12613": [
+        "Auto-Harmonica: Whitest Night%2",
+        "Slaughterhouse No. 4: Rest in Peace%2",
+        "Champion's Dinner: Cat's Cradle%2"
+    ],
+    "12621": [
+        "Resonance Interplay: The Taste of Anglerfish%1"
+    ],
+    "12622": [
+        "Resonance Interplay: Guinea Pig in Ice Coffin%1"
+    ],
+    "12623": [
+        "Resonance Interplay: Unending Night%1"
+    ],
+    "12624": [
+        "Resonance Interplay: Pit and Pendulum%1"
+    ],
+    "12700": [
+        "Spore Discharge%1",
+        "Fungal Pustule%1",
+        "Scythe Limbs%1",
+        "Putrefaction Ulcer%1",
+        "Lytic Enzyme%1",
+        "Metabolic Cavity%1",
+        "Excitatory Gland%1",
+        "Exposed Brain Matter%1",
+        "Intersegmental Membrane%1",
+        "Catalyst%1",
+        "Osseus Blade%1",
+        "Spinal Spur%1",
+        "Channeled Needle%1",
+        "Conjunctiva%1",
+        "Scaled Wing%1",
+        "Compound Eye%1",
+        "Sporangium%1",
+        "Vesicle%1"
+    ],
+    "12701": [
+        "Osseus Blade%1",
+        "Spinal Spur%1",
+        "Channeled Needle%1",
+        "Conjunctiva%1",
+        "Scaled Wing%1",
+        "Compound Eye%1",
+        "Sporangium%1",
+        "Vesicle%1"
+    ],
+    "12702": [
+        "Putrefaction Ulcer%1",
+        "Lytic Enzyme%1",
+        "Metabolic Cavity%1",
+        "Excitatory Gland%1",
+        "Exposed Brain Matter%1",
+        "Intersegmental Membrane%1",
+        "Catalyst%1"
+    ],
+    "12703": [
+        "Spore Discharge%1",
+        "Fungal Pustule%1",
+        "Scythe Limbs%1"
+    ],
+    "12704": [
+        "Path Resonance: Propagation%1"
+    ],
+    "12705": [
+        "Resonance Formation: Proboscis%1",
+        "Resonance Formation: Phenol Compounds%1",
+        "Resonance Formation: Crystal Pincers%1"
+    ],
+    "12706": [
+        "Putrefaction Ulcer%1",
+        "Lytic Enzyme%1",
+        "Metabolic Cavity%1"
+    ],
+    "12707": [
+        "Spore Discharge%1",
+        "Fungal Pustule%1"
+    ],
+    "12708": [
+        "Spore Discharge%1",
+        "Fungal Pustule%1",
+        "Scythe Limbs%1"
+    ],
+    "12711": [
+        "Osseus Blade%2",
+        "Spinal Spur%2",
+        "Channeled Needle%2",
+        "Conjunctiva%2",
+        "Scaled Wing%2",
+        "Compound Eye%2",
+        "Sporangium%2",
+        "Vesicle%2"
+    ],
+    "12712": [
+        "Putrefaction Ulcer%2",
+        "Lytic Enzyme%2",
+        "Metabolic Cavity%2",
+        "Excitatory Gland%2",
+        "Exposed Brain Matter%2",
+        "Intersegmental Membrane%2",
+        "Catalyst%2"
+    ],
+    "12713": [
+        "Spore Discharge%2",
+        "Fungal Pustule%2",
+        "Scythe Limbs%2"
+    ],
+    "12721": [
+        "Resonance Interplay: Superposition Eye%1"
+    ],
+    "12722": [
+        "Resonance Interplay: Adherent Microbial Mat%1"
+    ],
+    "12723": [
+        "Resonance Interplay: Compounded Macrospore%1"
+    ],
+    "12724": [
+        "Resonance Interplay: Condensation Cavity%1"
+    ],
+    "12800": [
+        "BCI-34 Gray Matter%1",
+        "SMR-2 Amygdala%1",
+        "VEP-18 Occipital Lobe%1",
+        "Attachment: Vestibular System%1",
+        "Imitation: Transmitter Synthesis%1",
+        "Implant: Explicit Memory%1",
+        "Mimesis: Tactile Pathway%1",
+        "Analysis: Subliminal Sensation%1",
+        "Load: Striated Cortex%1",
+        "Stimulation: Saltatory Conduction%1",
+        "Throne of Engaged Gears%1",
+        "Ring of Bent Wires%1",
+        "Scepter of Energy Torque%1",
+        "Torch of Anti-Lag Ignition%1",
+        "Candle of Delayed Diffraction%1",
+        "Canopy of Mottled Metal%1",
+        "Garment of Coiled Wires%1",
+        "Wreath of Interlaced Pipes%1"
+    ],
+    "12801": [
+        "Throne of Engaged Gears%1",
+        "Ring of Bent Wires%1",
+        "Scepter of Energy Torque%1",
+        "Torch of Anti-Lag Ignition%1",
+        "Candle of Delayed Diffraction%1",
+        "Canopy of Mottled Metal%1",
+        "Garment of Coiled Wires%1",
+        "Wreath of Interlaced Pipes%1"
+    ],
+    "12802": [
+        "Attachment: Vestibular System%1",
+        "Imitation: Transmitter Synthesis%1",
+        "Implant: Explicit Memory%1",
+        "Mimesis: Tactile Pathway%1",
+        "Analysis: Subliminal Sensation%1",
+        "Load: Striated Cortex%1",
+        "Stimulation: Saltatory Conduction%1"
+    ],
+    "12803": [
+        "BCI-34 Gray Matter%1",
+        "SMR-2 Amygdala%1",
+        "VEP-18 Occipital Lobe%1"
+    ],
+    "12804": [
+        "Path Resonance: \"Erudition\"%1"
+    ],
+    "12805": [
+        "Resonance Formation: Melt Core%1",
+        "Resonance Formation: Chain Contagion%1",
+        "Resonance Formation: Memetic Inversion%1"
+    ],
+    "12806": [
+        "Attachment: Vestibular System%1",
+        "Imitation: Transmitter Synthesis%1",
+        "Implant: Explicit Memory%1"
+    ],
+    "12807": [
+        "BCI-34 Gray Matter%1",
+        "SMR-2 Amygdala%1"
+    ],
+    "12808": [
+        "BCI-34 Gray Matter%1",
+        "SMR-2 Amygdala%1",
+        "VEP-18 Occipital Lobe%1"
+    ],
+    "12811": [
+        "Throne of Engaged Gears%2",
+        "Ring of Bent Wires%2",
+        "Scepter of Energy Torque%2",
+        "Torch of Anti-Lag Ignition%2",
+        "Candle of Delayed Diffraction%2",
+        "Canopy of Mottled Metal%2",
+        "Garment of Coiled Wires%2",
+        "Wreath of Interlaced Pipes%2"
+    ],
+    "12812": [
+        "Attachment: Vestibular System%2",
+        "Imitation: Transmitter Synthesis%2",
+        "Implant: Explicit Memory%2",
+        "Mimesis: Tactile Pathway%2",
+        "Analysis: Subliminal Sensation%2",
+        "Load: Striated Cortex%2",
+        "Stimulation: Saltatory Conduction%2"
+    ],
+    "12813": [
+        "BCI-34 Gray Matter%2",
+        "SMR-2 Amygdala%2",
+        "VEP-18 Occipital Lobe%2"
+    ],
+    "12823": [
+        "Resonance Interplay: Full Scan%1"
+    ],
+    "12824": [
+        "Resonance Interplay: Data Reinforcement%1"
+    ],
+    "100001": [
+        12001,
+        12101,
+        12201,
+        12301,
+        12401,
+        12501,
+        12601,
+        12701,
+        12801
+    ],
+    "100002": [
+        12002,
+        12102,
+        12202,
+        12302,
+        12402,
+        12502,
+        12602,
+        12702,
+        12802
+    ],
+    "100003": [
+        12003,
+        12103,
+        12203,
+        12303,
+        12403,
+        12503,
+        12603,
+        12703,
+        12803
+    ],
+    "100004": [
+        100001,
+        100002,
+        100003
+    ],
+    "100005": [
+        100001,
+        100002
+    ],
+    "100006": [
+        12005,
+        12105,
+        12205,
+        12305,
+        12405,
+        12505,
+        12605,
+        12705,
+        12805
+    ],
+    "100007": [
+        12004,
+        12104,
+        12204,
+        12304,
+        12404,
+        12504,
+        12604,
+        12704,
+        12804
+    ],
+    "100008": [
+        100003,
+        100006
+    ],
+    "100009": [
+        12006,
+        12106,
+        12206,
+        12306,
+        12406,
+        12506,
+        12606,
+        12706,
+        12806
+    ],
+    "100011": [
+        12011,
+        12111,
+        12211,
+        12311,
+        12411,
+        12511,
+        12611,
+        12711,
+        12811
+    ],
+    "100012": [
+        12012,
+        12112,
+        12212,
+        12312,
+        12412,
+        12512,
+        12612,
+        12712,
+        12812
+    ],
+    "100013": [
+        12013,
+        12113,
+        12213,
+        12313,
+        12413,
+        12513,
+        12613,
+        12713,
+        12813
+    ],
+    "100014": [
+        100011,
+        100012,
+        100013
+    ],
+    "100110": [
+        100111,
+        100112,
+        100113
+    ],
+    "100111": [
+        100001
+    ],
+    "100112": [
+        100002
+    ],
+    "100113": [
+        100003
+    ],
+    "100120": [
+        100121,
+        100122,
+        100123
+    ],
+    "100121": [
+        100001
+    ],
+    "100122": [
+        100002
+    ],
+    "100123": [
+        100003
+    ],
+    "100210": [
+        100211,
+        100212,
+        100213
+    ],
+    "100211": [
+        100001
+    ],
+    "100212": [
+        100002
+    ],
+    "100213": [
+        100003
+    ],
+    "100220": [
+        100221,
+        100222,
+        100223
+    ],
+    "100221": [
+        100001
+    ],
+    "100222": [
+        100002
+    ],
+    "100223": [
+        100003
+    ],
+    "100230": [
+        100231,
+        100232,
+        100233
+    ],
+    "100231": [
+        100011
+    ],
+    "100232": [
+        100012
+    ],
+    "100233": [
+        100013
+    ],
+    "100240": [
+        100241,
+        100242,
+        100243
+    ],
+    "100241": [
+        100011
+    ],
+    "100242": [
+        100012
+    ],
+    "100243": [
+        100013
+    ],
+    "100310": [
+        100311,
+        100312,
+        100313
+    ],
+    "100311": [
+        100001
+    ],
+    "100312": [
+        100002
+    ],
+    "100313": [
+        100003
+    ],
+    "100320": [
+        100321,
+        100322,
+        100323
+    ],
+    "100321": [
+        100001
+    ],
+    "100322": [
+        100002
+    ],
+    "100323": [
+        100003
+    ],
+    "100410": [
+        100411,
+        100412,
+        100413
+    ],
+    "100411": [
+        100001
+    ],
+    "100412": [
+        100002
+    ],
+    "100413": [
+        100003
+    ],
+    "100420": [
+        100421,
+        100422,
+        100423
+    ],
+    "100421": [
+        100001
+    ],
+    "100422": [
+        100002
+    ],
+    "100423": [
+        100003
+    ],
+    "100430": [
+        100431,
+        100432,
+        100433
+    ],
+    "100431": [
+        100001
+    ],
+    "100432": [
+        100002
+    ],
+    "100433": [
+        100003
+    ],
+    "100440": [
+        100441,
+        100442,
+        100443
+    ],
+    "100441": [
+        100011
+    ],
+    "100442": [
+        100012
+    ],
+    "100443": [
+        100013
+    ],
+    "100450": [
+        100451,
+        100452,
+        100453
+    ],
+    "100451": [
+        100011
+    ],
+    "100452": [
+        100012
+    ],
+    "100453": [
+        100013
+    ],
+    "100460": [
+        100461,
+        100462,
+        100463
+    ],
+    "100461": [
+        100011
+    ],
+    "100462": [
+        100012
+    ],
+    "100463": [
+        100013
+    ],
+    "100510": [
+        100511,
+        100512,
+        100513
+    ],
+    "100511": [
+        100001
+    ],
+    "100512": [
+        100002
+    ],
+    "100513": [
+        100003
+    ],
+    "100520": [
+        100521,
+        100522,
+        100523
+    ],
+    "100521": [
+        100001
+    ],
+    "100522": [
+        100002
+    ],
+    "100523": [
+        100003
+    ],
+    "100610": [
+        100611,
+        100612,
+        100613
+    ],
+    "100611": [
+        100001
+    ],
+    "100612": [
+        100002
+    ],
+    "100613": [
+        100003
+    ],
+    "100620": [
+        100621,
+        100622,
+        100623
+    ],
+    "100621": [
+        100001
+    ],
+    "100622": [
+        100002
+    ],
+    "100623": [
+        100003
+    ],
+    "100810": [
+        100812,
+        100813
+    ],
+    "100812": [
+        100006
+    ],
+    "100813": [
+        100007
+    ],
+    "101000": [
+        101001,
+        101002,
+        101003
+    ],
+    "101001": [
+        100001
+    ],
+    "101002": [
+        100002
+    ],
+    "101003": [
+        100003
+    ],
+    "101010": [
+        101011,
+        101012,
+        101013
+    ],
+    "101011": [
+        100001
+    ],
+    "101012": [
+        100002
+    ],
+    "101013": [
+        100003
+    ],
+    "200001": [
+        12001,
+        12101,
+        12201,
+        12301,
+        12401,
+        12501,
+        12601,
+        12701
+    ],
+    "200002": [
+        12002,
+        12102,
+        12202,
+        12302,
+        12402,
+        12502,
+        12602,
+        12702
+    ],
+    "200003": [
+        12003,
+        12103,
+        12203,
+        12303,
+        12403,
+        12503,
+        12603,
+        12703
+    ],
+    "200004": [
+        200001,
+        200002,
+        200003
+    ],
+    "200005": [
+        200001,
+        200002
+    ],
+    "200006": [
+        12005,
+        12105,
+        12205,
+        12305,
+        12405,
+        12505,
+        12605,
+        12705
+    ],
+    "200007": [
+        12004,
+        12104,
+        12204,
+        12304,
+        12404,
+        12504,
+        12604,
+        12704
+    ],
+    "200008": [
+        200003,
+        200006
+    ],
+    "200009": [
+        12006,
+        12106,
+        12206,
+        12306,
+        12406,
+        12506,
+        12606,
+        12706
+    ],
+    "200011": [
+        12011,
+        12111,
+        12211,
+        12311,
+        12411,
+        12511,
+        12611,
+        12711
+    ],
+    "200012": [
+        12012,
+        12112,
+        12212,
+        12312,
+        12412,
+        12512,
+        12612,
+        12712
+    ],
+    "200013": [
+        12013,
+        12113,
+        12213,
+        12313,
+        12413,
+        12513,
+        12613,
+        12713
+    ],
+    "200014": [
+        200011,
+        200012,
+        200013
+    ],
+    "200021": [
+        12001,
+        12101,
+        12201,
+        12301,
+        12401,
+        12501,
+        12601
+    ],
+    "200022": [
+        12002,
+        12102,
+        12202,
+        12302,
+        12402,
+        12502,
+        12602
+    ],
+    "200023": [
+        12003,
+        12103,
+        12203,
+        12303,
+        12403,
+        12503,
+        12603
+    ],
+    "200031": [
+        12011,
+        12111,
+        12211,
+        12311,
+        12411,
+        12511,
+        12611
+    ],
+    "200032": [
+        12012,
+        12112,
+        12212,
+        12312,
+        12412,
+        12512,
+        12612
+    ],
+    "200033": [
+        12013,
+        12113,
+        12213,
+        12313,
+        12413,
+        12513,
+        12613
+    ],
+    "200110": [
+        200111,
+        200112,
+        200113
+    ],
+    "200111": [
+        200021
+    ],
+    "200112": [
+        200022
+    ],
+    "200113": [
+        200023
+    ],
+    "200120": [
+        200121,
+        200122,
+        200123
+    ],
+    "200121": [
+        200021
+    ],
+    "200122": [
+        200022
+    ],
+    "200123": [
+        200023
+    ],
+    "200210": [
+        200211,
+        200212,
+        200213
+    ],
+    "200211": [
+        200021
+    ],
+    "200212": [
+        200022
+    ],
+    "200213": [
+        200023
+    ],
+    "200220": [
+        200221,
+        200222,
+        200223
+    ],
+    "200221": [
+        200021
+    ],
+    "200222": [
+        200022
+    ],
+    "200223": [
+        200023
+    ],
+    "200230": [
+        200231,
+        200232,
+        200233
+    ],
+    "200231": [
+        200031
+    ],
+    "200232": [
+        200032
+    ],
+    "200233": [
+        200033
+    ],
+    "200240": [
+        200241,
+        200242,
+        200243
+    ],
+    "200241": [
+        200031
+    ],
+    "200242": [
+        200032
+    ],
+    "200243": [
+        200033
+    ],
+    "200310": [
+        200311,
+        200312,
+        200313
+    ],
+    "200311": [
+        200001
+    ],
+    "200312": [
+        200002
+    ],
+    "200313": [
+        200003
+    ],
+    "200320": [
+        200321,
+        200322,
+        200323
+    ],
+    "200321": [
+        200001
+    ],
+    "200322": [
+        200002
+    ],
+    "200323": [
+        200003
+    ],
+    "200410": [
+        200411,
+        200412,
+        200413
+    ],
+    "200411": [
+        200021
+    ],
+    "200412": [
+        200022
+    ],
+    "200413": [
+        200023
+    ],
+    "200420": [
+        200421,
+        200422,
+        200423
+    ],
+    "200421": [
+        200021
+    ],
+    "200422": [
+        200022
+    ],
+    "200423": [
+        200023
+    ],
+    "200430": [
+        200431,
+        200432,
+        200433
+    ],
+    "200431": [
+        200021
+    ],
+    "200432": [
+        200022
+    ],
+    "200433": [
+        200023
+    ],
+    "200440": [
+        200441,
+        200442,
+        200443
+    ],
+    "200441": [
+        200031
+    ],
+    "200442": [
+        200032
+    ],
+    "200443": [
+        200033
+    ],
+    "200450": [
+        200451,
+        200452,
+        200453
+    ],
+    "200451": [
+        200031
+    ],
+    "200452": [
+        200032
+    ],
+    "200453": [
+        200033
+    ],
+    "200460": [
+        200461,
+        200462,
+        200463
+    ],
+    "200461": [
+        200031
+    ],
+    "200462": [
+        200032
+    ],
+    "200463": [
+        200033
+    ],
+    "200510": [
+        200511,
+        200512,
+        200513
+    ],
+    "200511": [
+        200001
+    ],
+    "200512": [
+        200002
+    ],
+    "200513": [
+        200003
+    ],
+    "200520": [
+        200521,
+        200522,
+        200523
+    ],
+    "200521": [
+        200001
+    ],
+    "200522": [
+        200002
+    ],
+    "200523": [
+        200003
+    ],
+    "200530": [
+        200531,
+        200532,
+        200533
+    ],
+    "200531": [
+        200001
+    ],
+    "200532": [
+        200002
+    ],
+    "200533": [
+        200003
+    ],
+    "200540": [
+        200541,
+        200542,
+        200543
+    ],
+    "200541": [
+        200011
+    ],
+    "200542": [
+        200012
+    ],
+    "200543": [
+        200013
+    ],
+    "200550": [
+        200551,
+        200552,
+        200553
+    ],
+    "200551": [
+        200011
+    ],
+    "200552": [
+        200012
+    ],
+    "200553": [
+        200013
+    ],
+    "200560": [
+        200561,
+        200562,
+        200563
+    ],
+    "200561": [
+        200011
+    ],
+    "200562": [
+        200012
+    ],
+    "200563": [
+        200013
+    ],
+    "200610": [
+        200611,
+        200612,
+        200613
+    ],
+    "200611": [
+        200021
+    ],
+    "200612": [
+        200022
+    ],
+    "200613": [
+        200023
+    ],
+    "200620": [
+        200621,
+        200622,
+        200623
+    ],
+    "200621": [
+        200021
+    ],
+    "200622": [
+        200022
+    ],
+    "200623": [
+        200023
+    ],
+    "200630": [
+        200631,
+        200632,
+        200633
+    ],
+    "200631": [
+        200021
+    ],
+    "200632": [
+        200022
+    ],
+    "200633": [
+        200023
+    ],
+    "200720": [
+        200721,
+        200722,
+        200723
+    ],
+    "200721": [
+        200021
+    ],
+    "200722": [
+        200022
+    ],
+    "200723": [
+        200023
+    ],
+    "200810": [
+        200812,
+        200813
+    ],
+    "200812": [
+        200006
+    ],
+    "200813": [
+        200007
+    ],
+    "201000": [
+        201001,
+        201002,
+        201003
+    ],
+    "201001": [
+        200001
+    ],
+    "201002": [
+        200002
+    ],
+    "201003": [
+        200003
+    ],
+    "201010": [
+        201011,
+        201012,
+        201013
+    ],
+    "201011": [
+        200001
+    ],
+    "201012": [
+        200002
+    ],
+    "201013": [
+        200003
+    ],
+    "210000": [
+        "Divine Construct: Metastatic Field (Infinite)%1",
+        "Ultimate Experience: Sentimentality (Infinite)%1",
+        "Why Hasn't Everything Already Disappeared? (Infinite)%1",
+        "Prosperity, Longevity (Infinite)%1",
+        "Imperial Reign (Infinite)%1",
+        "Cataclysmic Blazar (Infinite)%1",
+        "Auto-Harmonica: Whitest Night (Infinite)%1",
+        "Fungal Pustule (Infinite)%1"
+    ],
+    "210001": [
+        210000
+    ],
+    "300001": [
+        12001,
+        12101,
+        12201,
+        12301,
+        12401,
+        12501,
+        12601,
+        12701,
+        12801
+    ],
+    "300002": [
+        12002,
+        12102,
+        12202,
+        12302,
+        12402,
+        12502,
+        12602,
+        12702,
+        12802
+    ],
+    "300003": [
+        12003,
+        12103,
+        12203,
+        12303,
+        12403,
+        12503,
+        12603,
+        12703,
+        12803
+    ],
+    "300004": [
+        300001,
+        300002,
+        300003
+    ],
+    "300005": [
+        300001,
+        300002
+    ],
+    "300006": [
+        12005,
+        12105,
+        12205,
+        12305,
+        12405,
+        12505,
+        12605,
+        12705,
+        12805
+    ],
+    "300007": [
+        12004,
+        12104,
+        12204,
+        12304,
+        12404,
+        12504,
+        12604,
+        12704,
+        12804
+    ],
+    "300008": [
+        300003,
+        300006
+    ],
+    "300009": [
+        12006,
+        12106,
+        12206,
+        12306,
+        12406,
+        12506,
+        12606,
+        12706,
+        12806
+    ],
+    "300011": [
+        12011,
+        12111,
+        12211,
+        12311,
+        12411,
+        12511,
+        12611,
+        12711,
+        12811
+    ],
+    "300012": [
+        12012,
+        12112,
+        12212,
+        12312,
+        12412,
+        12512,
+        12612,
+        12712,
+        12812
+    ],
+    "300013": [
+        12013,
+        12113,
+        12213,
+        12313,
+        12413,
+        12513,
+        12613,
+        12713,
+        12813
+    ],
+    "300014": [
+        300011,
+        300012,
+        300013
+    ],
+    "300110": [
+        300111,
+        300112,
+        300113
+    ],
+    "300111": [
+        300001
+    ],
+    "300112": [
+        300002
+    ],
+    "300113": [
+        300003
+    ],
+    "300120": [
+        300121,
+        300122,
+        300123
+    ],
+    "300121": [
+        300001
+    ],
+    "300122": [
+        300002
+    ],
+    "300123": [
+        300003
+    ],
+    "300210": [
+        300211,
+        300212,
+        300213
+    ],
+    "300211": [
+        300001
+    ],
+    "300212": [
+        300002
+    ],
+    "300213": [
+        300003
+    ],
+    "300220": [
+        300221,
+        300222,
+        300223
+    ],
+    "300221": [
+        300001
+    ],
+    "300222": [
+        300002
+    ],
+    "300223": [
+        300003
+    ],
+    "300230": [
+        300231,
+        300232,
+        300233
+    ],
+    "300231": [
+        300011
+    ],
+    "300232": [
+        300012
+    ],
+    "300233": [
+        300013
+    ],
+    "300240": [
+        300241,
+        300242,
+        300243
+    ],
+    "300241": [
+        300011
+    ],
+    "300242": [
+        300012
+    ],
+    "300243": [
+        300013
+    ],
+    "300310": [
+        300311,
+        300312,
+        300313
+    ],
+    "300311": [
+        300001
+    ],
+    "300312": [
+        300002
+    ],
+    "300313": [
+        300003
+    ],
+    "300320": [
+        300321,
+        300322,
+        300323
+    ],
+    "300321": [
+        300001
+    ],
+    "300322": [
+        300002
+    ],
+    "300323": [
+        300003
+    ],
+    "300410": [
+        300411,
+        300412,
+        300413
+    ],
+    "300411": [
+        300001
+    ],
+    "300412": [
+        300002
+    ],
+    "300413": [
+        300003
+    ],
+    "300420": [
+        300421,
+        300422,
+        300423
+    ],
+    "300421": [
+        300001
+    ],
+    "300422": [
+        300002
+    ],
+    "300423": [
+        300003
+    ],
+    "300430": [
+        300431,
+        300432,
+        300433
+    ],
+    "300431": [
+        300001
+    ],
+    "300432": [
+        300002
+    ],
+    "300433": [
+        300003
+    ],
+    "300440": [
+        300441,
+        300442,
+        300443
+    ],
+    "300441": [
+        300011
+    ],
+    "300442": [
+        300012
+    ],
+    "300443": [
+        300013
+    ],
+    "300450": [
+        300451,
+        300452,
+        300453
+    ],
+    "300451": [
+        300011
+    ],
+    "300452": [
+        300012
+    ],
+    "300453": [
+        300013
+    ],
+    "300460": [
+        300461,
+        300462,
+        300463
+    ],
+    "300461": [
+        300011
+    ],
+    "300462": [
+        300012
+    ],
+    "300463": [
+        300013
+    ],
+    "300510": [
+        300511,
+        300512,
+        300513
+    ],
+    "300511": [
+        300001
+    ],
+    "300512": [
+        300002
+    ],
+    "300513": [
+        300003
+    ],
+    "300520": [
+        300521,
+        300522,
+        300523
+    ],
+    "300521": [
+        300001
+    ],
+    "300522": [
+        300002
+    ],
+    "300523": [
+        300003
+    ],
+    "300530": [
+        300531,
+        300532,
+        300533
+    ],
+    "300531": [
+        300001
+    ],
+    "300532": [
+        300002
+    ],
+    "300533": [
+        300003
+    ],
+    "300540": [
+        300541,
+        300542,
+        300543
+    ],
+    "300541": [
+        300011
+    ],
+    "300542": [
+        300012
+    ],
+    "300543": [
+        300013
+    ],
+    "300550": [
+        300551,
+        300552,
+        300553
+    ],
+    "300551": [
+        300011
+    ],
+    "300552": [
+        300012
+    ],
+    "300553": [
+        300013
+    ],
+    "300560": [
+        300561,
+        300562,
+        300563
+    ],
+    "300561": [
+        300011
+    ],
+    "300562": [
+        300012
+    ],
+    "300563": [
+        300013
+    ],
+    "300610": [
+        300611,
+        300612,
+        300613
+    ],
+    "300611": [
+        300001
+    ],
+    "300612": [
+        300002
+    ],
+    "300613": [
+        300003
+    ],
+    "300620": [
+        300621,
+        300622,
+        300623
+    ],
+    "300621": [
+        300001
+    ],
+    "300622": [
+        300002
+    ],
+    "300623": [
+        300003
+    ],
+    "300630": [
+        300631,
+        300632,
+        300633
+    ],
+    "300631": [
+        300001
+    ],
+    "300632": [
+        300002
+    ],
+    "300633": [
+        300003
+    ],
+    "300720": [
+        300721,
+        300722,
+        300723
+    ],
+    "300721": [
+        300001
+    ],
+    "300722": [
+        300002
+    ],
+    "300723": [
+        300003
+    ],
+    "300810": [
+        300812,
+        300813
+    ],
+    "300812": [
+        300006
+    ],
+    "300813": [
+        300007
+    ],
+    "300920": [
+        300921,
+        300922,
+        300923
+    ],
+    "300921": [
+        12001,
+        12201,
+        12301,
+        12401,
+        12501,
+        12601,
+        12701,
+        12801
+    ],
+    "300922": [
+        12002,
+        12202,
+        12302,
+        12402,
+        12502,
+        12602,
+        12702,
+        12802
+    ],
+    "300923": [
+        12003,
+        12203,
+        12303,
+        12403,
+        12503,
+        12603,
+        12703,
+        12803
+    ],
+    "301000": [
+        301001,
+        301002,
+        301003
+    ],
+    "301001": [
+        300001
+    ],
+    "301002": [
+        300002
+    ],
+    "301003": [
+        300003
+    ],
+    "301010": [
+        301011,
+        301012,
+        301013
+    ],
+    "301011": [
+        300001
+    ],
+    "301012": [
+        300002
+    ],
+    "301013": [
+        300003
+    ]
+}
