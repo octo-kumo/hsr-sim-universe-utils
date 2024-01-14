@@ -29,7 +29,16 @@ function dialogue(dialogue) {
             meta.on = task.CustomString.Value;
             return undefined;
           case 'RPG.GameCore.TriggerCustomString':
+            if (meta.triggers && !(
+              task.CustomString.Value === 'DialogueFinished' && meta.triggers === 'ALL_TALK_END'
+            )) throw 'TriggerCustomString: meta.triggers already set ' + meta.triggers + ', ' + task.CustomString.Value;
             meta.triggers = task.CustomString.Value;
+            return undefined;
+          case 'RPG.GameCore.FinishLevelGraph':
+            if (meta.triggers && !(
+              meta.triggers === 'DialogueFinished'
+            )) throw 'FinishLevelGraph: meta.triggers already set ' + meta.triggers;
+            meta.triggers = 'ALL_TALK_END';
             return undefined;
           case 'RPG.GameCore.WaitDialogueEvent':
             events.push({
@@ -47,7 +56,7 @@ function dialogue(dialogue) {
           // return undefined;
           case 'RPG.GameCore.SetAllRogueDoorState': // TaskEnabled: boolean
           case 'RPG.GameCore.SetRogueRoomFinish': // TaskEnabled: boolean
-          case 'RPG.GameCore.FinishLevelGraph': // MakeOwnerEntityDie: boolean
+          // case 'RPG.GameCore.FinishLevelGraph': // MakeOwnerEntityDie: boolean
           case 'RPG.GameCore.SwitchUIMenuBGM': // ShouldStop: boolean | StateName: string
           case 'RPG.GameCore.ShowRogueTalkUI':
           case 'RPG.GameCore.ShowRogueTalkBg': //TalkBgID
@@ -113,15 +122,12 @@ function dialogue(dialogue) {
   return dialogue;
 }
 
-export function parseHandbookEvents() {
-  const events = Object.values(data).map(d => ({
-    id: d.EventID,
-    title: text[d.EventTitle.Hash],
-    type: text[d.EventType.Hash],
-    reward: rewards[d.EventReward],
-    in: d.EventTypeList.map(i => eventTypes[i].title),
-    dialogue: dialogue(json(join(_hsr_root, d.DialoguePath))),
-  }));
-
-  writeFileSync('out/handbook_events.json', stringify(events));
-}
+export const handbook_events = mapObject(data, (k, d) => [k, {
+  id: d.EventID,
+  title: text[d.EventTitle.Hash],
+  type: text[d.EventType.Hash],
+  reward: rewards[d.EventReward],
+  in: d.EventTypeList.map(i => eventTypes[i].title),
+  dialogue: dialogue(json(join(_hsr_root, d.DialoguePath))),
+}]);
+writeFileSync('out/handbook_events.json', stringify(handbook_events));

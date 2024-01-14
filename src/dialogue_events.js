@@ -7,7 +7,7 @@ import { parseEffect } from './parsers.js';
 import { text } from './text.js';
 
 const dia_events_display = mapObject(json(join(_hsr_root, 'ExcelOutput', 'DialogueEventDisplay.json')), (key, o) => [key, {
-  display: key,
+  // display: key,
   title: text[o.EventTitle.Hash],
   desc: text[o.EventDesc.Hash],
   desc2: text[o.EventDetailDesc.Hash],
@@ -29,6 +29,7 @@ export const dia_events = mapObject(json(join(_hsr_root, 'ExcelOutput', 'Dialogu
 Object.values(dia_events).forEach(e => {
   e.effect = parseEffect(dia_events, e.o.RogueEffectType, e.o.RogueEffectParamList);
   e.cost = parseEffect(dia_events, e.o.CostType, e.o.CostParamList);
+  // e.desc ??= e.effect;
   delete e.o;
 });
 

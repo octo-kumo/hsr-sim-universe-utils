@@ -4,7 +4,8 @@
     "description": "Tools for HSR SU",
     "type": "module",
     "scripts": {
-        "start": "node src/main.js"
+        "start": "node src/main.js",
+        "display": "node src/display/handbook_events_flowchart.js"
     },
     "author": "octo-kumo",
     "license": "MIT",
