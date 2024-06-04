@@ -1,9 +1,9 @@
 import { writeFileSync } from 'fs';
 import mapObject from 'map-obj';
 import { join } from 'path';
-import { _hsr_root, json, lang } from './config.js';
+import { _hsr_root, _out, json, lang } from './config.js';
 import { formatString } from './formatter.js';
-import { parseEffect } from './parsers.js';
+import { parseEffect } from './lib/parsers.js';
 import { text } from './text.js';
 
 const dia_events_display = mapObject(json(join(_hsr_root, 'ExcelOutput', 'DialogueEventDisplay.json')), (key, o) => [key, {
@@ -33,4 +33,4 @@ Object.values(dia_events).forEach(e => {
   delete e.o;
 });
 
-writeFileSync(`out/dia_events${lang}.json`, JSON.stringify(dia_events, null, 4));
+writeFileSync(join(_out, `dia_events${lang}.json`), JSON.stringify(dia_events, null, 4));

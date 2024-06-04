@@ -4,5 +4,6 @@ import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 export const _hsr_root = join(__dirname, '..', 'StarRailData');
+export const _out = join(__dirname, '..', 'out');
 export const json = P => JSON.parse(readFileSync(P).toString());
 export const lang = 'CHS';

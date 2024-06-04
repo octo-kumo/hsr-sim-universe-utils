@@ -2,14 +2,14 @@ import { writeFileSync } from 'fs';
 import mapObject from 'map-obj';
 import { join } from 'path';
 import { aeons } from './aeons.js';
-import { _hsr_root, json, lang } from './config.js';
+import { _hsr_root, _out, json, lang } from './config.js';
 import { formatString } from './formatter.js';
 import { text } from './text.js';
 
 const rogue_buff = json(join(_hsr_root, 'ExcelOutput', 'RogueBuff.json'));
 const maze_buff = json(join(_hsr_root, 'ExcelOutput', 'MazeBuff.json'));
 const rogue_maze_buff = json(join(_hsr_root, 'ExcelOutput', 'RogueMazeBuff.json'));
-export const buff_groups = mapObject(json(join(_hsr_root, 'ExcelOutput', 'RogueBuffGroup.json')), (key, value) => [key, value.ADJICNNJFEM]);
+export const buff_groups = mapObject(json(join(_hsr_root, 'ExcelOutput', 'RogueBuffGroup.json')), (key, value) => [key, Object.values(value).find(e => String(e) !== key)]);
 const rogue_buff_type = mapObject(json(join(_hsr_root, 'ExcelOutput', 'RogueBuffType.json')), (key, o) => [key, {
   title: text[o.RogueBuffTypeTitle.Hash],
   subtitle: text[o.RogueBuffTypeSubTitle.Hash],
@@ -44,7 +44,8 @@ export const buffs = mapObject(rogue_buff, (key, o) => {
   buff.levels = buff.levels.map(l => l.desc);
   return [key, buff];
 });
-writeFileSync(`out/buffs${lang}.json`, JSON.stringify(buffs, null, 4));
+
+writeFileSync(join(_out, `buffs${lang}.json`), JSON.stringify(buffs, null, 4));
 Object.values(buff_groups).forEach(a => a.forEach((B, i) => {
   const F = Object.values(buffs).find(b => b.tags.includes(B));
   a[i] = F ? F.name + '%' + (F.tags.indexOf(B) + 1) : B;
@@ -55,4 +56,4 @@ Object.values(buff_groups).forEach(a => a.forEach((B, i) => {
 //   }
 // }));
 // Object.entries(buff_groups).forEach(([k, a]) => buff_groups[k] = a.flat(Infinity));
-writeFileSync(`out/buff_groups${lang}.json`, JSON.stringify(buff_groups, null, 4));
+writeFileSync(join(_out, `buff_groups${lang}.json`), JSON.stringify(buff_groups, null, 4));

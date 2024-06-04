@@ -1,6 +1,3 @@
-import { lang } from './config.js';
-import { items } from './items.js';
-
 const translations = {
   translationCHS: {
     'EnhanceRogueBuff': '升级祝福',
@@ -46,9 +43,11 @@ const translations = {
     'Coin': 'Frag',
   },
 };
-
-
 const translation = translations['translation' + lang];
+
+import { lang } from '../config.js';
+import { items } from '../items.js';
+
 
 export function parseEffect(dia_events, type, params = []) {
   if (!type) return type;
@@ -103,7 +102,3 @@ export function parseEffect(dia_events, type, params = []) {
   return [translation[type] ?? type, ...params];
 }
 
-
-export function parseReward(reward) {
-
-}

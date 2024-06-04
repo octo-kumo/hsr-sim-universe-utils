@@ -11,24 +11,24 @@
           "你看见一个男人，他大约三十岁，其貌不扬，上着一件白衬衫，下身是褐色的吊带裤。当他开口时，他的眼神四处游弋，像在躲闪：「呃，我想给这个游戏加点儿随机事件，那会很好玩…不过，似乎脑波读取器的稳定性有点问题。所以，呃，现在你碰到的事件会比较，呃，单调。我很抱歉。」"
         ],
         {
-          "你在说啥？": {"triggers": "TalkSentence_403030305"},
-          "有多单调？": {"triggers": "TalkSentence_403030305"}
+          "你在说啥？": {"triggers": ["TalkSentence_403030305"]},
+          "有多单调？": {"triggers": ["TalkSentence_403030305"]}
         }
       ],
       "triggers": {
         "TalkSentence_403030314": {
           "lines": [
             ["「希望很快就能修复。」男人诚恳地说，「我真的很想你玩得愉快，真的。呃，再次向你道歉。」"],
-            {"结束。": {"triggers": "ALL_TALK_END"}}
+            {"结束。": {"triggers": ["ALL_TALK_END"]}}
           ]
         },
         "TalkSentence_403030310": {
           "lines": [
             ["「呃，就是这么单调。」男人的声音说，他似乎是真的很抱歉。"],
             {
-              "好吧，我理解。": {"triggers": "TalkSentence_403030314"},
-              "勉强能够接受。": {"triggers": "TalkSentence_403030314"},
-              "什么时候能修好？": {"triggers": "TalkSentence_403030314"}
+              "好吧，我理解。": {"triggers": ["TalkSentence_403030314"]},
+              "勉强能够接受。": {"triggers": ["TalkSentence_403030314"]},
+              "什么时候能修好？": {"triggers": ["TalkSentence_403030314"]}
             }
           ]
         },
@@ -40,16 +40,16 @@
             ],
             {
               "给我一些启动资金吧": {
-                "triggers": "TalkSentence_403030310",
+                "triggers": ["TalkSentence_403030310"],
                 "desc": "获得一些宇宙碎片。",
                 "effect": "+150 宇宙碎片"
               },
               "给我点好东西吧": {
-                "triggers": "TalkSentence_403030310",
+                "triggers": ["TalkSentence_403030310"],
                 "desc": "获得1个随机祝福。",
                 "effect": ["自选获得祝福", 100410, 7, 1]
               },
-              "什么也不做": {"triggers": "TalkSentence_403030310", "desc": "你不需要。"}
+              "什么也不做": {"triggers": ["TalkSentence_403030310"], "desc": "你不需要。"}
             }
           ]
         }
@@ -72,22 +72,22 @@
         ],
         {
           "克里珀的恩赐。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "强化2个随机祝福。",
             "effect": ["升级祝福", 200520, 2]
           },
           "克里珀的祝福。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得1个2星「存护」的祝福。",
             "effect": ["自选获得祝福", 12002, 7, 1]
           },
           "「毁灭」 和*头号矿工*打一架，把好东西抢过来！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "进行一场战斗，获得2个随机「毁灭」祝福。",
             "effect": ["触发战斗", 81312021]
           },
           "「存护」 献给琥珀王。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得1个强化过的2星「存护」祝福。",
             "effect": ["自选获得祝福", 12012, 7, 1]
           }
@@ -109,8 +109,8 @@
           "「多此一举的小家伙！别乱翻我的书！」头发花白的老人呵斥道。他向你走来，你看到他皱得发胀的皮肤。「你手里拿着的那本，*新伦蒂尼恩王国*的历史，我最得意的作品。」"
         ],
         {
-          "你记录历史？": {"triggers": "TalkSentence_403810205"},
-          "你编的？": {"triggers": "TalkSentence_403810207"}
+          "你记录历史？": {"triggers": ["TalkSentence_403810205"]},
+          "你编的？": {"triggers": ["TalkSentence_403810207"]}
         }
       ],
       "triggers": {
@@ -120,20 +120,20 @@
               "「虚构史学家，只创造历史。我创造新伦蒂尼恩王国的过去，联席总理完全没有察觉他们的王国建立在一段虚假的、从未发生过的历史上。」他说。"
             ]
           ],
-          "triggers": "TalkSentence_403810208"
+          "triggers": ["TalkSentence_403810208"]
         },
         "TalkSentence_403810207": {
           "lines": [
             ["「虚构史学家，只修改历史。很多时候，你只需要把两个主语出现的顺序互换。改变新伦蒂尼恩王国的过去，就是如此简单。」他说。"]
           ],
-          "triggers": "TalkSentence_403810208"
+          "triggers": ["TalkSentence_403810208"]
         },
         "TalkSentence_403810208": {
           "lines": [
             ["「我在星空图书馆呆了十个琥珀纪…独自一人！」虚构史学家来回踱步。「我创造悖论、谬误、自相矛盾和含糊不清的说辞。」"],
             {
-              "你做过些什么多此一举的行为?": {"triggers": "TalkSentence_403810211"},
-              "你做过些什么绝妙的处理？": {"triggers": "TalkSentence_403810211"}
+              "你做过些什么多此一举的行为?": {"triggers": ["TalkSentence_403810211"]},
+              "你做过些什么绝妙的处理？": {"triggers": ["TalkSentence_403810211"]}
             }
           ]
         },
@@ -143,8 +143,8 @@
               "「比如——巴维鲁的现代居民以为咕嘟的声音，是表达喜悦。事实上，我很抱歉，这种声音其实是脏话。我把脏话的含义改成喜悦，伟大之举。」"
             ],
             {
-              "你为什么要这么做？": {"triggers": "TalkSentence_403810214"},
-              "你做得真棒。": {"triggers": "TalkSentence_403810214"}
+              "你为什么要这么做？": {"triggers": ["TalkSentence_403810214"]},
+              "你做得真棒。": {"triggers": ["TalkSentence_403810214"]}
             }
           ]
         },
@@ -155,8 +155,8 @@
               "「如果神秘不再笼罩宇宙，每个人都会察觉到自己被注定的命运，他们自以为通过*自由意志*做出的选择，都是在那个*时刻*必然出现的。」"
             ],
             {
-              "我不相信你说的话。": {"triggers": "TalkSentence_403810218"},
-              "证明给我看。": {"triggers": "TalkSentence_403810218"}
+              "我不相信你说的话。": {"triggers": ["TalkSentence_403810218"]},
+              "证明给我看。": {"triggers": ["TalkSentence_403810218"]}
             }
           ]
         },
@@ -165,11 +165,11 @@
             ["「我会证明给你看的，只需要对你之前的经历改上几笔。」他突然露出落寞的眼神。「你要切实忘掉过去，才能假装对未来一无所知。」"],
             {
               "关于#1星神的记载。": {
-                "triggers": "TalkSentence_403810222",
+                "triggers": ["TalkSentence_403810222"],
                 "desc": "强化1个随机3星「当前命途」的祝福。",
                 "effect": ["升级祝福", 12001, 1]
               },
-              "离开。": {"triggers": "ALL_TALK_END", "desc": "你不需要。"}
+              "离开。": {"triggers": ["ALL_TALK_END"], "desc": "你不需要。"}
             }
           ]
         },
@@ -177,7 +177,7 @@
           "lines": [
             ["「好了。记住，在代码构造的模拟世界之外，你察觉到任何矛盾，别怀疑，都是本人的伟大手笔——记住，我并不是被*模拟*出来的！」"]
           ],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -197,18 +197,18 @@
         ],
         {
           "关于#1星神的记载。": {
-            "triggers": "TalkSentence_403810222",
+            "triggers": ["TalkSentence_403810222"],
             "desc": "强化1个随机3星「当前命途」的祝福。",
             "effect": ["升级祝福", 12001, 1]
           },
-          "离开。": {"triggers": "ALL_TALK_END", "desc": "你不需要。"},
+          "离开。": {"triggers": ["ALL_TALK_END"], "desc": "你不需要。"},
           "「欢愉」 让「欢愉」覆盖别的记载！": {
-            "triggers": "TalkSentence_403810222",
+            "triggers": ["TalkSentence_403810222"],
             "desc": "将3个随机祝福变为强化过的随机祝福。",
             "effect": ["变换祝福", 200520, 3, 200450, 3]
           },
           "「记忆」 改写关于「记忆」的记载。": {
-            "triggers": "TalkSentence_403810222",
+            "triggers": ["TalkSentence_403810222"],
             "desc": "获得1个强化后的2-3星「记忆」祝福。",
             "effect": ["自选获得祝福", 1213, 7, 1]
           }
@@ -219,7 +219,7 @@
           "lines": [
             ["「好了。记住，在代码构造的模拟世界之外，你察觉到任何矛盾，别怀疑，都是本人的伟大手笔——记住，我并不是被*模拟*出来的！」"]
           ],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -241,17 +241,17 @@
         ],
         {
           "杰姆·哈克的藏品。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得1个1-2星祝福。",
             "effect": ["自选获得祝福", 200410, 7, 1]
           },
           "转身走开。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得100宇宙碎片。",
             "effect": "+100 宇宙碎片"
           },
           "「存护」 保存杰姆·哈克的遗体。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得奇物：混沌特效灵药；获得100宇宙碎片。",
             "effect": [
               "触发所有事件",
@@ -260,7 +260,7 @@
             ]
           },
           "「丰饶」 付出代价…延续它的运转。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "全部角色各自损失20%当前生命值，并获得2个随机「丰饶」祝福。",
             "effect": [
               "触发所有事件",
@@ -287,18 +287,18 @@
           "老旧电视机开始泛起雪花屏，它的信号变得越来越差。很快，你完全无法听清声音了。"
         ],
         {
-          "拍他一下。": {"triggers": "TalkSentence_403810405"},
-          "踹它一脚。": {"triggers": "TalkSentence_403810407"}
+          "拍他一下。": {"triggers": ["TalkSentence_403810405"]},
+          "踹它一脚。": {"triggers": ["TalkSentence_403810407"]}
         }
       ],
       "triggers": {
         "TalkSentence_403810405": {
           "lines": [["你拍了电视机一下，它的屏幕闪烁两下，接着恢复了正常的画面。"]],
-          "triggers": "TalkSentence_403810408"
+          "triggers": ["TalkSentence_403810408"]
         },
         "TalkSentence_403810407": {
           "lines": [["你踹了电视机一下，痛感从脚趾传来——按钮刺进了你的指甲缝。电视机的屏幕闪烁两下，接着恢复了正常的画面。"]],
-          "triggers": "TalkSentence_403810408"
+          "triggers": ["TalkSentence_403810408"]
         },
         "TalkSentence_403810408": {
           "lines": [
@@ -311,7 +311,7 @@
             ],
             {
               "一盒过期甜甜圈。": {
-                "triggers": "TalkSentence_403810417",
+                "triggers": ["TalkSentence_403810417"],
                 "desc": "你无法确认传统项目部对产品的品控是否合格。",
                 "effect": [
                   "触发随机事件",
@@ -322,7 +322,7 @@
                 ]
               },
               "会唱生日快乐的莲花。": {
-                "triggers": "TalkSentence_403810418",
+                "triggers": ["TalkSentence_403810418"],
                 "desc": "你无法确认传统项目部对产品的品控是否合格。",
                 "effect": [
                   "触发随机事件",
@@ -333,7 +333,7 @@
                 ]
               },
               "机械匣子。": {
-                "triggers": "TalkSentence_403810419",
+                "triggers": ["TalkSentence_403810419"],
                 "desc": "你无法确认传统项目部对产品的品控是否合格。",
                 "effect": [
                   "触发随机事件",
@@ -343,9 +343,12 @@
                   ]
                 ]
               },
-              "离开这里。": {"triggers": "TalkSentence_403810420", "desc": "你不感兴趣。"},
+              "离开这里。": {
+                "triggers": ["TalkSentence_403810420"],
+                "desc": "你不感兴趣。"
+              },
               "「毁灭」 打碎这个电视机!": {
-                "triggers": "TalkSentence_403810421",
+                "triggers": ["TalkSentence_403810421"],
                 "desc": "全部角色各自损失20%当前生命值，并获得2个随机奇物。",
                 "effect": ["获得奇物", 20002, 2],
                 "cost": "-20% HP"
@@ -357,25 +360,25 @@
           "lines": [
             ["你吃了甜甜圈，你感觉自己的胃有奇怪的动静……", "购物节目令你如痴如醉。你还想接着看，但屏幕「咻」地关闭了。"]
           ],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "TalkSentence_403810418": {
           "lines": [
             ["莲花唱起歌，你被唤起童年回忆，你仿佛回到上个时代……", "购物节目令你如痴如醉。你还想接着看，但屏幕「咻」地关闭了。"]
           ],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "TalkSentence_403810419": {
           "lines": [["你打开了匣子，里面似乎有奇怪的东西……", "购物节目令你如痴如醉。你还想接着看，但屏幕「咻」地关闭了。"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "TalkSentence_403810420": {
           "lines": [["购物节目令你如痴如醉。你还想接着看，但屏幕「咻」地关闭了。"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "TalkSentence_403810421": {
           "lines": [["电视机碎了！一些奇怪的东西从里面蹦了出来。"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -394,9 +397,9 @@
           "无数记忆在你的脑内涌现，你感到精神开始过热。你回想起第一个掰手指数数的下午，第一次看太空蚂蚁排队走路，你为什么记得这些？"
         ],
         {
-          "请别再继续问。": {"triggers": "TalkSentence_403810511"},
-          "很有魅力。": {"triggers": "TalkSentence_403810511"},
-          "怀念灰质的国度。": {"triggers": "TalkSentence_403810511"}
+          "请别再继续问。": {"triggers": ["TalkSentence_403810511"]},
+          "很有魅力。": {"triggers": ["TalkSentence_403810511"]},
+          "怀念灰质的国度。": {"triggers": ["TalkSentence_403810511"]}
         }
       ],
       "triggers": {
@@ -407,22 +410,22 @@
             ],
             {
               "将一切奉献给「祂」。": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "舍弃1个1-2星祝福，并获得1个1-3星祝福。",
                 "effect": ["自选交换祝福", 200510, 0, 1, 200420, 7, 1]
               },
               "承担十克拉的垃圾。": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "获得80宇宙碎片。",
                 "effect": "+80 宇宙碎片"
               },
               "「记忆」 信仰「记忆」的星神。": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "舍弃1个1-2星祝福，并获得1个「记忆」祝福。",
                 "effect": ["自选交换祝福", 200510, 0, 1, 1210, 7, 1]
               },
               "「虚无」 焚烧你渴望遗忘的「记忆」。": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "舍弃1个「虚无」祝福，并选择1个「虚无」祝福。",
                 "effect": ["自选交换祝福", 1220, 0, 1, 1220, 7, 1]
               }
@@ -450,8 +453,8 @@
           "「我们更换了节目单。『阿基维利』的时代落幕，古典艺术就已死去。今天大家都爱看动作片。告诉我你的选择。」一个男子声音传来。"
         ],
         {
-          "我加入你们的行动。": {"triggers": "TalkSentence_403810610"},
-          "请放过我。": {"triggers": "TalkSentence_403810610"}
+          "我加入你们的行动。": {"triggers": ["TalkSentence_403810610"]},
+          "请放过我。": {"triggers": ["TalkSentence_403810610"]}
         }
       ],
       "triggers": {
@@ -460,27 +463,27 @@
             ["「呃，不是这样的。」男子的声音有些茫然，他舔了舔嘴唇。「我的意思是，你喜欢歌舞片还是动作片？」"],
             {
               "歌舞片。": {
-                "triggers": "TalkSentence_403810612",
+                "triggers": ["TalkSentence_403810612"],
                 "desc": "获得1个2星「欢愉」的祝福。",
                 "effect": ["自选获得祝福", 12602, 7, 1]
               },
               "动作片。": {
-                "triggers": "TalkSentence_403810614",
+                "triggers": ["TalkSentence_403810614"],
                 "desc": "获得1个2星「巡猎」的祝福。",
                 "effect": ["自选获得祝福", 12402, 7, 1]
               },
               "请放我一条生路。": {
-                "triggers": "TalkSentence_403810616",
+                "triggers": ["TalkSentence_403810616"],
                 "desc": "全部角色回复等同于各自生命上限1%的生命值。",
                 "effect": ["更改数据", 100, 0, 0]
               },
               "「巡猎」 观看「瞬间」的秘密影片。": {
-                "triggers": "TalkSentence_403810618",
+                "triggers": ["TalkSentence_403810618"],
                 "desc": "强化3个随机「巡猎」祝福。",
                 "effect": ["升级祝福", 1240, 3]
               },
               "「丰饶」 观看「生命」的秘密影片。": {
-                "triggers": "TalkSentence_403810618",
+                "triggers": ["TalkSentence_403810618"],
                 "desc": "获得2个2星「丰饶」祝福。",
                 "effect": [
                   "触发所有事件",
@@ -495,11 +498,11 @@
           "lines": [
             ["你的腰椎被注射进药剂，一种宇宙和谐统一的喜乐贯穿你的脑髓。西利维亚小精灵围绕着你，他们吟唱颂歌。你跟着乐曲扭动着身体。"]
           ],
-          "triggers": "TalkSentence_403810618"
+          "triggers": ["TalkSentence_403810618"]
         },
         "TalkSentence_403810614": {
           "lines": [["你的腰椎被注射进药剂，冷兵器与燃烧的子弹在你的脑髓里穿梭。爆炸的艺术宏伟瑰丽。你吸入化学废气，神清气爽。"]],
-          "triggers": "TalkSentence_403810618"
+          "triggers": ["TalkSentence_403810618"]
         },
         "TalkSentence_403810616": {
           "lines": [
@@ -508,7 +511,7 @@
               "你的腰椎被注射进药剂，一种宇宙和谐统一的喜乐贯穿你的脑髓，无数冷兵器与燃烧的子弹在其中穿梭。"
             ]
           ],
-          "triggers": "TalkSentence_403810618"
+          "triggers": ["TalkSentence_403810618"]
         },
         "TalkSentence_403810618": {
           "lines": [
@@ -517,7 +520,7 @@
               "「很抱歉给您带来了过于真实的体验。互动环节已经结束，请继续安心观赏剧目。」"
             ]
           ],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -536,8 +539,8 @@
           "你看着空中浮动的像素砖块，耳边回响复古电子乐。一群像素蚂蚁在地上爬行，它们摆出了几个字「欢迎吉巴欧萝卜先生」。"
         ],
         {
-          "什么是吉巴欧萝卜先生？": {"triggers": "TalkSentence_403810706"},
-          "我是萝卜？": {"triggers": "TalkSentence_403810706"}
+          "什么是吉巴欧萝卜先生？": {"triggers": ["TalkSentence_403810706"]},
+          "我是萝卜？": {"triggers": ["TalkSentence_403810706"]}
         }
       ],
       "triggers": {
@@ -551,12 +554,12 @@
             ],
             {
               "爬进左边的管道。": {
-                "triggers": "TalkSentence_403810711",
+                "triggers": ["TalkSentence_403810711"],
                 "desc": "获得200宇宙碎片。",
                 "effect": "+200 宇宙碎片"
               },
               "跳上右边的砖块。": {
-                "triggers": "TalkSentence_403810713",
+                "triggers": ["TalkSentence_403810713"],
                 "desc": "全部角色各自损失20%当前生命值，并获得2个1星祝福。",
                 "effect": [
                   "触发所有事件",
@@ -566,7 +569,7 @@
                 "cost": "-20% HP"
               },
               "「欢愉」 四处乱蹦，探索隐藏砖块！": {
-                "triggers": "TalkSentence_403810714",
+                "triggers": ["TalkSentence_403810714"],
                 "desc": "你有75%概率获得1个「欢愉」3星祝福。",
                 "effect": [
                   "触发随机事件",
@@ -574,7 +577,7 @@
                 ]
               },
               "「丰饶」 爬上最远端的藤蔓。": {
-                "triggers": "TalkSentence_403810714",
+                "triggers": ["TalkSentence_403810714"],
                 "desc": "获得藤蔓顶点的300宇宙碎片。",
                 "effect": "+300 宇宙碎片"
               }
@@ -583,17 +586,17 @@
         },
         "TalkSentence_403810711": {
           "lines": [["你吃到了一块开拓者留下的金币。这块金币一分为二，接着二分为四，不停分裂、增殖……你拥有了意外的财富。"]],
-          "triggers": "TalkSentence_403810714"
+          "triggers": ["TalkSentence_403810714"]
         },
         "TalkSentence_403810713": {
           "lines": [
             ["你遇到了地火组织的大块头，他看上去和这个世界的画风格格不入。他摆出了拳击姿势，并大叫着「KO」！很可惜，你没能躲过他的一拳。"]
           ],
-          "triggers": "TalkSentence_403810714"
+          "triggers": ["TalkSentence_403810714"]
         },
         "TalkSentence_403810714": {
           "lines": [["你继续前进，遇到了一个像素问号，你把帽子挂在它上面，显然这是存档点——下次再继续玩。"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -612,14 +615,17 @@
         ],
         {
           "轻轻拍它一下。": {
+            "triggers": [null],
             "desc": "至少不会弄坏它。",
             "effect": ["触发随机事件", [["60%", {}], ["40%", {}]]]
           },
           "狠狠重击！": {
+            "triggers": [null],
             "desc": "不能被阿哈看扁了！",
             "effect": ["触发随机事件", [["60%", {}], ["40%", {}]]]
           },
           "「欢愉」 拧一下玩偶屁股上的开关！": {
+            "triggers": [null],
             "desc": "只有阿哈本人才知道的秘密…",
             "effect": [
               "触发随机事件",
@@ -634,6 +640,7 @@
             ["阿哈玩偶毫无反应，计数器上的数字没有跳转。你太逊了！"],
             {
               "轻轻拍它一下。": {
+                "triggers": [null],
                 "desc": "至少不会弄坏它。",
                 "effect": [
                   "触发随机事件",
@@ -646,6 +653,7 @@
                 ]
               },
               "狠狠重击！": {
+                "triggers": [null],
                 "desc": "不能被阿哈看扁了！",
                 "effect": [
                   "触发随机事件",
@@ -667,7 +675,7 @@
               "你获得了一些宇宙碎片。"
             ]
           ],
-          "triggers": "ALL_TALK_END",
+          "triggers": ["ALL_TALK_END"],
           "effect": "+150 宇宙碎片"
         },
         "TalkSentence_403810809": {
@@ -677,13 +685,14 @@
               "你一无所获。"
             ]
           ],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "TalkSentence_403810812": {
           "lines": [
             ["阿哈玩偶的计数器数字跳转，它达到了299。再来一下？你生活里需要发泄的地方太多了。"],
             {
               "轻轻拍它一下。": {
+                "triggers": [null],
                 "desc": "至少不会弄坏它。",
                 "effect": [
                   "触发随机事件",
@@ -691,6 +700,7 @@
                 ]
               },
               "狠狠重击！": {
+                "triggers": [null],
                 "desc": "不能被阿哈看扁了！",
                 "effect": [
                   "触发随机事件",
@@ -707,7 +717,7 @@
               "你获得大量宇宙碎片。"
             ]
           ],
-          "triggers": "ALL_TALK_END",
+          "triggers": ["ALL_TALK_END"],
           "effect": "+400 宇宙碎片"
         },
         "TalkSentence_403810817": {
@@ -717,16 +727,16 @@
               "你一无所获。"
             ]
           ],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "TalkSentence_403810819": {
           "lines": [["玩偶的脑袋炸开了花！500宇宙碎片掉落了出来。"]],
-          "triggers": "ALL_TALK_END",
+          "triggers": ["ALL_TALK_END"],
           "effect": "+500 宇宙碎片"
         },
         "TalkSentence_403810820": {
           "lines": [["玩偶突然转过头看你——它伸手从你口袋里抢走了一半宇宙碎片。"]],
-          "triggers": "ALL_TALK_END",
+          "triggers": ["ALL_TALK_END"],
           "cost": "-50% 宇宙碎片"
         }
       }
@@ -749,12 +759,12 @@
         ],
         {
           "我买下了。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得奇物：天使型谢债发行机。",
             "effect": ["获得奇物", 11009, 1]
           },
           "你不是一个值得信任的*投资经理*。": {
-            "triggers": "TalkSentence_403810909",
+            "triggers": ["TalkSentence_403810909"],
             "desc": "星际和平公司绝不是慈善家！"
           }
         }
@@ -765,11 +775,11 @@
             ["「你不知道你错过了什么。」疤眼夫人说。「每一个工人，都会激动地把握住这个机会。这是一个*投机主义*的时代。」"],
             {
               "我讨厌这个时代。": {
-                "triggers": "TalkSentence_403810911",
+                "triggers": ["TalkSentence_403810911"],
                 "desc": "它让我感到自己很*匮乏*。"
               },
               "我不需要。": {
-                "triggers": "TalkSentence_403810919",
+                "triggers": ["TalkSentence_403810919"],
                 "desc": "获得100宇宙碎片。",
                 "effect": "+100 宇宙碎片"
               }
@@ -781,17 +791,17 @@
             ["「我们可以解决你的匮乏——给你一个*机会*，得到你想要的东西。」疤眼夫人说。"],
             {
               "我想要钱。": {
-                "triggers": "TalkSentence_403810913",
+                "triggers": ["TalkSentence_403810913"],
                 "desc": "获得奇物：天使型谢债发行机。",
                 "effect": ["获得奇物", 11009, 1]
               },
               "我想要*爱*。": {
-                "triggers": "TalkSentence_403810915",
+                "triggers": ["TalkSentence_403810915"],
                 "desc": "获得奇物：天使型谢债发行机。",
                 "effect": ["获得奇物", 11009, 1]
               },
               "我什么也不想要，这很虚无。": {
-                "triggers": "TalkSentence_403810917",
+                "triggers": ["TalkSentence_403810917"],
                 "desc": "获得100宇宙碎片。",
                 "effect": "+100 宇宙碎片"
               }
@@ -800,13 +810,13 @@
         },
         "TalkSentence_403810913": {
           "lines": [["「当然。你的投资回报率会达到十倍以上。只要你确定，你的匮乏来自于*物质*。克里珀庇佑着我们。」疤眼夫人说。"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "TalkSentence_403810915": {
           "lines": [
             ["「当然。爱可以作为宇宙通用货币，我们量产它。星际和平公司会致力于为众人提供永无止尽的爱，克里珀庇佑着我们。」疤眼夫人说。"]
           ],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "TalkSentence_403810917": {
           "lines": [
@@ -814,7 +824,7 @@
               "「有一天你会回来找我。」疤眼夫人缓慢地说，仿佛在对你下达命令。「如果客户们什么也不想要，贸易就无法继续。贸易的兴盛会为克里珀筑起更高的墙，这就是意义。赠给你些纪念品，期待与你下次见面。」她站起身，背对着你离开。"
             ]
           ],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "TalkSentence_403810919": {
           "lines": [
@@ -822,7 +832,7 @@
               "「有一天你会回来找我。」疤眼夫人缓慢地说，仿佛在对你下达命令。「如果客户们什么也不想要，贸易就无法继续。贸易的兴盛会为克里珀筑起更高的墙，这就是意义。赠给你些纪念品，期待与你下次见面。」她站起身，背对着你离开。"
             ]
           ],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -842,17 +852,17 @@
         ],
         {
           "我买了。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得奇物：天使型谢债发行机。",
             "effect": ["获得奇物", 21002, 1]
           },
           "我不需要。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得100宇宙碎片。",
             "effect": "+100 宇宙碎片"
           },
           "「虚无」 直接获得谢债发行机的投资奖励。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得奇物：天使型谢债发行机，随后立即摧毁它。",
             "effect": [
               "触发所有事件",
@@ -861,7 +871,7 @@
             ]
           },
           "「存护」 索求一份投资保险。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得奇物：天使型谢债发行机；获得100宇宙碎片。",
             "effect": [
               "触发所有事件",
@@ -888,19 +898,19 @@
         ],
         {
           "丢下雕像！要果断。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "全部角色各自损失30%当前生命值，并获得1个2星祝福。",
             "effect": ["自选获得祝福", 200022, 7, 1],
             "cost": "-30% HP"
           },
           "对「祂」虔诚信仰，身心无垢。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "全部角色各自损失80%当前生命值，并获得1个3星祝福。",
             "effect": ["自选获得祝福", 200023, 7, 1],
             "cost": "-80% HP"
           },
           "「丰饶」 狂热吞没了你…": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "全队损失99%当前生命值，获得1个强化后的3星「丰饶」祝福。",
             "effect": ["自选获得祝福", 12313, 7, 1],
             "cost": "-99% HP"
@@ -920,21 +930,21 @@
         ["你不慎一脚踏入软木碎叶搭成的地面陷阱中——你相信这是布莱德星最*老式作风*的猎人才会使用的陷阱。你站起身，面前有一个巢穴入口。"],
         {
           "深入虫巢。": {
-            "triggers": "TalkSentence_403811103",
+            "triggers": ["TalkSentence_403811103"],
             "desc": "一切看上去都是未知的。"
           },
           "止步于巢穴门口。": {
-            "triggers": "TalkSentence_403811112",
+            "triggers": ["TalkSentence_403811112"],
             "desc": "不要随意押注。",
             "effect": "+100 宇宙碎片"
           },
           "「毁灭」 进入虫巢，绞杀它们！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "进行3场虫群战斗，并获得3个随机1-2星祝福。",
             "effect": ["触发战斗", 81325011]
           },
           "「存护」 保存一枚「虫泡」。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得1个1-2星「存护」祝福，获得1个1-2星「繁育」祝福。",
             "effect": [
               "触发所有事件",
@@ -955,7 +965,7 @@
             ],
             {
               "拥抱它。": {
-                "triggers": "TalkSentence_403811108",
+                "triggers": ["TalkSentence_403811108"],
                 "desc": "获得负面奇物：虫网，并获得1个3星祝福。",
                 "effect": [
                   "触发所有事件",
@@ -964,7 +974,7 @@
                 ]
               },
               "等待「祂」。": {
-                "triggers": "TalkSentence_403811110",
+                "triggers": ["TalkSentence_403811110"],
                 "desc": "全部角色各自损失50%当前生命值，并获得1个2星祝福。",
                 "effect": ["自选获得祝福", 200022, 7, 1],
                 "cost": "-50% HP"
@@ -974,11 +984,11 @@
         },
         "TalkSentence_403811108": {
           "lines": [["你抱起扁圆状的虫泡，它的养料漏出，就像一粒开了口的绿细胞。它扭动着虬曲的身体，钻进了你的皮肤里。"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "TalkSentence_403811110": {
           "lines": [["很快，你的脑袋里开始出现声音……塔█伊兹███育█罗██斯██……漫长的等待摧毁了你，你慌忙逃离。"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "TalkSentence_403811112": {
           "lines": [
@@ -987,7 +997,7 @@
               "你获得了一些宇宙碎片。"
             ]
           ],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -1005,9 +1015,9 @@
           "你继续追寻着这股味道——你抬头，发现一位黑发女子站在你面前。她吮着食指上残留的糕泥，你能嗅到她唇齿留有的香味。"
         ],
         {
-          "你是谁？": {"triggers": "TalkSentence_403811208"},
-          "你是黑塔的另一个人偶？": {"triggers": "TalkSentence_403811205"},
-          "这是哪里？": {"triggers": "TalkSentence_403811207"}
+          "你是谁？": {"triggers": ["TalkSentence_403811208"]},
+          "你是黑塔的另一个人偶？": {"triggers": ["TalkSentence_403811205"]},
+          "这是哪里？": {"triggers": ["TalkSentence_403811207"]}
         }
       ],
       "triggers": {
@@ -1017,41 +1027,41 @@
               "「黑塔邀请我参与这个项目，培育宇宙。」她摇头。「我和她可不一样。虽然在很多地方，我和黑塔很像是知己…但总的来说，我们没什么交情。」"
             ]
           ],
-          "triggers": "TalkSentence_403811208"
+          "triggers": ["TalkSentence_403811208"]
         },
         "TalkSentence_403811207": {
           "lines": [["「模拟实验室，我的微型培养皿。」她皱眉。"]],
-          "triggers": "TalkSentence_403811208"
+          "triggers": ["TalkSentence_403811208"]
         },
         "TalkSentence_403811208": {
           "lines": [
             ["「我独自培育这个微型切片，把它嵌在了模拟宇宙的代码里。」她抚摸自己围巾上的刺绣，漫不经心。「别告诉黑塔和螺丝咕姆。」"],
             {
-              "你和黑塔的代码有哪里不一样？": {"triggers": "TalkSentence_403811210"},
-              "你们都很爱玩小把戏。": {"triggers": "TalkSentence_403811212"}
+              "你和黑塔的代码有哪里不一样？": {"triggers": ["TalkSentence_403811210"]},
+              "你们都很爱玩小把戏。": {"triggers": ["TalkSentence_403811212"]}
             }
           ]
         },
         "TalkSentence_403811210": {
           "lines": [["「黑塔，她喜欢做一些新奇的系统和小玩意。」她说。「我培育宇宙和星神原体。」"]],
-          "triggers": "TalkSentence_403811212"
+          "triggers": ["TalkSentence_403811212"]
         },
         "TalkSentence_403811212": {
           "lines": [
             ["「闯进我的切片概率极小，高兴一些吧，我会给你些东西。」她说。「厉害的东西，但不免费。」"],
             {
               "信仰星神。": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "获得全部「当前命途」的祝福。",
                 "effect": ["获得组内全部祝福", 1200]
               },
               "想要很多钱。": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "获得2000宇宙碎片。",
                 "effect": "+2000 宇宙碎片"
               },
               "你…就是阮•梅？": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "获得全部「当前命途」的祝福和2000宇宙碎片。",
                 "effect": [
                   "GetAllRogueBuffInGroupAndGetItem",
@@ -1082,18 +1092,18 @@
         ],
         {
           "和序列扑满玩一下。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "进入三只扑满的房间，小心别让它们溜走了。",
             "effect": ["触发战斗", 81312011]
           },
-          "离去。": {"triggers": "ALL_TALK_END", "desc": "人不应该和扑满一般见识！"},
+          "离去。": {"triggers": ["ALL_TALK_END"], "desc": "人不应该和扑满一般见识！"},
           "「巡猎」 优秀的捉扑满技巧…速度要快！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "扑满速度大幅提升；胜利后选择祝福时,强化所有出现的祝福。",
             "effect": ["触发战斗", 81326021]
           },
           "「存护」 你传达了良好的扑满保护意识。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "扑满速度和受到伤害降低；胜利后选择祝福时,强化所有出现的祝福。",
             "effect": ["触发战斗", 81326011]
           }
@@ -1115,17 +1125,17 @@
         ],
         {
           "前往黑暗。": {
-            "triggers": "TalkSentence_403811404",
+            "triggers": ["TalkSentence_403811404"],
             "desc": "前方好像有一张无形的巨大黑网…",
             "effect": ["获得奇物", 20003, 1]
           },
           "对抗引力。": {
-            "triggers": "TalkSentence_403811406",
+            "triggers": ["TalkSentence_403811406"],
             "desc": "涣散的精神需要集中。",
             "cost": "-50% HP"
           },
           "「虚无」 享受其中…": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "随机强化1个「虚无」祝福。",
             "effect": ["升级祝福", 1220, 3]
           }
@@ -1134,11 +1144,11 @@
       "triggers": {
         "TalkSentence_403811404": {
           "lines": [["这是一个异常可怕的体验。虚无吞没了你，你慌忙逃窜。"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "TalkSentence_403811406": {
           "lines": [["这是一个异常可怕的体验。虚无吞没了你，你感到自己被抽走了生命力。"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -1158,12 +1168,12 @@
         ],
         {
           "感恩克里珀星神。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得1个奇物。",
             "effect": ["自选获得奇物", 10002, 0, 1]
           },
           "离开。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得150宇宙碎片。",
             "effect": "+150 宇宙碎片"
           }
@@ -1187,7 +1197,7 @@
         ],
         {
           "接受「自灭」的火种，摧毁黑匣。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得1个随机负面奇物，并获得1个3星祝福。",
             "effect": [
               "触发所有事件",
@@ -1196,12 +1206,12 @@
             ]
           },
           "拒绝。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得100宇宙碎片。",
             "effect": "+100 宇宙碎片"
           },
           "「巡猎」 抓紧时间终止黑匣；将其救出。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "在4个轮内取得战斗胜利，挑战成功获得1个「巡猎」3星祝福。",
             "effect": ["触发战斗", 81312021]
           }
@@ -1222,8 +1232,8 @@
           "「我是奥斯瓦尔多•施耐德的徒弟。我们来自星际和平公司的信仰狂热部！」他不着调地说。「你知道银河里的贸易是如何产生的吗？」"
         ],
         {
-          "为了赚星际货币。": {"triggers": "TalkSentence_403811705"},
-          "懂经济学能挣钱吗？": {"triggers": "TalkSentence_403811705"}
+          "为了赚星际货币。": {"triggers": ["TalkSentence_403811705"]},
+          "懂经济学能挣钱吗？": {"triggers": ["TalkSentence_403811705"]}
         }
       ],
       "triggers": {
@@ -1234,18 +1244,18 @@
             ],
             {
               "购买金属许愿瓶。": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "消耗100宇宙碎片，获得1个「物有所值」的祝福。",
                 "effect": ["自选获得祝福", 200021, 7, 1],
                 "cost": "-100 宇宙碎片"
               },
               "购买银矿许愿瓶。": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "消耗200宇宙碎片，获得1个「令人惊讶」的奇物。",
                 "effect": ["获得奇物", 20003, 1],
                 "cost": "-200 宇宙碎片"
               },
-              "走开。": {"triggers": "ALL_TALK_END", "desc": "你不感兴趣。"}
+              "走开。": {"triggers": ["ALL_TALK_END"], "desc": "你不感兴趣。"}
             }
           ]
         }
@@ -1267,18 +1277,18 @@
         ],
         {
           "购买琥珀许愿匣。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "消耗100宇宙碎片，获得1个「捉摸不透」的奇物。",
             "effect": ["自选获得奇物", 20002, 0, 1],
             "cost": "-100 宇宙碎片"
           },
           "购买超钛许愿匣。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "消耗100宇宙碎片，获得1个「梦幻」的祝福。",
             "effect": ["自选获得祝福", 200410, 7, 1],
             "cost": "-100 宇宙碎片"
           },
-          "走开。": {"triggers": "ALL_TALK_END", "desc": "再也不会相信忽悠。"}
+          "走开。": {"triggers": ["ALL_TALK_END"], "desc": "再也不会相信忽悠。"}
         }
       ]
     }
@@ -1298,18 +1308,18 @@
         ],
         {
           "购买一个钻石盒。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "消耗10宇宙碎片，获得1个「令人心动」的奖励",
             "effect": ["升级祝福", 200520, 3],
             "cost": "-10 宇宙碎片"
           },
           "购买一个原矿盒。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "消耗10宇宙碎片，获得1个「心跳不已」的奖励。",
             "effect": ["自选获得祝福", 200023, 7, 1],
             "cost": "-10 宇宙碎片"
           },
-          "走开。": {"triggers": "ALL_TALK_END", "desc": "你不需要。"}
+          "走开。": {"triggers": ["ALL_TALK_END"], "desc": "你不需要。"}
         }
       ]
     }
@@ -1329,7 +1339,7 @@
         ],
         {
           "吞下另一只*鱼眼*，继续享受按摩。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得1个随机负面奇物，并获得300宇宙碎片。",
             "effect": [
               "触发所有事件",
@@ -1338,17 +1348,17 @@
             ]
           },
           "回去上班。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得100宇宙碎片。",
             "effect": "+100 宇宙碎片"
           },
           "「虚无」 永远的不上班了！永远的……": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得1个2-3星「虚无」祝福。",
             "effect": ["自选获得祝福", 1224, 7, 1]
           },
           "「丰饶」 捕获更多鱼眼……": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得2个负面奇物，并获得500宇宙碎片",
             "effect": [
               "触发所有事件",
@@ -1375,18 +1385,18 @@
         ],
         {
           "选择萨里。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "全部角色各自损失20%当前生命值，并获得1个奇物。",
             "effect": ["自选获得奇物", 20002, 0, 1],
             "cost": "-20% HP"
           },
           "选择里奥。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "舍弃1个奇物，并获得1个2星祝福。",
             "effect": ["自选交换奇物", 20004, 0, 1, 111907]
           },
           "「虚无」 把两种人格混在一起。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "全部角色各自损失30%当前生命值，换取1个随机祝福。",
             "effect": ["自选获得祝福", 200420, 7, 1],
             "cost": "-30% HP"
@@ -1409,18 +1419,18 @@
         ],
         {
           "选择萨里。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "全部角色各自损失20%当前生命值，并获得1个奇物。",
             "effect": ["自选获得奇物", 20002, 0, 1],
             "cost": "-20% HP"
           },
           "让里奥出来吧。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "重置萨里和里奥的人格。",
             "effect": "+100 宇宙碎片"
           },
           "「虚无」 把两种人格混在一起。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "切换至里奥的人格，并获得1个随机奇物。",
             "effect": ["获得奇物", 20002, 1]
           }
@@ -1442,17 +1452,17 @@
         ],
         {
           "选择里奥。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "舍弃1个奇物，并获得1个2星祝福。",
             "effect": ["自选交换奇物", 20004, 0, 1, 111907]
           },
           "让萨里出来吧。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "重置萨里和里奥的人格。",
             "effect": "+100 宇宙碎片"
           },
           "「虚无」 把两种人格混在一起。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "切换至萨里的人格，并获得1个随机祝福。",
             "effect": ["自选获得祝福", 200420, 7, 1]
           }
@@ -1475,18 +1485,18 @@
         ],
         {
           "把身上披的皮毛给他。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "舍弃1个奇物，并获得200宇宙碎片。",
             "effect": ["自选交换奇物", 20004, 0, 1, 112003]
           },
-          "转身走开。": {"triggers": "ALL_TALK_END", "desc": "你没有兴趣。"},
+          "转身走开。": {"triggers": ["ALL_TALK_END"], "desc": "你没有兴趣。"},
           "「巡猎」 把他的徽章扯下来！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "你代表*动物保护协会*进行谴责。进入战斗，胜利后获得1个1-3星祝福。",
             "effect": ["触发战斗", 81328011]
           },
           "「欢愉」 低价反收购他的*小牛皮靴*！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "花费50宇宙碎片，购买1个随机奇物",
             "effect": ["获得奇物", 20002, 1],
             "cost": "-50 宇宙碎片"
@@ -1509,18 +1519,18 @@
         ],
         {
           "选择一个错误代码奇物。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "错误代码奇物在修好前会有负面效果。",
             "effect": ["自选获得奇物", 20005, 0, 1]
           },
-          "离开。": {"triggers": "ALL_TALK_END", "desc": "你选择拒绝。"},
+          "离开。": {"triggers": ["ALL_TALK_END"], "desc": "你选择拒绝。"},
           "「欢愉」 让熵增更猛烈些！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得2个随机错误代码奇物。",
             "effect": ["获得奇物", 20005, 2]
           },
           "「记忆」 回忆起「正确道具」的代码。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得1个修复后的错误代码奇物。",
             "effect": ["获得奇物", 20005, 1]
           }
@@ -1543,12 +1553,12 @@
         ],
         {
           "付钱。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "失去50%的宇宙碎片。",
             "cost": "-50% 宇宙碎片"
           },
           "保卫「牛仔」最后的名誉。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "进入战斗。",
             "effect": [
               "触发随机事件",
@@ -1559,12 +1569,12 @@
             ]
           },
           "「毁灭」 让他们见识见识真正的「牛仔」。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "进入战斗，胜利后抢夺150宇宙碎片",
             "effect": ["触发战斗", 81312021]
           },
           "「虚无」 直接投降。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "失去25%的宇宙碎片，并获得2个随机「虚无」祝福。",
             "effect": [
               "触发所有事件",
@@ -1592,16 +1602,18 @@
         ],
         {
           "翻开牌。": {
+            "triggers": [null],
             "desc": "每次成功将获得祝福，失败进入战斗。当前有#3[i]%概率失败。",
             "effect": ["可重复赌博", 113510, 30, 30, 113507, 5, 113514, 1]
           },
-          "放弃。": {"triggers": "ALL_TALK_END", "desc": "风险管理很重要。"},
+          "放弃。": {"triggers": ["ALL_TALK_END"], "desc": "风险管理很重要。"},
           "「记忆」 想起过去的「玩牌经历」。": {
+            "triggers": [null],
             "desc": "每次成功将获得祝福，失败进入战斗。失败的概率固定为60%。",
             "effect": ["可重复赌博", 113510, 60, 0, 113507, 5, 113514, 1]
           },
           "「欢愉」 哈哈，掀翻牌桌！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "进入战斗，获得胜利后直接得到两次翻牌成功奖励。",
             "effect": ["触发战斗", 81311061]
           }
@@ -1617,16 +1629,18 @@
             ],
             {
               "翻开牌。": {
+                "triggers": [null],
                 "desc": "每次成功将获得祝福，失败进入战斗。当前有#3[i]%概率失败。",
                 "effect": ["可重复赌博", 113510, 30, 30, 113507, 5, 113514, 1]
               },
-              "放弃。": {"triggers": "ALL_TALK_END", "desc": "风险管理很重要。"},
+              "放弃。": {"triggers": ["ALL_TALK_END"], "desc": "风险管理很重要。"},
               "「记忆」 想起过去的「玩牌经历」。": {
+                "triggers": [null],
                 "desc": "每次成功将获得祝福，失败进入战斗。失败的概率固定为60%。",
                 "effect": ["可重复赌博", 113510, 60, 0, 113507, 5, 113514, 1]
               },
               "「欢愉」 哈哈，掀翻牌桌！": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "进入战斗，获得胜利后直接得到两次翻牌成功奖励。",
                 "effect": ["触发战斗", 81311061]
               }
@@ -1643,16 +1657,18 @@
             ],
             {
               "翻开牌。": {
+                "triggers": [null],
                 "desc": "每次成功将获得祝福，失败进入战斗。当前有#3[i]%概率失败。",
                 "effect": ["可重复赌博", 113510, 30, 30, 113507, 5, 113514, 1]
               },
-              "放弃。": {"triggers": "ALL_TALK_END", "desc": "风险管理很重要。"},
+              "放弃。": {"triggers": ["ALL_TALK_END"], "desc": "风险管理很重要。"},
               "「记忆」 想起过去的「玩牌经历」。": {
+                "triggers": [null],
                 "desc": "每次成功将获得祝福，失败进入战斗。失败的概率固定为60%。",
                 "effect": ["可重复赌博", 113510, 60, 0, 113507, 5, 113514, 1]
               },
               "「欢愉」 哈哈，掀翻牌桌！": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "进入战斗，获得胜利后直接得到两次翻牌成功奖励。",
                 "effect": ["触发战斗", 81311061]
               }
@@ -1666,7 +1682,7 @@
               "「我非常抱歉。」你的记忆被打断。你抬头，看到荷官十支机械手臂缠绞在一起，组成旋转矩阵，重力波正在汇聚成子弹，你已经成为他的敌人。"
             ]
           ],
-          "triggers": "ALL_TALK_END",
+          "triggers": ["ALL_TALK_END"],
           "effect": ["触发战斗", 81311041]
         }
       }
@@ -1687,16 +1703,18 @@
         ],
         {
           "翻开牌。": {
+            "triggers": [null],
             "desc": "每次成功将获得奇物，失败进入战斗。当前有#3[i]%概率失败。",
             "effect": ["可重复赌博", 113510, 40, 20, 113508, 5, 113514, 1]
           },
-          "放弃。": {"triggers": "ALL_TALK_END", "desc": "风险管理很重要。"},
+          "放弃。": {"triggers": ["ALL_TALK_END"], "desc": "风险管理很重要。"},
           "「记忆」 想起过去的「玩牌经历」。": {
+            "triggers": [null],
             "desc": "每次成功将获得奇物，失败进入战斗。失败的概率固定为70%。",
             "effect": ["可重复赌博", 113510, 70, 0, 113508, 5, 113514, 1]
           },
           "「欢愉」 哈哈，掀翻牌桌！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "进入战斗，获得胜利后直接得到两次翻牌成功奖励。",
             "effect": ["触发战斗", 81311071]
           }
@@ -1712,16 +1730,18 @@
             ],
             {
               "翻开牌。": {
+                "triggers": [null],
                 "desc": "每次成功将获得奇物，失败进入战斗。当前有#3[i]%概率失败。",
                 "effect": ["可重复赌博", 113510, 40, 20, 113508, 5, 113514, 1]
               },
-              "放弃。": {"triggers": "ALL_TALK_END", "desc": "风险管理很重要。"},
+              "放弃。": {"triggers": ["ALL_TALK_END"], "desc": "风险管理很重要。"},
               "「记忆」 想起过去的「玩牌经历」。": {
+                "triggers": [null],
                 "desc": "每次成功将获得奇物，失败进入战斗。失败的概率固定为70%。",
                 "effect": ["可重复赌博", 113510, 70, 0, 113508, 5, 113514, 1]
               },
               "「欢愉」 哈哈，掀翻牌桌！": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "进入战斗，获得胜利后直接得到两次翻牌成功奖励。",
                 "effect": ["触发战斗", 81311071]
               }
@@ -1738,16 +1758,18 @@
             ],
             {
               "翻开牌。": {
+                "triggers": [null],
                 "desc": "每次成功将获得奇物，失败进入战斗。当前有#3[i]%概率失败。",
                 "effect": ["可重复赌博", 113510, 40, 20, 113508, 5, 113514, 1]
               },
-              "放弃。": {"triggers": "ALL_TALK_END", "desc": "风险管理很重要。"},
+              "放弃。": {"triggers": ["ALL_TALK_END"], "desc": "风险管理很重要。"},
               "「记忆」 想起过去的「玩牌经历」。": {
+                "triggers": [null],
                 "desc": "每次成功将获得奇物，失败进入战斗。失败的概率固定为70%。",
                 "effect": ["可重复赌博", 113510, 70, 0, 113508, 5, 113514, 1]
               },
               "「欢愉」 哈哈，掀翻牌桌！": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "进入战斗，获得胜利后直接得到两次翻牌成功奖励。",
                 "effect": ["触发战斗", 81311071]
               }
@@ -1761,7 +1783,7 @@
               "「我非常抱歉。」你的记忆被打断。你抬头，看到荷官十支机械手臂缠绞在一起，组成旋转矩阵，重力波正在汇聚成子弹，你已经成为他的敌人。"
             ]
           ],
-          "triggers": "ALL_TALK_END",
+          "triggers": ["ALL_TALK_END"],
           "effect": ["触发战斗", 81311041]
         }
       }
@@ -1782,16 +1804,18 @@
         ],
         {
           "翻开牌。": {
+            "triggers": [null],
             "desc": "每次成功获得宇宙碎片，失败进入战斗。当前有#3[i]%概率失败。",
             "effect": ["可重复赌博", 113510, 25, 25, 113509, 5, 113514, 1]
           },
-          "放弃。": {"triggers": "ALL_TALK_END", "desc": "风险管理很重要。"},
+          "放弃。": {"triggers": ["ALL_TALK_END"], "desc": "风险管理很重要。"},
           "「记忆」 想起过去的「玩牌经历」。": {
+            "triggers": [null],
             "desc": "每次成功将获得宇宙碎片，失败进入战斗。失败的概率固定为50%。",
             "effect": ["可重复赌博", 113510, 50, 0, 113509, 5, 113514, 1]
           },
           "「欢愉」 哈哈，掀翻牌桌！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "进入战斗，获得胜利后直接得到两次翻牌成功奖励。",
             "effect": ["触发战斗", 81311081]
           }
@@ -1807,16 +1831,18 @@
             ],
             {
               "翻开牌。": {
+                "triggers": [null],
                 "desc": "每次成功获得宇宙碎片，失败进入战斗。当前有#3[i]%概率失败。",
                 "effect": ["可重复赌博", 113510, 25, 25, 113509, 5, 113514, 1]
               },
-              "放弃。": {"triggers": "ALL_TALK_END", "desc": "风险管理很重要。"},
+              "放弃。": {"triggers": ["ALL_TALK_END"], "desc": "风险管理很重要。"},
               "「记忆」 想起过去的「玩牌经历」。": {
+                "triggers": [null],
                 "desc": "每次成功将获得宇宙碎片，失败进入战斗。失败的概率固定为50%。",
                 "effect": ["可重复赌博", 113510, 50, 0, 113509, 5, 113514, 1]
               },
               "「欢愉」 哈哈，掀翻牌桌！": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "进入战斗，获得胜利后直接得到两次翻牌成功奖励。",
                 "effect": ["触发战斗", 81311081]
               }
@@ -1833,16 +1859,18 @@
             ],
             {
               "翻开牌。": {
+                "triggers": [null],
                 "desc": "每次成功获得宇宙碎片，失败进入战斗。当前有#3[i]%概率失败。",
                 "effect": ["可重复赌博", 113510, 25, 25, 113509, 5, 113514, 1]
               },
-              "放弃。": {"triggers": "ALL_TALK_END", "desc": "风险管理很重要。"},
+              "放弃。": {"triggers": ["ALL_TALK_END"], "desc": "风险管理很重要。"},
               "「记忆」 想起过去的「玩牌经历」。": {
+                "triggers": [null],
                 "desc": "每次成功将获得宇宙碎片，失败进入战斗。失败的概率固定为50%。",
                 "effect": ["可重复赌博", 113510, 50, 0, 113509, 5, 113514, 1]
               },
               "「欢愉」 哈哈，掀翻牌桌！": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "进入战斗，获得胜利后直接得到两次翻牌成功奖励。",
                 "effect": ["触发战斗", 81311081]
               }
@@ -1856,7 +1884,7 @@
               "「我非常抱歉。」你的记忆被打断。你抬头，看到荷官十支机械手臂缠绞在一起，组成旋转矩阵，重力波正在汇聚成子弹，你已经成为他的敌人。"
             ]
           ],
-          "triggers": "ALL_TALK_END",
+          "triggers": ["ALL_TALK_END"],
           "effect": ["触发战斗", 81311041]
         }
       }
@@ -1877,22 +1905,22 @@
         ],
         {
           "为0.63%的概率而战。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "进入战斗。",
             "effect": ["触发战斗", 81312031]
           },
           "选择100%的安全感。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "失去100宇宙碎片。",
             "cost": "-100 宇宙碎片"
           },
           "「巡猎」 敏锐察觉星体计算机的*漏洞*。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "击破更危险的漏洞！进入战斗，胜利后获得1个强化后的1-2星祝福。",
             "effect": ["触发战斗", 81312021]
           },
           "「记忆」 你想起了它的规律！先出剪刀！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "有概率获得2个随机2星祝福。",
             "effect": [
               "触发随机事件",
@@ -1932,27 +1960,27 @@
         ],
         {
           "挑战弗朗斯先生的安保团队。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "揭穿他破产的事实，挑战成功获得1个「存护」的祝福。",
             "effect": ["触发战斗", 81310031]
           },
           "挑战亚威拉壮汉的佣兵集团。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "撕下他的面具，挑战成功获得1个「虚无」的祝福。",
             "effect": ["触发战斗", 81310032]
           },
           "两个一起打！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "进入战斗，获得全部奖励。",
             "effect": ["触发战斗", 81310033]
           },
           "「毁灭」 你还渴望*更强*的家伙出现…": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "与更强的敌人对抗！挑战成功获得1个「毁灭」3星祝福。",
             "effect": ["触发战斗", 81312021]
           },
           "「欢愉」 赌一个擂台赢家的*名字*！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "有概率获得400宇宙碎片，也有概率损失20%宇宙碎片。",
             "effect": [
               "触发随机事件",
@@ -1978,17 +2006,17 @@
         ],
         {
           "抓紧时间，删除周期性魔王的生命方程。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "加入挑战，在4个轮内取得战斗胜利。",
             "effect": ["触发战斗", 81312021]
           },
           "「存护」 过载周期性魔王的生命方程，争取活下去！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "加入挑战，坚持4轮没有角色陷入无法战斗状态,获得额外祝福奖励。",
             "effect": ["触发战斗", 81332011]
           },
           "「丰饶」 过载周期性魔王的生命方程，争取活下去！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "加入挑战，坚持4轮没有角色陷入无法战斗状态,获得额外祝福奖励。",
             "effect": ["触发战斗", 81332012]
           }
@@ -2010,18 +2038,18 @@
         ],
         {
           "祝福重铸": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "舍弃1个3星祝福,并获得1个3星祝福。",
             "effect": ["自选交换祝福", 200003, 0, 1, 200023, 7, 1]
           },
           "祝福交换": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "舍弃1个1-2星祝福,并获得1个1-3星祝福。",
             "effect": ["自选交换祝福", 200510, 0, 1, 200420, 7, 1]
           },
-          "离开": {"triggers": "ALL_TALK_END", "desc": "你不感兴趣。"},
+          "离开": {"triggers": ["ALL_TALK_END"], "desc": "你不感兴趣。"},
           "「记忆」 互换你们的「记忆」。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "舍弃1个3星祝福，并获得3个随机2星祝福。",
             "effect": [
               "触发所有事件",
@@ -2032,7 +2060,7 @@
             ]
           },
           "「巡猎」 抛出你的故事！然后从车厢中掠夺「趣味经历」。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "舍弃1个「巡猎」祝福，强化最多4个随机「巡猎」祝福。",
             "effect": [
               "触发所有事件",
@@ -2059,20 +2087,20 @@
         ],
         {
           "换取1个2星祝福": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "全部角色各自损失20%当前生命值。",
             "effect": ["自选获得祝福", 200022, 7, 1],
             "cost": "-20% HP"
           },
           "换取1个3星祝福": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "全部角色各自损失80%当前生命值。",
             "effect": ["自选获得祝福", 200023, 7, 1],
             "cost": "-80% HP"
           },
-          "离开": {"triggers": "ALL_TALK_END", "desc": "你不愿浇灌它。"},
+          "离开": {"triggers": ["ALL_TALK_END"], "desc": "你不愿浇灌它。"},
           "「丰饶」 让沉睡的士兵「再次醒来」。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "他们的血液将会让巨树复苏…进入战斗，胜利后获得1个3星祝福。",
             "effect": ["触发战斗", 81312021]
           }
@@ -2093,25 +2121,26 @@
         ],
         {
           "购买1个1-2星祝福": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "消耗50宇宙碎片。",
             "effect": ["自选获得祝福", 200410, 7, 1],
             "cost": "-50 宇宙碎片"
           },
           "购买1个1-3星祝福": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "消耗100宇宙碎片。",
             "effect": ["自选获得祝福", 200420, 7, 1],
             "cost": "-100 宇宙碎片"
           },
-          "离开": {"triggers": "ALL_TALK_END", "desc": "你没有什么想买的。"},
+          "离开": {"triggers": ["ALL_TALK_END"], "desc": "你没有什么想买的。"},
           "「记忆」 你回想起忘却已久的「还价技巧」。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "花费50宇宙碎片，购买1个2-3星祝福。",
             "effect": ["自选获得祝福", 200430, 7, 1],
             "cost": "-50 宇宙碎片"
           },
           "「虚无」 吞没销售终端的「防护网」。": {
+            "triggers": [null],
             "desc": "每次成功将获得祝福。失败触发电击，全部角色各自损失99%当前生命值。当前有#3[i]%概率失败",
             "effect": ["可重复赌博", 114007, 25, 25, 114006, 1]
           }
@@ -2121,8 +2150,9 @@
         "GotBuff": {
           "lines": [
             {
-              "离开": {"triggers": "ALL_TALK_END", "desc": "你没有什么想买的。"},
+              "离开": {"triggers": ["ALL_TALK_END"], "desc": "你没有什么想买的。"},
               "「虚无」 吞没销售终端的「防护网」。": {
+                "triggers": [null],
                 "desc": "每次成功将获得祝福。失败触发电击，全部角色各自损失99%当前生命值。当前有#3[i]%概率失败",
                 "effect": ["可重复赌博", 114007, 25, 25, 114006, 1]
               }
@@ -2132,7 +2162,7 @@
         },
         "Failed": {
           "lines": [["警告！你的行为触发了销售终端的「电击」！"]],
-          "triggers": "ALL_TALK_END",
+          "triggers": ["ALL_TALK_END"],
           "cost": "-99% HP"
         }
       }
@@ -2154,17 +2184,17 @@
         ],
         {
           "接受纯美骑士「斯狄洛特」的帮助。": {
-            "triggers": "TalkSentence_403815007",
+            "triggers": ["TalkSentence_403815007"],
             "desc": "强化2个随机3星祝福。",
             "effect": ["升级祝福", 200003, 2]
           },
           "接受纯美骑士「憎」的帮助。": {
-            "triggers": "TalkSentence_403815009",
+            "triggers": ["TalkSentence_403815009"],
             "desc": "获得1个回响构音。",
             "effect": ["自选获得祝福", 200023, 7, 1]
           },
           "接受纯美骑士「银枝」的帮助。": {
-            "triggers": "TalkSentence_403815011",
+            "triggers": ["TalkSentence_403815011"],
             "desc": "获得3个「当前命途」的祝福。",
             "effect": [
               "触发所有事件",
@@ -2174,27 +2204,27 @@
             ]
           },
           "接受纯美骑士「维尔•迦娜」的帮助。": {
-            "triggers": "TalkSentence_403815013",
+            "triggers": ["TalkSentence_403815013"],
             "desc": "舍弃4个随机1星祝福，获得4个随机1-3星「当前命途」的祝福。",
             "effect": ["变换祝福", 200001, 4, 200430, 4]
           },
           "接受纯美骑士「波美茵」的帮助。": {
-            "triggers": "TalkSentence_403815015_SellMiracle",
+            "triggers": ["TalkSentence_403815015_SellMiracle"],
             "desc": "舍弃所有奇物，每舍弃1个奇物获得50宇宙碎片。",
             "effect": ["奇物交换碎片", 20004, 50, 100, 0]
           },
           "接受纯美骑士「阿诺克雷」的帮助。": {
-            "triggers": "TalkSentence_403815017_TakeGugu",
+            "triggers": ["TalkSentence_403815017_TakeGugu"],
             "desc": "舍弃1个咕咕钟系列负面奇物。",
             "effect": ["失去奇物", 20009, 1]
           },
           "接受纯美骑士「全视」的帮助。": {
-            "triggers": "TalkSentence_403815019",
+            "triggers": ["TalkSentence_403815019"],
             "desc": "获得1个3星「当前命途」的祝福。",
             "effect": ["自选获得祝福", 200023, 7, 1]
           },
           "接受纯美骑士「加莱哈德•伊坎」的帮助。": {
-            "triggers": "TalkSentence_403815021_GiveMiracle",
+            "triggers": ["TalkSentence_403815021_GiveMiracle"],
             "desc": "获得奇物：龋齿星系模型。",
             "effect": ["自选获得奇物", 21010, 0, 1]
           }
@@ -2203,49 +2233,49 @@
       "triggers": {
         "TalkSentence_403815015_SellMiracle": {
           "lines": [["骑士将圆盾给予你。", "你感受圆盾的荣耀，骑士的「英勇」震撼了你。"]],
-          "triggers": "SellMiracle"
+          "triggers": ["SellMiracle"]
         },
         "TalkSentence_403815007": {
           "lines": [["骑士为你献上一朵花。", "你接过它…「纯美」的花瓣感动了你。"]],
-          "triggers": "RelateToBuff"
+          "triggers": ["RelateToBuff"]
         },
         "TalkSentence_403815017_GiveGugu": {
           "lines": [["骑士向你伸出一只圆手。", "你判断了一番哪里是它的手指…但你握住了它的手。"]],
-          "triggers": "GiveGugu"
+          "triggers": ["GiveGugu"]
         },
         "TalkSentence_403815009": {
           "lines": [["骑士向你伸出一只手。", "你抓住了那只手…传来的余温感动了你。"]],
-          "triggers": "RelateToBuff"
+          "triggers": ["RelateToBuff"]
         },
         "TalkSentence_403815017_TakeGugu": {
           "lines": [["骑士向你伸出一只圆手。", "你判断了一番哪里是它的手指…但你握住了它的手。"]],
-          "triggers": "TakeGugu"
+          "triggers": ["TakeGugu"]
         },
         "TalkSentence_403815011": {
           "lines": [
             ["骑士向你发出赞美。", "你望向他，只可惜并未看到他的面容便昏了过去…等你从昏厥中醒来，身边已被骑士众人围绕。"]
           ],
-          "triggers": "RelateToBuff"
+          "triggers": ["RelateToBuff"]
         },
         "TalkSentence_403815019": {
           "lines": [["骑士深情地呼唤你。", "你回应了呼唤…那声音十分虔诚。"]],
-          "triggers": "RelateToBuff"
+          "triggers": ["RelateToBuff"]
         },
         "TalkSentence_403815013": {
           "lines": [["骑士的长发缓缓垂下。", "你抓住了一缕长发…你很愧疚。"]],
-          "triggers": "RelateToBuff"
+          "triggers": ["RelateToBuff"]
         },
         "TalkSentence_403815021_GiveItem": {
           "lines": [["骑士向你放出一名伙伴。", "哇！你驾驭了一名伙伴！你从半空中呼啸着落下！"]],
-          "triggers": "GiveItem"
+          "triggers": ["GiveItem"]
         },
         "TalkSentence_403815015_GiveMiracle": {
           "lines": [["骑士将圆盾给予你。", "你感受圆盾的荣耀，骑士的「英勇」震撼了你。"]],
-          "triggers": "GiveMiracle"
+          "triggers": ["GiveMiracle"]
         },
         "TalkSentence_403815021_GiveMiracle": {
           "lines": [["骑士向你放出一名伙伴。", "哇！你驾驭了一名伙伴！你从半空中呼啸着落下！"]],
-          "triggers": "GiveMiracle"
+          "triggers": ["GiveMiracle"]
         },
         "RelateToBuff": {
           "lines": [
@@ -2255,7 +2285,7 @@
               "「愿你信仰伊德莉拉。」纯美骑士虔诚地说。"
             ]
           ],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "GiveMiracle": {
           "lines": [
@@ -2265,7 +2295,7 @@
               "「希望我的帮助令你满意。」纯美骑士虔诚地说。"
             ]
           ],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "GiveItem": {
           "lines": [
@@ -2275,7 +2305,7 @@
               "「希望我的帮助令你满意。」纯美骑士虔诚地说。"
             ]
           ],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "GiveGugu": {
           "lines": [
@@ -2285,7 +2315,7 @@
               "「希望我的帮助令你满意。」纯美骑士虔诚地说。"
             ]
           ],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "SellMiracle": {
           "lines": [
@@ -2295,7 +2325,7 @@
               "「希望我的帮助令你满意。」纯美骑士虔诚地说。"
             ]
           ],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "TakeGugu": {
           "lines": [
@@ -2305,7 +2335,7 @@
               "「希望我的帮助令你满意。」纯美骑士虔诚地说。"
             ]
           ],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -2325,7 +2355,7 @@
         ],
         {
           "听一听。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "连续触发10个随机效果。",
             "effect": [
               "触发所有事件",
@@ -2581,9 +2611,9 @@
               }
             ]
           },
-          "不听。": {"triggers": "ALL_TALK_END", "desc": "不要倾听那些具有蛊惑力的曲子…"},
+          "不听。": {"triggers": ["ALL_TALK_END"], "desc": "不要倾听那些具有蛊惑力的曲子…"},
           "「欢愉」 参与大合唱！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "连续触发15个随机效果。",
             "effect": [
               "触发所有事件",
@@ -2984,11 +3014,11 @@
         ],
         {
           "加入糖。": {
-            "triggers": "TalkSentence_403815078_Option01",
+            "triggers": ["TalkSentence_403815078_Option01"],
             "desc": "甜甜的，就像爱情一样。"
           },
           "加入牙膏。": {
-            "triggers": "TalkSentence_403815078_Option02",
+            "triggers": ["TalkSentence_403815078_Option02"],
             "desc": "你确定要这么做？"
           }
         }
@@ -3000,6 +3030,7 @@
             ["现在你该搅拌它了。"],
             {
               "大力搅拌！": {
+                "triggers": [null],
                 "desc": "势如破竹！",
                 "effect": [
                   "触发随机事件",
@@ -3011,6 +3042,7 @@
                 ]
               },
               "轻轻搅拌…": {
+                "triggers": [null],
                 "desc": "贴心呵护…",
                 "effect": [
                   "触发随机事件",
@@ -3018,7 +3050,7 @@
                 ]
               },
               "「虚无」 一杯酒应学会自己搅拌自己。": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "静置这杯酒，静静地等待…",
                 "effect": [
                   "触发随机事件",
@@ -3029,7 +3061,7 @@
                 ]
               },
               "「欢愉」 你决定加更多奇怪的东西进去…": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "一个杯子甚至装不下那么多材料…",
                 "effect": [
                   "触发随机事件",
@@ -3047,6 +3079,7 @@
             ["现在你该搅拌它了。"],
             {
               "大力搅拌！": {
+                "triggers": [null],
                 "desc": "势如破竹！",
                 "effect": [
                   "触发随机事件",
@@ -3054,6 +3087,7 @@
                 ]
               },
               "轻轻搅拌…": {
+                "triggers": [null],
                 "desc": "贴心呵护…",
                 "effect": [
                   "触发随机事件",
@@ -3065,7 +3099,7 @@
                 ]
               },
               "「虚无」 一杯酒应学会自己搅拌自己。": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "静置这杯酒，静静地等待…",
                 "effect": [
                   "触发随机事件",
@@ -3076,7 +3110,7 @@
                 ]
               },
               "「欢愉」 你决定加更多奇怪的东西进去…": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "一个杯子甚至装不下那么多材料…",
                 "effect": [
                   "触发随机事件",
@@ -3091,7 +3125,7 @@
         },
         "112_Explode": {
           "lines": [["你的鸡尾酒在你眼前发生了爆炸！", "你一无所获，这令你非常伤心。"]],
-          "triggers": "ALL_TALK_END",
+          "triggers": ["ALL_TALK_END"],
           "cost": "-80% HP"
         },
         "112_Monster": {
@@ -3103,7 +3137,7 @@
             ],
             {
               "解决变异者。": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "赶快制止这一切！胜利后获得1个随机3星祝福。",
                 "effect": ["触发战斗", 81312021]
               }
@@ -3112,7 +3146,7 @@
         },
         "112_Wine": {
           "lines": [["你得到了一杯鸡尾酒！你「咕嘟咕嘟」地喝了下去……"]],
-          "triggers": "ALL_TALK_END",
+          "triggers": ["ALL_TALK_END"],
           "effect": ["获得奇物", 21007, 1]
         },
         "112_Drunk": {
@@ -3123,12 +3157,12 @@
             ],
             {
               "顺着睡意昏沉睡去…": {
-                "triggers": "112_Sleep",
+                "triggers": ["112_Sleep"],
                 "desc": "失去50%宇宙碎片。",
                 "cost": "-50% 宇宙碎片"
               },
               "先解决身边不友好的目光！": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "你决定和她过招：进行1场艰难的战斗。",
                 "effect": ["触发战斗", 81312021],
                 "cost": "HP<40% SP<0"
@@ -3143,7 +3177,7 @@
               "你的钱包也瘪了。你损失了很多宇宙碎片…你希望能再次遇到她。"
             ]
           ],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -3163,17 +3197,17 @@
         ],
         {
           "帮助幼兽「解脱」。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "进入战斗，胜利后获得1个2星祝福。",
             "effect": ["触发战斗", 81312021]
           },
           "解决成年巨兽的「痛苦」。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "进入战斗，胜利后获得1个3星祝福和1个奇物。",
             "effect": ["触发战斗", 81312021]
           },
           "「毁灭」 将它们一并从「痛苦」中释放。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "出于善意。",
             "effect": ["触发战斗", 81321031]
           }
@@ -3192,24 +3226,24 @@
         ["你遇到了一个机械生命，它似乎对奇物修理颇有理解。", "「咔擦…咔擦……」", "它示意你将在乎的宝贝丢给它进行修理。"],
         {
           "修理一个损毁的奇物。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "花费50宇宙碎片，修理1个损毁的奇物。",
             "effect": ["自选修复奇物", 20004, 0, 1],
             "cost": "-50 宇宙碎片"
           },
           "修理全部损毁的奇物。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "花费100宇宙碎片，修理全部损毁的奇物。",
             "effect": ["修复奇物", 20004, 0],
             "cost": "-100 宇宙碎片"
           },
           "「丰饶」 向无机生命表示友好。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得1个可损毁的奇物。",
             "effect": ["自选获得奇物", 20008, 0, 1]
           },
           "「欢愉」 进行一次愉快的无机交流！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "将所有奇物换成可损毁的奇物。",
             "effect": [
               "ChangeRogueMiracleToRogueMiracle",
@@ -3219,7 +3253,7 @@
               0
             ]
           },
-          "离开。": {"triggers": "ALL_TALK_END", "desc": "你不需要。"}
+          "离开。": {"triggers": ["ALL_TALK_END"], "desc": "你不需要。"}
         }
       ]
     }
@@ -3239,12 +3273,12 @@
         ],
         {
           "选择左边的杯子。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "舍弃2个随机2星祝福，获得4个随机2星祝福。",
             "effect": ["变换祝福", 200002, 2, 200022, 4]
           },
           "选择右边的杯子。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "舍弃1个随机3星祝福，获得2个随机3星祝福。",
             "effect": ["变换祝福", 200003, 1, 200023, 2]
           }
@@ -3267,7 +3301,7 @@
         ],
         {
           "我要为「奥施瓦尔多·施耐德」的竞选投票！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "花费100宇宙碎片，购买1张大乐透系列彩券；附赠修理已损毁的任意乐透。",
             "effect": [
               "触发所有事件",
@@ -3277,12 +3311,12 @@
             "cost": "-100 宇宙碎片"
           },
           "我要得到「双乐透」体验！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "花费50宇宙碎片，修理所有已损毁的乐透。",
             "effect": ["修复奇物", 21009, 0],
             "cost": "-50 宇宙碎片"
           },
-          "拒绝。": {"triggers": "ALL_TALK_END", "desc": "你不能通过这个来获取快乐！"}
+          "拒绝。": {"triggers": ["ALL_TALK_END"], "desc": "你不能通过这个来获取快乐！"}
         }
       ]
     }
@@ -3302,9 +3336,9 @@
           "「答对了…就有奖励。」"
         ],
         {
-          "齿轮…": {"triggers": "TalkSentence_403815179"},
-          "人偶…": {"triggers": "TalkSentence_403815179"},
-          "背带裤…": {"triggers": "TalkSentence_403815179"}
+          "齿轮…": {"triggers": ["TalkSentence_403815179"]},
+          "人偶…": {"triggers": ["TalkSentence_403815179"]},
+          "背带裤…": {"triggers": ["TalkSentence_403815179"]}
         }
       ],
       "triggers": {
@@ -3316,22 +3350,22 @@
             ],
             {
               "信仰星神。": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "强化全部祝福。",
                 "effect": ["升级祝福", 200520, 99]
               },
               "偷拿点黑塔的好东西。": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "获得10个随机奇物。",
                 "effect": ["获得奇物", 22000, 10]
               },
               "更多与斯蒂芬作对的作弊机会。": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "获得10次作弊机会。",
                 "effect": "+10 作弊机会"
               },
               "你…就是阮•梅？": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "强化全部祝福，获得10个随机奇物和#5次作弊机会。",
                 "effect": [
                   "触发所有事件",
@@ -3373,11 +3407,11 @@
         ],
         {
           "开展一次*完美型男*挑战！": {
-            "triggers": "TalkSentence_403815196",
+            "triggers": ["TalkSentence_403815196"],
             "desc": "花费40宇宙碎片。",
             "cost": "-40 宇宙碎片"
           },
-          "走开。": {"triggers": "TalkSentence_403815198", "desc": "小心有诈！"}
+          "走开。": {"triggers": ["TalkSentence_403815198"], "desc": "小心有诈！"}
         }
       ],
       "triggers": {
@@ -3386,11 +3420,11 @@
             ["你还要继续吗？"],
             {
               "开展一次*完美型男*挑战！": {
-                "triggers": "130_Third",
+                "triggers": ["130_Third"],
                 "desc": "花费40宇宙碎片。",
                 "cost": "-40 宇宙碎片"
               },
-              "走开。": {"triggers": "TalkSentence_403815198", "desc": "小心有诈！"}
+              "走开。": {"triggers": ["TalkSentence_403815198"], "desc": "小心有诈！"}
             }
           ]
         },
@@ -3399,11 +3433,11 @@
             ["你还要继续吗？"],
             {
               "开展一次*完美型男*挑战！": {
-                "triggers": "130_Second",
+                "triggers": ["130_Second"],
                 "desc": "花费40宇宙碎片。",
                 "cost": "-40 宇宙碎片"
               },
-              "走开。": {"triggers": "TalkSentence_403815198", "desc": "小心有诈！"}
+              "走开。": {"triggers": ["TalkSentence_403815198"], "desc": "小心有诈！"}
             }
           ]
         },
@@ -3412,6 +3446,7 @@
             ["完美的开局音乐在你耳边响起……"],
             {
               "完美型男需要「黏土玩偶」。": {
+                "triggers": [null],
                 "desc": "有概率获得随机奇物；有概率获得随机负面奇物。",
                 "effect": [
                   "触发随机事件",
@@ -3422,6 +3457,7 @@
                 ]
               },
               "完美型男需要「潮流扭蛋人」。": {
+                "triggers": [null],
                 "desc": "较低概率获得随机奇物。",
                 "effect": [
                   "触发随机事件",
@@ -3436,6 +3472,7 @@
             ["完美的开局音乐在你耳边响起……"],
             {
               "完美型男需要「黏土玩偶」。": {
+                "triggers": [null],
                 "desc": "有概率获得随机奇物；有概率获得随机负面奇物。",
                 "effect": [
                   "触发随机事件",
@@ -3446,6 +3483,7 @@
                 ]
               },
               "完美型男需要「潮流扭蛋人」。": {
+                "triggers": [null],
                 "desc": "较低概率获得随机奇物。",
                 "effect": [
                   "触发随机事件",
@@ -3460,6 +3498,7 @@
             ["完美的开局音乐在你耳边响起……"],
             {
               "完美型男需要「黏土玩偶」。": {
+                "triggers": [null],
                 "desc": "有概率获得随机奇物；有概率获得随机负面奇物。",
                 "effect": [
                   "触发随机事件",
@@ -3470,6 +3509,7 @@
                 ]
               },
               "完美型男需要「潮流扭蛋人」。": {
+                "triggers": [null],
                 "desc": "较低概率获得随机奇物。",
                 "effect": [
                   "触发随机事件",
@@ -3481,30 +3521,30 @@
         },
         "GoodMiracle_Toy3": {
           "lines": [["「黏土玩偶」随着「抓夹」上升...成功了！", "你获得了一个*完美*的「黏土玩偶」！"]],
-          "triggers": "TalkSentence_403815213_Third",
+          "triggers": ["TalkSentence_403815213_Third"],
           "effect": ["获得奇物", 20002, 1]
         },
         "GoodMiracle_Toy": {
           "lines": [["「黏土玩偶」随着「抓夹」上升...成功了！", "你获得了一个*完美*的「黏土玩偶」！"]],
-          "triggers": "TalkSentence_403815213_First",
+          "triggers": ["TalkSentence_403815213_First"],
           "effect": ["获得奇物", 20002, 1]
         },
         "GoodMiracle_Toy2": {
           "lines": [["「黏土玩偶」随着「抓夹」上升...成功了！", "你获得了一个*完美*的「黏土玩偶」！"]],
-          "triggers": "TalkSentence_403815213_Second",
+          "triggers": ["TalkSentence_403815213_Second"],
           "effect": ["获得奇物", 20002, 1]
         },
         "Nothing_Toy3": {
           "lines": [["「黏土玩偶」随着「抓夹」上升...", "「黏土玩偶」从「抓夹」上掉落，你一无所获。"]],
-          "triggers": "TalkSentence_403815213_Third"
+          "triggers": ["TalkSentence_403815213_Third"]
         },
         "Nothing_Toy": {
           "lines": [["「黏土玩偶」随着「抓夹」上升...", "「黏土玩偶」从「抓夹」上掉落，你一无所获。"]],
-          "triggers": "TalkSentence_403815213_First"
+          "triggers": ["TalkSentence_403815213_First"]
         },
         "Nothing_Toy2": {
           "lines": [["「黏土玩偶」随着「抓夹」上升...", "「黏土玩偶」从「抓夹」上掉落，你一无所获。"]],
-          "triggers": "TalkSentence_403815213_Second"
+          "triggers": ["TalkSentence_403815213_Second"]
         },
         "BadMiracle_Toy3": {
           "lines": [
@@ -3515,7 +3555,7 @@
               "「完美…完美…宇宙需要*完美*！」它最后的程序如此说道。"
             ]
           ],
-          "triggers": "TalkSentence_403815213_Third",
+          "triggers": ["TalkSentence_403815213_Third"],
           "effect": ["获得奇物", 20003, 1]
         },
         "BadMiracle_Toy": {
@@ -3527,7 +3567,7 @@
               "「完美…完美…宇宙需要*完美*！」它最后的程序如此说道。"
             ]
           ],
-          "triggers": "TalkSentence_403815213_First",
+          "triggers": ["TalkSentence_403815213_First"],
           "effect": ["获得奇物", 20003, 1]
         },
         "BadMiracle_Toy2": {
@@ -3539,43 +3579,43 @@
               "「完美…完美…宇宙需要*完美*！」它最后的程序如此说道。"
             ]
           ],
-          "triggers": "TalkSentence_403815213_Second",
+          "triggers": ["TalkSentence_403815213_Second"],
           "effect": ["获得奇物", 20003, 1]
         },
         "GoodMiracle_Man3": {
           "lines": [["「潮流扭蛋人」随着「抓夹」上升...成功了！", "你获得了一个*完美*的「潮流扭蛋人」！"]],
-          "triggers": "TalkSentence_403815213_Third",
+          "triggers": ["TalkSentence_403815213_Third"],
           "effect": ["获得奇物", 20002, 1]
         },
         "GoodMiracle_Man": {
           "lines": [["「潮流扭蛋人」随着「抓夹」上升...成功了！", "你获得了一个*完美*的「潮流扭蛋人」！"]],
-          "triggers": "TalkSentence_403815213_First",
+          "triggers": ["TalkSentence_403815213_First"],
           "effect": ["获得奇物", 20002, 1]
         },
         "GoodMiracle_Man2": {
           "lines": [["「潮流扭蛋人」随着「抓夹」上升...成功了！", "你获得了一个*完美*的「潮流扭蛋人」！"]],
-          "triggers": "TalkSentence_403815213_Second",
+          "triggers": ["TalkSentence_403815213_Second"],
           "effect": ["获得奇物", 20002, 1]
         },
         "Nothing_Man3": {
           "lines": [["「潮流扭蛋人」随着「抓夹」上升...", "「潮流扭蛋人」从「抓夹」上掉落，你一无所获。"]],
-          "triggers": "TalkSentence_403815213_Third"
+          "triggers": ["TalkSentence_403815213_Third"]
         },
         "Nothing_Man": {
           "lines": [["「潮流扭蛋人」随着「抓夹」上升...", "「潮流扭蛋人」从「抓夹」上掉落，你一无所获。"]],
-          "triggers": "TalkSentence_403815213_First"
+          "triggers": ["TalkSentence_403815213_First"]
         },
         "Nothing_Man2": {
           "lines": [["「潮流扭蛋人」随着「抓夹」上升...", "「潮流扭蛋人」从「抓夹」上掉落，你一无所获。"]],
-          "triggers": "TalkSentence_403815213_Second"
+          "triggers": ["TalkSentence_403815213_Second"]
         },
         "TalkSentence_403815213_Third": {
           "lines": [["你还想继续玩…但这个街机坏掉了。下次再来吧。"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "TalkSentence_403815198": {
           "lines": [["你走开前踹了一脚*完美型男*，接着被石头绊倒了…你恶狠狠地想着，这也是程序设计的恶意之一！"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -3594,22 +3634,22 @@
         ],
         {
           "敷衍地售卖「星际和平杂货」。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得80宇宙碎片。",
             "effect": "+80 宇宙碎片"
           },
           "悄悄偷懒。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得2次重投机会。",
             "effect": "+2 重投机会"
           },
           "「存护」 将下班时间献给琥珀王。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得200宇宙碎片。",
             "effect": "+200 宇宙碎片"
           },
           "「巡猎」 精准地寻找目标销售星系。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得2次重投机会与1次作弊机会。",
             "effect": ["触发所有事件", {"effect": "+2 重投机会"}, {"effect": "+1 作弊机会"}]
           }
@@ -3632,12 +3672,12 @@
         ],
         {
           "召开「宇宙金融会议」。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得110宇宙碎片。",
             "effect": "+110 宇宙碎片"
           },
           "沉淀「专家技能培训」。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得2个随机1星祝福。",
             "effect": [
               "触发所有事件",
@@ -3646,7 +3686,7 @@
             ]
           },
           "「丰饶」 关心临时雇佣工的身心健康。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得250宇宙碎片；全部角色回复等同于各自生命上限100%的生命值。",
             "effect": [
               "触发所有事件",
@@ -3655,7 +3695,7 @@
             ]
           },
           "「欢愉」 把下周约满*跨物种联谊派对*！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得4个1星祝福。",
             "effect": [
               "触发所有事件",
@@ -3684,22 +3724,22 @@
         ],
         {
           "展开「名流高级社交」。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "进入战斗，胜利后获得1个2星祝福。",
             "effect": ["触发战斗", 81322021]
           },
           "发表震撼人心的「星际演讲」！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "强化2个随机祝福。",
             "effect": ["升级祝福", 200520, 2]
           },
           "「毁灭」 你渴望打败大人物！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "进入特殊战斗，胜利后获得1个3星祝福。",
             "effect": ["触发战斗", 81322011]
           },
           "「记忆」 回顾星际成功秘传…": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "强化4个随机祝福。",
             "effect": ["升级祝福", 200520, 4]
           }
@@ -3722,13 +3762,13 @@
         ],
         {
           "…直接挑衅「P-48」塔拉梵•基恩！": {
-            "triggers": "TalkSentence_403815338",
+            "triggers": ["TalkSentence_403815338"],
             "desc": "失去50宇宙碎片，强化3个随机祝福。",
             "effect": ["升级祝福", 200520, 3],
             "cost": "-50 宇宙碎片"
           },
           "…直接挑衅「P-48」疤眼夫人！": {
-            "triggers": "TalkSentence_403815338",
+            "triggers": ["TalkSentence_403815338"],
             "desc": "获得100宇宙碎片，并获得奇物：天使型谢债发行机。",
             "effect": [
               "触发所有事件",
@@ -3737,7 +3777,7 @@
             ]
           },
           "「虚无」 你望着四周空荡荡的一片。": {
-            "triggers": "TalkSentence_403815338",
+            "triggers": ["TalkSentence_403815338"],
             "desc": "你掌握了无尽权力，但你两手空空；失去所有宇宙碎片，强化所有祝福。",
             "effect": ["升级祝福", 200520, 99],
             "cost": "-100% 宇宙碎片"
@@ -3753,7 +3793,7 @@
               "…你昏沉地失去了意识，原来被欲望吞没的员工，都会被*奇妙处理*，并成为公司秘密会议室墙上的一枚头像画章。"
             ]
           ],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -3773,18 +3813,18 @@
         ],
         {
           "存入#2宇宙碎片。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "下次遇到时可取出600宇宙碎片。",
             "cost": "-200 宇宙碎片"
           },
-          "走开。": {"triggers": "ALL_TALK_END", "desc": "你还是喜欢把宇宙碎片藏在枕头下。"},
+          "走开。": {"triggers": ["ALL_TALK_END"], "desc": "你还是喜欢把宇宙碎片藏在枕头下。"},
           "「记忆」 篡改银行柜员的记忆。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得200宇宙碎片。",
             "effect": "+200 宇宙碎片"
           },
           "「存护」 向柜员秀出你的肌肉！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "向他反收保护费！进行1场战斗，胜利后获得300宇宙碎片。",
             "effect": ["触发战斗", 81336011]
           }
@@ -3807,11 +3847,11 @@
         ],
         {
           "取出#2宇宙碎片。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "你将取出封存的宇宙碎片与利息。",
             "effect": "+200 宇宙碎片"
           },
-          "走开。": {"triggers": "ALL_TALK_END", "desc": "你还是喜欢把宇宙碎片藏在枕头下。"}
+          "走开。": {"triggers": ["ALL_TALK_END"], "desc": "你还是喜欢把宇宙碎片藏在枕头下。"}
         }
       ]
     }
@@ -3832,7 +3872,7 @@
         ],
         {
           "喂食厄勒特希亚星系「海盐点心」。": {
-            "triggers": "TalkSentence_403815401",
+            "triggers": ["TalkSentence_403815401"],
             "desc": "失去1个奇物。",
             "effect": [
               "触发所有事件",
@@ -3846,7 +3886,7 @@
             ]
           },
           "使用洗车星埠口特产「清洁泡沫」。": {
-            "triggers": "TalkSentence_403815401",
+            "triggers": ["TalkSentence_403815401"],
             "desc": "失去1个祝福。",
             "effect": [
               "触发所有事件",
@@ -3860,7 +3900,7 @@
             ]
           },
           "喂食漩涡星聚落「特饮奶茶」。": {
-            "triggers": "TalkSentence_403815401",
+            "triggers": ["TalkSentence_403815401"],
             "desc": "失去100宇宙碎片。",
             "effect": [
               "触发所有事件",
@@ -3874,17 +3914,17 @@
             ]
           },
           "「丰饶」 用自己的血液喂饱*它*。": {
-            "triggers": "144_Succ",
+            "triggers": ["144_Succ"],
             "desc": "全队损失80%血量。",
             "cost": "-80% HP"
           },
-          "「存护」 用心呵护*它*。": {"triggers": "144_Succ", "desc": "这是你对待朋友的方式。"}
+          "「存护」 用心呵护*它*。": {"triggers": ["144_Succ"], "desc": "这是你对待朋友的方式。"}
         }
       ],
       "triggers": {
         "144_Succ": {
           "lines": [["你的太空美虫蠕动着，它对着你的脸蛋「啪嗒」一口，向你表示了感谢。", "噢…你觉得自己好幸福！"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "144_Failed": {
           "lines": [
@@ -3894,7 +3934,7 @@
               "…看来它似乎并不喜欢被这么对待。"
             ]
           ],
-          "triggers": "ALL_TALK_END",
+          "triggers": ["ALL_TALK_END"],
           "cost": "-30% HP"
         }
       }
@@ -3915,7 +3955,7 @@
         ],
         {
           "接受「爱心小礼物」。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得5个随机奇物。",
             "effect": [
               "触发所有事件",
@@ -3924,7 +3964,7 @@
             ]
           },
           "接受「生命的回馈」。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得1个3星祝福。",
             "effect": [
               "触发所有事件",
@@ -3932,7 +3972,7 @@
               {"effect": ["触发随机事件", [["50%", {}], ["50%", {}]]]}
             ]
           },
-          "拒绝。": {"triggers": "ALL_TALK_END", "desc": "你只是想要继续付出…你一点也不奢求回报。"}
+          "拒绝。": {"triggers": ["ALL_TALK_END"], "desc": "你只是想要继续付出…你一点也不奢求回报。"}
         }
       ]
     }
@@ -3952,13 +3992,13 @@
         ],
         {
           "把你的废物丢进去！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "舍弃1个奇物，获得2个随机奇物。",
             "effect": ["自选交换奇物", 20004, 0, 1, 114505]
           },
-          "离开。": {"triggers": "ALL_TALK_END", "desc": "你对垃圾桶不感兴趣。"},
+          "离开。": {"triggers": ["ALL_TALK_END"], "desc": "你对垃圾桶不感兴趣。"},
           "「巡猎」 趁他不注意，快速窃取！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "舍弃1个随机奇物，获得3个随机奇物。",
             "effect": [
               "触发所有事件",
@@ -3967,7 +4007,7 @@
             ]
           },
           "「记忆」 你想起了这些废弃物品的前世今生。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "舍弃1个随机奇物，获得2个奇物。",
             "effect": [
               "触发所有事件",
@@ -3995,11 +4035,11 @@
         ],
         {
           "绕路。": {
-            "triggers": "TalkSentence_403815476",
+            "triggers": ["TalkSentence_403815476"],
             "desc": "嘘…保持绝对寂静。（虫群警戒值会有小幅提升）"
           },
           "窃取「孢子」。": {
-            "triggers": "TalkSentence_403815479",
+            "triggers": ["TalkSentence_403815479"],
             "desc": "获得1个2星「繁育」祝福。（虫群警戒值会有大幅提升）",
             "effect": ["自选获得祝福", 12702, 7, 1]
           }
@@ -4013,7 +4053,7 @@
               "你紧张地回头看了眼它…它并没有被你惊醒。"
             ]
           ],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "TalkSentence_403815479": {
           "lines": [
@@ -4022,7 +4062,7 @@
               "突然！你同时感觉到无数隐秘的眼睛在黑暗中注视着你…你再次看向「永眠领主」，它正闭目沉睡。或许你刚刚的动静太大了？你对此感到一丝后怕……"
             ]
           ],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -4042,12 +4082,12 @@
         ],
         {
           "进入杀死它们。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "进入战斗，并获得1-2星「繁育」祝福。（虫群警戒值会有大幅提升）",
             "effect": ["触发战斗", 81323021]
           },
           "悄悄离开。": {
-            "triggers": "TalkSentence_403815597",
+            "triggers": ["TalkSentence_403815597"],
             "desc": "希望它们没有发现你。（虫群警戒值会有小幅提升）"
           }
         }
@@ -4055,7 +4095,7 @@
       "triggers": {
         "TalkSentence_403815597": {
           "lines": [["你悄悄离开了…你希望身上没有沾上「鏖兜虫」的味道。"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -4075,6 +4115,7 @@
         ],
         {
           "邀请「设备助理」远程布局。": {
+            "triggers": [null],
             "desc": "花费50宇宙碎片。（虫群警戒值会有小幅提升）",
             "effect": [
               "触发随机事件",
@@ -4086,7 +4127,7 @@
             "cost": "-50 宇宙碎片"
           },
           "解决周围的虫群。": {
-            "triggers": "TalkSentence_403815699",
+            "triggers": ["TalkSentence_403815699"],
             "desc": "进入战斗，并获得2-3星「繁育」祝福。（虫群警戒值会有大幅提升）",
             "effect": ["触发战斗", 81323041]
           }
@@ -4095,17 +4136,17 @@
       "triggers": {
         "192_Succ": {
           "lines": [["你的无线电接通成功了。"]],
-          "triggers": "ALL_TALK_END",
+          "triggers": ["ALL_TALK_END"],
           "effect": ["自选获得祝福", 1271, 7, 1]
         },
         "192_Falied": {
           "lines": [["你的电流似乎被一种不明精神体拦截…你不安地思考着是否该区域「脑体」的警戒值提高了。"]],
-          "triggers": "ALL_TALK_END",
+          "triggers": ["ALL_TALK_END"],
           "cost": "-70% HP"
         },
         "TalkSentence_403815699": {
           "lines": [["你准备继续向前…你应当十分谨慎、小心。"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -4127,11 +4168,12 @@
         ],
         {
           "抽签。": {
+            "triggers": [null],
             "desc": "花费50宇宙碎片；当前有#3[i]%概率可以抽到命运的启示。",
             "effect": ["可重复赌博", 119305, 30, 35, 119306, 1],
             "cost": "-50 宇宙碎片"
           },
-          "拒绝邀请。": {"triggers": "193_Exit", "desc": "一旦开始就很难再停。"}
+          "拒绝邀请。": {"triggers": ["193_Exit"], "desc": "一旦开始就很难再停。"}
         }
       ],
       "triggers": {
@@ -4140,11 +4182,12 @@
             ["你抹去了符纸上的血液，上面写着：安慰。你十分失望……", "还要再来一次吗？"],
             {
               "抽签。": {
+                "triggers": [null],
                 "desc": "花费50宇宙碎片；当前有#3[i]%概率可以抽到命运的启示。",
                 "effect": ["可重复赌博", 119305, 30, 35, 119306, 1],
                 "cost": "-50 宇宙碎片"
               },
-              "拒绝邀请。": {"triggers": "193_Exit", "desc": "一旦开始就很难再停。"}
+              "拒绝邀请。": {"triggers": ["193_Exit"], "desc": "一旦开始就很难再停。"}
             }
           ],
           "effect": "+100 宇宙碎片"
@@ -4154,11 +4197,12 @@
             ["你抹去了符纸上的血液，上面写着：安慰。你开始怀疑这是否是场骗局……", "还要再来一次吗？"],
             {
               "抽签。": {
+                "triggers": [null],
                 "desc": "花费50宇宙碎片；当前有#3[i]%概率可以抽到命运的启示。",
                 "effect": ["可重复赌博", 119305, 30, 35, 119306, 1],
                 "cost": "-50 宇宙碎片"
               },
-              "拒绝邀请。": {"triggers": "193_Exit", "desc": "一旦开始就很难再停。"}
+              "拒绝邀请。": {"triggers": ["193_Exit"], "desc": "一旦开始就很难再停。"}
             }
           ],
           "effect": "+75 宇宙碎片"
@@ -4171,7 +4215,7 @@
               "你还未读完，便因激动昏了过去。"
             ]
           ],
-          "triggers": "ALL_TALK_END",
+          "triggers": ["ALL_TALK_END"],
           "effect": ["自选获得祝福", 200023, 7, 1]
         }
       }
@@ -4192,7 +4236,7 @@
         ],
         {
           "选择四号：它装饰着小蝴蝶结！": {
-            "triggers": "TalkSentence_403815778",
+            "triggers": ["TalkSentence_403815778"],
             "desc": "获得3个随机1星祝福。",
             "effect": [
               "触发所有事件",
@@ -4202,12 +4246,12 @@
             ]
           },
           "选择三号：它的牙齿生锈了…": {
-            "triggers": "TalkSentence_403815778",
+            "triggers": ["TalkSentence_403815778"],
             "desc": "获得1次作弊机会。",
             "effect": "+1 作弊机会"
           },
           "选择二号：它打了个安达吐尔•扎罗式呼噜。": {
-            "triggers": "TalkSentence_403815778",
+            "triggers": ["TalkSentence_403815778"],
             "desc": "强化2个随机2-3星祝福。",
             "effect": ["升级祝福", 200530, 2]
           }
@@ -4218,7 +4262,7 @@
           "lines": [
             ["你的博弈成功了！", "你呆在食人鱼的胃里等待着漂流过海…你暗自想着：它不爱吃萝卜，对此你很庆幸。等抵达岸上，就即刻储存进度吧！"]
           ],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -4234,10 +4278,10 @@
         ["你遇到了一片「超验之镜」的巨大碎片，碎片下供奉着三盏烛火。", "你来回驻足、摩梭……"],
         {
           "点亮第一盏烛火。": {
-            "triggers": "TalkSentence_403815455",
+            "triggers": ["TalkSentence_403815455"],
             "desc": "你渴望得到祂的回应。"
           },
-          "离去。": {"triggers": "ALL_TALK_END", "desc": "你并不想许愿。"}
+          "离去。": {"triggers": ["ALL_TALK_END"], "desc": "你并不想许愿。"}
         }
       ],
       "triggers": {
@@ -4249,7 +4293,7 @@
             ],
             {
               "默念你想要的。": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "获得随机奖励。",
                 "effect": [
                   "触发随机事件",
@@ -4275,7 +4319,7 @@
                 ]
               },
               "许愿让她从镜子里出来。": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "与囚禁的诅咒进行1场战斗。",
                 "effect": ["触发战斗", 81312021]
               }
@@ -4300,12 +4344,12 @@
         ],
         {
           "接受一只咕咕钟。": {
-            "triggers": "TalkSentence_403815216",
+            "triggers": ["TalkSentence_403815216"],
             "desc": "获得1个随机咕咕钟系列负面奇物。",
             "effect": ["获得奇物", 20003, 1]
           },
           "拒绝。": {
-            "triggers": "TalkSentence_403815218",
+            "triggers": ["TalkSentence_403815218"],
             "desc": "感觉不太对劲！",
             "effect": ["获得奇物", 20003, 2]
           }
@@ -4314,7 +4358,7 @@
       "triggers": {
         "TalkSentence_403815216": {
           "lines": [["他非常激动，认为遇到了同样识货的爱好者！"]],
-          "triggers": "TalkSentence_403815220"
+          "triggers": ["TalkSentence_403815220"]
         },
         "TalkSentence_403815218": {
           "lines": [
@@ -4323,11 +4367,11 @@
               "「请…请收下吧…我的推荐一直失败，从没有人懂得欣赏一只咕咕钟。如果真的没有人懂得欣赏咕咕钟…我的生命将变得毫无价值……」他眼含热泪地说着…几乎将要哭了出来。"
             ]
           ],
-          "triggers": "TalkSentence_403815220"
+          "triggers": ["TalkSentence_403815220"]
         },
         "TalkSentence_403815220": {
           "lines": [["他把你的肩膀推了个圈，让你赶紧回家研究——带着咕咕钟回去享受吧！"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -4346,7 +4390,7 @@
         ],
         {
           "再接受一只咕咕钟。": {
-            "triggers": "TalkSentence_403815235",
+            "triggers": ["TalkSentence_403815235"],
             "desc": "获得1个随机咕咕钟系列负面奇物，并获得1个2星祝福。",
             "effect": [
               "触发所有事件",
@@ -4355,7 +4399,7 @@
             ]
           },
           "把咕咕钟还给他。": {
-            "triggers": "TalkSentence_403815237",
+            "triggers": ["TalkSentence_403815237"],
             "desc": "舍弃所有的咕咕钟。",
             "effect": ["失去奇物", 20009, 0]
           }
@@ -4364,11 +4408,11 @@
       "triggers": {
         "TalkSentence_403815235": {
           "lines": [["你又得到了一只咕咕钟！在这种攻势下，你开始恐惧自己终有一天会走上咕咕钟狂热粉丝的道路……"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "TalkSentence_403815237": {
           "lines": [["他十分悲伤，他不能理解竟有人可以抵抗一只咕咕钟的诱惑……", "他叹着气离开了。"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -4388,7 +4432,7 @@
         ],
         {
           "再接受一只咕咕钟。": {
-            "triggers": "TalkSentence_403815256",
+            "triggers": ["TalkSentence_403815256"],
             "desc": "获得1个随机咕咕钟系列负面奇物，并获得1个3星祝福。",
             "effect": [
               "触发所有事件",
@@ -4397,12 +4441,12 @@
             ]
           },
           "把你收集的咕咕钟和他交换。": {
-            "triggers": "TalkSentence_403815260",
+            "triggers": ["TalkSentence_403815260"],
             "desc": "将所有咕咕钟给予对方；换取相同数量祝福。",
             "effect": ["ChangeRogueMiracleToRogueBuff", 20009, 200420, 100, 0]
           },
           "「欢愉」 制造一些假冒伪劣咕咕钟！": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "用奇物制造一些假冒伪劣咕咕钟！将所有奇物替换为相同数量的奇物或相同数量的祝福。",
             "effect": [
               "触发随机事件",
@@ -4439,15 +4483,15 @@
       "triggers": {
         "TalkSentence_403815256": {
           "lines": [["你感到自己终于无法抵抗地变成了咕咕钟狂热粉丝…"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "TalkSentence_403815258": {
           "lines": [["他非常开心！你终于领略到他用尽一生所推动的事业——令众人都能理解集成式交换咕咕钟的快乐！"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "TalkSentence_403815260": {
           "lines": [["他非常开心！你终于领略到他用尽一生所推动的事业——令众人都能理解集成式交换咕咕钟的快乐！"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -4466,6 +4510,7 @@
         ],
         {
           "离开。": {
+            "triggers": [null],
             "desc": "有较低概率可以安全的离开。（有较高的概率会使虫群警戒值大幅提升）",
             "effect": [
               "触发随机事件",
@@ -4473,6 +4518,7 @@
             ]
           },
           "解救「无名客」。": {
+            "triggers": [null],
             "desc": "有较低概率获得随机奇物；有较高概率消耗我方全体生命值至其生命上限的20%。（虫群警戒值会有大幅提升）",
             "effect": [
               "触发随机事件",
@@ -4485,12 +4531,12 @@
         }
       ],
       "triggers": {
-        "EscapeSucc": {"lines": [["你快步离开了……"]], "triggers": "ALL_TALK_END"},
+        "EscapeSucc": {"lines": [["你快步离开了……"]], "triggers": ["ALL_TALK_END"]},
         "EscapeFailed": {
           "lines": [
             ["你正准备离开之时，一位被浸泡在液囊里的无名客发出了哀嚎！他似乎正提醒着你可帮助他们逃脱的解药名称…「代谢酶」……"]
           ],
-          "triggers": "ALL_TALK_END",
+          "triggers": ["ALL_TALK_END"],
           "cost": "HP<20% SP<100"
         },
         "ReleaseSucc": {
@@ -4499,7 +4545,7 @@
               "你靠近了那些孢夹。正当你想触碰之时，一位被浸泡在液囊里的无名客发出了哀嚎！他似乎示意你别碰！他断断续续地向你吐露可帮助他们逃脱的解药名称…「代谢酶」……"
             ]
           ],
-          "triggers": "ALL_TALK_END",
+          "triggers": ["ALL_TALK_END"],
           "effect": ["获得奇物", 20002, 1]
         },
         "ReleaseFailed": {
@@ -4509,7 +4555,7 @@
               "你回头看了眼仍在沉睡的领主…你不甘心地抓紧时间，赶在被虫群包围前离开了。"
             ]
           ],
-          "triggers": "ALL_TALK_END",
+          "triggers": ["ALL_TALK_END"],
           "cost": "HP<20% SP<100"
         }
       }
@@ -4530,7 +4576,7 @@
         ],
         {
           "立刻后退。": {
-            "triggers": "TalkSentence_403815516",
+            "triggers": ["TalkSentence_403815516"],
             "desc": "消耗我方全体生命值至其生命上限的20%。",
             "cost": "HP<20% SP<100"
           }
@@ -4542,7 +4588,7 @@
             ["你知道*代谢*需要时间…你要等到见证代谢完成的那一刻！但此刻更多幼体虫群到来了！你需要从中迅速脱身…"],
             {
               "清理它们。": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "进入战斗。",
                 "effect": ["触发战斗", 81323011]
               }
@@ -4567,7 +4613,7 @@
         ],
         {
           "「吸取」它的力量。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得2个1-2星祝福。",
             "effect": [
               "触发所有事件",
@@ -4576,7 +4622,7 @@
             ]
           },
           "「给予」它力量": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "全部角色各自损失30%当前生命值，并强化1个随机祝福。（后续可获得更好奖励。）",
             "effect": ["升级祝福", 200520, 1],
             "cost": "-30% HP"
@@ -4600,7 +4646,7 @@
         ],
         {
           "「吸取」它的力量。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得2个2星祝福。",
             "effect": [
               "触发所有事件",
@@ -4609,7 +4655,7 @@
             ]
           },
           "「给予」它力量": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "全部角色各自损失80%当前生命值，并强化2个随机祝福。（后续可获得更好奖励。）",
             "effect": ["升级祝福", 200520, 2],
             "cost": "-80% HP"
@@ -4633,7 +4679,7 @@
         ],
         {
           "「吸取」它的力量。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得2个随机3星祝福。",
             "effect": [
               "触发所有事件",
@@ -4660,12 +4706,12 @@
         ],
         {
           "进入杀死它们。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "进入战斗，并获得2-3星「繁育」祝福。（虫群警戒值会有大幅提升）",
             "effect": ["触发战斗", 81323022]
           },
           "悄悄离开。": {
-            "triggers": "TalkSentence_403815617",
+            "triggers": ["TalkSentence_403815617"],
             "desc": "有概率获得1个随机奇物。（虫群警戒值会有大幅提升）",
             "effect": [
               "触发随机事件",
@@ -4677,7 +4723,7 @@
       "triggers": {
         "TalkSentence_403815617": {
           "lines": [["你悄悄离开了…你希望身上没有沾上「鏖兜虫」的味道。"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -4697,7 +4743,7 @@
         ],
         {
           "进入杀死它们。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "舍弃1个祝福，并进行一场战斗。",
             "effect": [
               "触发所有事件",
@@ -4706,7 +4752,7 @@
             ]
           },
           "慌忙逃走。": {
-            "triggers": "TalkSentence_403815637",
+            "triggers": ["TalkSentence_403815637"],
             "desc": "舍弃1个随机祝福。",
             "effect": ["失去祝福", 200520, 1]
           }
@@ -4715,7 +4761,7 @@
       "triggers": {
         "TalkSentence_403815637": {
           "lines": [["你慌忙逃走了…你希望身上没有沾上「鏖兜虫」的味道。"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -4735,12 +4781,12 @@
         ],
         {
           "进入探取无名客遗物。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得150宇宙碎片。",
             "effect": "+150 宇宙碎片"
           },
           "加入「鏖兜虫」作战单位。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "全队损失50%当前生命值。",
             "cost": "-50% HP"
           }
@@ -4763,7 +4809,7 @@
         ],
         {
           "进入探取无名客遗物。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得150宇宙碎片，获得1个随机奇物",
             "effect": [
               "触发所有事件",
@@ -4772,7 +4818,7 @@
             ]
           },
           "加入「鏖兜虫」作战单位。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "进入战斗，并获得200宇宙碎片。",
             "effect": ["触发战斗", 81323024]
           }
@@ -4795,7 +4841,7 @@
         ],
         {
           "喝下「混沌医师」的药。": {
-            "triggers": "TalkSentence_403815716",
+            "triggers": ["TalkSentence_403815716"],
             "desc": "你不知效果为何，花费100宇宙碎片。（虫群警戒值会有大幅提升）",
             "effect": [
               "触发随机事件",
@@ -4807,7 +4853,7 @@
             "cost": "-100 宇宙碎片"
           },
           "正面突入！": {
-            "triggers": "TalkSentence_403815719",
+            "triggers": ["TalkSentence_403815719"],
             "desc": "进入战斗，并获得1-2星「繁育」祝福。（虫群警戒值会有大幅提升）",
             "effect": ["触发战斗", 81323042]
           }
@@ -4820,17 +4866,17 @@
               "你感到神清气爽，如同清凉药剂抹在天灵盖上！但你接着开始看到第IX机关在天上乱跑的景象，你感到自己有些不太对劲了…可恶的混沌医师！你决定立刻绕路离开。"
             ]
           ],
-          "triggers": "ALL_TALK_END",
+          "triggers": ["ALL_TALK_END"],
           "effect": ["自选获得祝福", 1270, 7, 1]
         },
         "192_Failed": {
           "lines": [["你感到自己变得虚弱了…你的肠胃有些不适！可恶的混沌医师！你决定立刻绕路逃跑。"]],
-          "triggers": "ALL_TALK_END",
+          "triggers": ["ALL_TALK_END"],
           "cost": "-70% HP"
         },
         "TalkSentence_403815719": {
           "lines": [["你准备继续向前…你应当十分谨慎、小心。"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -4849,7 +4895,7 @@
         ],
         {
           "这是一场孤注一掷的行动。": {
-            "triggers": "TalkSentence_403815735",
+            "triggers": ["TalkSentence_403815735"],
             "desc": "只有非常低的概率成功,你知道失败的代价很高。",
             "effect": [
               "触发随机事件",
@@ -4869,7 +4915,7 @@
               "你看着它消融的身体，打趣地想着：下次该为它们准备些*下酒佐餐*…"
             ]
           ],
-          "triggers": "ALL_TALK_END",
+          "triggers": ["ALL_TALK_END"],
           "effect": ["自选获得祝福", 12703, 7, 1]
         },
         "192_Failed": {
@@ -4879,7 +4925,7 @@
               "你只好用莫洛托斯鸡尾酒制成的燃烧瓶作掩护撤退…前功尽弃了！一边撤退一边想，接下来又得从头再来…可恶！"
             ]
           ],
-          "triggers": "ALL_TALK_END",
+          "triggers": ["ALL_TALK_END"],
           "effect": ["自选丢弃祝福", 200520, 0, 1]
         }
       }
@@ -4896,16 +4942,16 @@
         ["你遇到了一片「超验之镜」的巨大碎片，碎片下供奉着三盏烛火。", "你来回驻足、摩梭……"],
         {
           "点亮第二盏烛火。": {
-            "triggers": "TalkSentence_403815455",
+            "triggers": ["TalkSentence_403815455"],
             "desc": "你渴望得到祂的回应。"
           },
-          "离去。": {"triggers": "ALL_TALK_END", "desc": "你并不想许愿。"}
+          "离去。": {"triggers": ["ALL_TALK_END"], "desc": "你并不想许愿。"}
         }
       ],
       "triggers": {
         "TalkSentence_403815455": {
           "lines": [["烛火被你点亮，你期许着…", "你未能得到回应。"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -4919,7 +4965,7 @@
     "dialogue": {
       "prompt": [
         ["你遇到了一片「超验之镜」的巨大碎片，碎片下供奉着三盏烛火。", "你来回驻足、摩梭……"],
-        {"离去。": {"triggers": "ALL_TALK_END", "desc": "三盏烛火都已被点亮。"}}
+        {"离去。": {"triggers": ["ALL_TALK_END"], "desc": "三盏烛火都已被点亮。"}}
       ]
     }
   },
@@ -4937,12 +4983,12 @@
         ],
         {
           "调整「自我认知」-了解提升『智力』的法则": {
-            "triggers": "TalkSentence_403815794",
+            "triggers": ["TalkSentence_403815794"],
             "desc": "自我认知提升20。",
             "effect": "+20 认知"
           },
           "调整「自我认知」-了解提升『魅力』的法则": {
-            "triggers": "TalkSentence_403815796",
+            "triggers": ["TalkSentence_403815796"],
             "desc": "自我认知降低20。",
             "effect": "-20 认知"
           }
@@ -4956,7 +5002,7 @@
               "「我已经遗忘*自我*了。很快，我就要扬升登神！」机械咕母一边理着头发，一边骄傲地说，星球碎片变成她耳上的碎钻闪闪发光，它准备好*一飞冲天*。"
             ]
           ],
-          "triggers": "TalkSentence_403815798"
+          "triggers": ["TalkSentence_403815798"]
         },
         "TalkSentence_403815796": {
           "lines": [
@@ -4965,7 +5011,7 @@
               "「我已经遗忘*自我*了。很快，我就要扬升登神！」机械咕母一边理着头发，一边骄傲地说，星球碎片变成它耳上的碎钻闪闪发光，它准备好*一飞冲天*。"
             ]
           ],
-          "triggers": "TalkSentence_403815798"
+          "triggers": ["TalkSentence_403815798"]
         },
         "TalkSentence_403815798": {
           "lines": [
@@ -4975,12 +5021,12 @@
             ],
             {
               "选择1件机器花裤衩。": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "获得3次重投机会。",
                 "effect": "+3 重投机会"
               },
               "选择1件机器衬衫。": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "修理1个损毁的奇物。",
                 "effect": ["自选修复奇物", 30004, 0, 1]
               }
@@ -5006,12 +5052,12 @@
         ],
         {
           "调整「自我认知」-我选择『善』。": {
-            "triggers": "TalkSentence_403815784",
+            "triggers": ["TalkSentence_403815784"],
             "desc": "自我认知提升20。",
             "effect": "+20 认知"
           },
           "调整「自我认知」-我选择『恶』。": {
-            "triggers": "TalkSentence_403815785",
+            "triggers": ["TalkSentence_403815785"],
             "desc": "自我认知降低20。",
             "effect": "-20 认知"
           }
@@ -5022,13 +5068,13 @@
           "lines": [
             ["「没错。实验成功后，善的我占据了身体的主导权。」他大笑着，「通过这样『癫狂』的求知，可以打开通往更自由、更高阶意识状态！」"]
           ],
-          "triggers": "TalkSentence_403815786"
+          "triggers": ["TalkSentence_403815786"]
         },
         "TalkSentence_403815785": {
           "lines": [
             ["「嗯，无所谓。实验成功后，恶的我占据了身体的主导权。」他大笑着，「通过这样『癫狂』的求知，可以打开通往更自由、更高阶意识状态！」"]
           ],
-          "triggers": "TalkSentence_403815786"
+          "triggers": ["TalkSentence_403815786"]
         },
         "TalkSentence_403815786": {
           "lines": [
@@ -5037,12 +5083,12 @@
             ],
             {
               "赞成No.5博士。": {
-                "triggers": "TalkSentence_403815787",
+                "triggers": ["TalkSentence_403815787"],
                 "desc": "获得1次作弊机会。",
                 "effect": "+1 作弊机会"
               },
               "赞成真理医生。": {
-                "triggers": "TalkSentence_403815787",
+                "triggers": ["TalkSentence_403815787"],
                 "desc": "获得1点倒计时。",
                 "effect": "+1 倒计时"
               }
@@ -5056,7 +5102,7 @@
               "「记得，如果有天遇到真理医生——」他留下遗言，「先告诉他谁才是*白痴*！」"
             ]
           ],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -5075,12 +5121,12 @@
         ],
         {
           "调整「自我认知」-我是有机。": {
-            "triggers": "TalkSentence_403815791",
+            "triggers": ["TalkSentence_403815791"],
             "desc": "自我认知提升40。",
             "effect": "+40 认知"
           },
           "调整「自我认知」-我是无机。": {
-            "triggers": "TalkSentence_403815791",
+            "triggers": ["TalkSentence_403815791"],
             "desc": "自我认知降低40。",
             "effect": "-40 认知"
           }
@@ -5094,7 +5140,7 @@
             ],
             {
               "挑取一个亲情元件。": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "获得1个祝福;获得#5个奇物;获得#6宇宙碎片。",
                 "effect": [
                   "触发所有事件",
@@ -5104,7 +5150,7 @@
                 ]
               },
               "挑取一个友情元件。": {
-                "triggers": "ALL_TALK_END",
+                "triggers": ["ALL_TALK_END"],
                 "desc": "复活全部无法战斗的角色并回复100%生命值。",
                 "effect": ["复活角色", 99, 100, 100]
               }
@@ -5129,16 +5175,16 @@
         ],
         {
           "接受奇物:「有机心脏」。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得奇物：「有机心脏」。",
             "effect": ["获得奇物", 31209, 1]
           },
           "接受奇物:「神秘」磁力。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得奇物：「神秘」磁力。",
             "effect": ["获得奇物", 31208, 1]
           },
-          "离开。": {"triggers": "ALL_TALK_END", "desc": "你拒绝了。"}
+          "离开。": {"triggers": ["ALL_TALK_END"], "desc": "你拒绝了。"}
         }
       ]
     }
@@ -5158,7 +5204,7 @@
         ],
         {
           "火漆祝福。": {
-            "triggers": "TalkSentence_403815818",
+            "triggers": ["TalkSentence_403815818"],
             "desc": "每有1种火漆系列奇物，获得1个该火漆所属命途的祝福。",
             "effect": [
               "触发条件事件",
@@ -5183,7 +5229,7 @@
             ]
           },
           "火漆强化。": {
-            "triggers": "TalkSentence_403815818",
+            "triggers": ["TalkSentence_403815818"],
             "desc": "每有1种火漆系列奇物，强化2个该火漆所属命途的祝福。",
             "effect": [
               "触发条件事件",
@@ -5208,7 +5254,7 @@
             ]
           },
           "火漆熔铸。": {
-            "triggers": "TalkSentence_403815818",
+            "triggers": ["TalkSentence_403815818"],
             "desc": "舍弃1个火漆系列奇物，立刻获得3个该火漆所属命途的祝福。",
             "effect": [
               "TriggerRogueMiracleDropWithEvent",
@@ -5240,7 +5286,7 @@
       "triggers": {
         "TalkSentence_403815818": {
           "lines": [["「再过百年，我依然在这里生产火漆。」制造机说道，接着继续埋头锤它的小锤子。"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -5259,12 +5305,12 @@
         ],
         {
           "投资你的*信任*。": {
-            "triggers": "TalkSentence_403815825",
+            "triggers": ["TalkSentence_403815825"],
             "desc": "花费100宇宙碎片。",
             "effect": "+200 宇宙碎片",
             "cost": "-100 宇宙碎片"
           },
-          "不拿。": {"triggers": "ALL_TALK_END", "desc": "你擅长克制。"}
+          "不拿。": {"triggers": ["ALL_TALK_END"], "desc": "你擅长克制。"}
         }
       ],
       "triggers": {
@@ -5273,6 +5319,7 @@
             ["你还要继续相信星际和平投资机吗？"],
             {
               "继续投资你的*信任*。": {
+                "triggers": [null],
                 "desc": "花费50%宇宙碎片。",
                 "effect": [
                   "触发随机事件",
@@ -5282,7 +5329,7 @@
                   ]
                 ]
               },
-              "不拿。": {"triggers": "ALL_TALK_END", "desc": "你擅长克制。"}
+              "不拿。": {"triggers": ["ALL_TALK_END"], "desc": "你擅长克制。"}
             }
           ]
         },
@@ -5291,6 +5338,7 @@
             ["星际和平投资机器打开它的*肚子*…你成功了！", "你获得了丰厚的*投资*回报！"],
             {
               "继续投资你的*信任*": {
+                "triggers": [null],
                 "desc": "花费100%宇宙碎片。",
                 "effect": [
                   "触发随机事件",
@@ -5300,24 +5348,24 @@
                   ]
                 ]
               },
-              "不拿。": {"triggers": "ALL_TALK_END", "desc": "你擅长克制。"}
+              "不拿。": {"triggers": ["ALL_TALK_END"], "desc": "你擅长克制。"}
             }
           ],
           "effect": "+200%(-50% undefined) undefined"
         },
         "GetItem_Success_03": {
           "lines": [["星际和平投资机器打开它的*肚子*…你成功了！", "你获得了丰厚的*投资*回报！"]],
-          "triggers": "ALL_TALK_END",
+          "triggers": ["ALL_TALK_END"],
           "effect": "+200%(-100% undefined) undefined"
         },
         "GetItem_Fail_02": {
           "lines": [["你等待着星际和平投资机器打开它的*肚子*…但它纹丝未动。", "你意识到自己这次上当了！你一无所获。"]],
-          "triggers": "ALL_TALK_END",
+          "triggers": ["ALL_TALK_END"],
           "cost": "-50% 宇宙碎片"
         },
         "GetItem_Fail_03": {
           "lines": [["你等待着星际和平投资机器打开它的*肚子*…但它纹丝未动。", "你意识到自己这次上当了！你肝肠寸断。"]],
-          "triggers": "ALL_TALK_END",
+          "triggers": ["ALL_TALK_END"],
           "cost": "-100% 宇宙碎片"
         }
       }
@@ -5339,22 +5387,22 @@
         ],
         {
           "香涎干酪。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得奇物：香涎干酪。",
             "effect": ["获得奇物", 31006, 1]
           },
           "测不准匣。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得奇物：测不准匣。",
             "effect": ["获得奇物", 31005, 1]
           },
           "异木果实。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得奇物：异木果实。",
             "effect": ["获得奇物", 31004, 1]
           },
           "升级你的认知。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "获得奇物：香涎干酪；获得奇物：测不准匣；获得奇物：异木果实。",
             "effect": ["获得奇物", 32030, 3]
           }
@@ -5378,7 +5426,7 @@
         ],
         {
           "升级香涎干酪。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "失去奇物：香涎干酪；获得奇物：海绵王。",
             "effect": [
               "ChangeRogueMiracleToRogueMiracle",
@@ -5389,7 +5437,7 @@
             ]
           },
           "升级测不准匣。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "失去奇物：测不准匣；获得奇物：猜不透匣。",
             "effect": [
               "ChangeRogueMiracleToRogueMiracle",
@@ -5400,7 +5448,7 @@
             ]
           },
           "升级异木果实。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "失去奇物：异木果实；获得奇物：腐化异木果实。",
             "effect": [
               "ChangeRogueMiracleToRogueMiracle",
@@ -5411,7 +5459,7 @@
             ]
           },
           "升级你的认知。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "升级香涎干酪，测不准匣和异木果实。",
             "effect": [
               "触发所有事件",
@@ -5468,12 +5516,12 @@
         ],
         {
           "拿#2块钱。": {
-            "triggers": "TalkSentence_403815864",
+            "triggers": ["TalkSentence_403815864"],
             "desc": "没有风险。",
             "effect": "+100 宇宙碎片"
           },
           "获得#2个随机奇物。": {
-            "triggers": "TalkSentence_403815866",
+            "triggers": ["TalkSentence_403815866"],
             "desc": "有点风险。",
             "effect": [
               "触发所有事件",
@@ -5482,7 +5530,7 @@
             ]
           },
           "钱和奇物全要了。": {
-            "triggers": "TalkSentence_403815868",
+            "triggers": ["TalkSentence_403815868"],
             "desc": "老赌徒出现了。",
             "effect": [
               "触发所有事件",
@@ -5491,21 +5539,21 @@
               {"effect": ["更改NPC变量", 320901, 1000, 1]}
             ]
           },
-          "你不需要。": {"triggers": "ALL_TALK_END", "desc": "这种游戏不可开启。"}
+          "你不需要。": {"triggers": ["ALL_TALK_END"], "desc": "这种游戏不可开启。"}
         }
       ],
       "triggers": {
         "TalkSentence_403815864": {
           "lines": [["你浅尝辄止。"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "TalkSentence_403815866": {
           "lines": [["你小心翼翼。"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         },
         "TalkSentence_403815868": {
           "lines": [["你进行了一场豪赌！谁知道以后会发生什么呢？"]],
-          "triggers": "ALL_TALK_END"
+          "triggers": ["ALL_TALK_END"]
         }
       }
     }
@@ -5524,7 +5572,7 @@
         ],
         {
           "被迫战斗。": {
-            "triggers": "ALL_TALK_END",
+            "triggers": ["ALL_TALK_END"],
             "desc": "你没得选择！",
             "effect": ["触发战斗", 82333011, 1200001]
           }

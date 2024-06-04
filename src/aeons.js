@@ -1,7 +1,7 @@
 import { writeFileSync } from 'fs';
 import mapObject from 'map-obj';
 import { join } from 'path';
-import { _hsr_root, json, lang } from './config.js';
+import { _hsr_root, _out, json, lang } from './config.js';
 import { text, textEN } from './text.js';
 
 export const aeons = mapObject(json(join(_hsr_root, 'ExcelOutput', 'RogueAeonDisplay.json')), (key, value) => [key, {
@@ -12,4 +12,4 @@ export const aeons = mapObject(json(join(_hsr_root, 'ExcelOutput', 'RogueAeonDis
   pathEN: textEN[value.RogueAeonPathName2.Hash],
 }]);
 
-writeFileSync(`out/aeons${lang}.json`, JSON.stringify(aeons, null, 4));
+writeFileSync(join(_out, `aeons${lang}.json`), JSON.stringify(aeons, null, 4));

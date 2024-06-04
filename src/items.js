@@ -1,7 +1,7 @@
 import { writeFileSync } from 'fs';
 import mapObject from 'map-obj';
 import { join } from 'path';
-import { _hsr_root, json, lang } from './config.js';
+import { _hsr_root, _out, json, lang } from './config.js';
 import { text } from './text.js';
 
 const purpose = json(join(_hsr_root, 'ExcelOutput', 'ItemPurpose.json'));
@@ -17,4 +17,4 @@ export const items = mapObject(json(join(_hsr_root, 'ExcelOutput', 'ItemConfig.j
   bg: text[value.ItemBGDesc.Hash],
 }]);
 
-writeFileSync(`out/items${lang}.json`, JSON.stringify(items, null, 4));
+writeFileSync(join(_out, `items${lang}.json`), JSON.stringify(items, null, 4));
